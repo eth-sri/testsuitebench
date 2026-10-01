@@ -1,0 +1,267 @@
+{
+  "instance_id": "alecthomas__chroma.8d04def",
+  "skipped_tests": [
+    {
+      "name": "06dabfabaea7/tests.test_advanced_flags.test_profile_creates_valid_pprof_file",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_advanced_flags.test_profile_different_formatters",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_advanced_flags.test_profile_multiple_files",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_advanced_flags.test_profile_with_check_mode",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_advanced_flags.test_profile_with_file_input",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_advanced_flags.test_profile_with_larger_input_captures_data",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_cli_basic.test_lexer_alias_names_work",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_cli_basic_part2.test_html_convenience_flag_equals_formatter_html",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_cli_basic_part2.test_json_convenience_flag_equals_formatter_json",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_cli_basic_part2.test_lexer_autodetect_is_default",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_cli_basic_part2.test_stdin_with_explicit_lexer_ignores_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_gap_filling.test_large_stdin_with_fail_flag",
+      "reasons": [
+        {
+          "id": "slow_or_hang",
+          "info": "phases=['call', 'setup'] run_tests rc=-1",
+          "kind": "hung",
+          "run": "infer_no_int_no_dep__gemini_3_1_pro__gemini-3-1-pro-preview-genai",
+          "timestamp": 1778451059,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_gap_filling.test_large_stdin_without_fail_flag",
+      "reasons": [
+        {
+          "id": "slow_or_hang",
+          "info": "phases=['call', 'setup'] run_tests rc=-1",
+          "kind": "hung",
+          "run": "infer_no_int_no_dep__gemini_3_flash__gemini-3-flash-preview-genai",
+          "timestamp": 1778451067,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_lexer_analysis",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_lexer_fixture",
+      "reasons": [
+        {
+          "id": "slow_or_hang",
+          "info": "total=569.1s phases=['call', 'setup', 'teardown']",
+          "kind": "slow",
+          "run": "infer_no_int_no_dep_diff_lang__gpt_5_4__gpt-5-4-fair",
+          "timestamp": 1778451185,
+          "user": "kilian"
+        },
+        {
+          "id": "slow_or_hang",
+          "info": "total=445.1s phases=['call', 'setup', 'teardown']",
+          "kind": "slow",
+          "run": "infer_no_int_no_dep_diff_lang__gpt_5_4_responses__gpt-5-4-genai-responses",
+          "timestamp": 1778451205,
+          "user": "kilian"
+        },
+        {
+          "id": "slow_or_hang",
+          "info": "total=1007.3s phases=['call', 'setup', 'teardown']",
+          "kind": "slow",
+          "run": "infer_no_int_no_dep_diff_lang__muse_spark_direct__muse_spark_direct_5_10",
+          "timestamp": 1778451233,
+          "user": "kilian"
+        },
+        {
+          "id": "slow_or_hang",
+          "info": "phases=['call', 'setup'] run_tests rc=-1",
+          "kind": "hung",
+          "run": "infer_no_int_no_dep__opus_4_7_max__claude-4-7-opus-genai",
+          "timestamp": 1778451144,
+          "user": "kilian"
+        },
+        {
+          "id": "slow_or_hang",
+          "info": "total=1056.3s phases=['call', 'setup', 'teardown']",
+          "kind": "slow",
+          "run": "infer_no_int_no_dep_diff_lang__gpt_5_4_responses__gpt-5-4-genai-responses",
+          "timestamp": 1778451205,
+          "user": "kilian"
+        },
+        {
+          "id": "slow_or_hang",
+          "info": "phases=['call', 'setup'] run_tests rc=-1",
+          "kind": "hung",
+          "run": "infer_no_int_no_dep_diff_lang__gpt_5_4_responses__gpt-5-4-genai-responses",
+          "timestamp": 1778451205,
+          "user": "kilian"
+        },
+        {
+          "id": "slow_or_hang",
+          "info": "total=1385.0s phases=['call', 'setup', 'teardown']",
+          "kind": "slow",
+          "run": "infer_no_int_no_dep_diff_lang__gpt_5_4__gpt-5-4-fair",
+          "timestamp": 1778451185,
+          "user": "kilian"
+        },
+        {
+          "id": "slow_or_hang",
+          "info": "total=463.8s phases=['call', 'setup', 'teardown']",
+          "kind": "slow",
+          "run": "infer_no_int_no_dep_diff_lang__gpt_5_4__gpt-5-4-fair",
+          "timestamp": 1778451185,
+          "user": "kilian"
+        },
+        {
+          "id": "slow_or_hang",
+          "info": "phases=['call', 'setup'] run_tests rc=-1",
+          "kind": "hung",
+          "run": "infer_no_int_no_dep_diff_lang__gpt_5_4__gpt-5-4-fair",
+          "timestamp": 1778451185,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_integration.test_html_prevent_surrounding_pre",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_special_modes.test_check_flag_suppresses_formatting_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_special_modes.test_large_input_processed_correctly",
+      "reasons": [
+        {
+          "id": "slow_or_hang",
+          "info": "phases=['call', 'setup'] run_tests rc=-1",
+          "kind": "hung",
+          "run": "infer_no_int_no_dep__gpt_5_5_responses_high__gpt-5-5-genai-responses",
+          "timestamp": 1778343057,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_special_modes.test_trace_output_json_structure_complete",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_special_modes.test_unbuffered_with_large_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    }
+  ]
+}

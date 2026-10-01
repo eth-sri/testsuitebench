@@ -1,0 +1,879 @@
+{
+  "instance_id": "sharkdp__pastel.b60e899",
+  "skipped_tests": [
+    {
+      "name": "206a6a4738b5/eval.tests.test_argparse_validation.test_color_reads_from_stdin_with_dash_color_identifier",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "206a6a4738b5/eval.tests.test_argparse_validation.test_dash_dash_allows_negative_degrees_for_rotate",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "206a6a4738b5/eval.tests.test_argparse_validation.test_random_number_accepts_space_and_equals_forms",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "206a6a4738b5/eval.tests.test_argparse_validation.test_root_color_mode_short_flag_works_before_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "206a6a4738b5/eval.tests.test_argparse_validation.test_root_force_color_alias_accepts_no_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "879e577b5ec3/eval.tests.test_subcommand_dispatch.test_each_subcommand_help_recognized",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "90a556e7078f/tests.test_special.test_list_deterministic_hue_sort",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387776,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_additional_errors.test_gray_with_out_of_range_negative",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_ansi_formats.test_ansi_24bit_format_preserves_rgb",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_ansi_formats.test_ansi_escapecode_with_color_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_ansi_formats.test_format_ansi_24bit_escapecode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_ansi_formats.test_format_ansi_8bit_escapecode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_ansi_formats.test_format_ansi_with_alpha",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_distinct_command.test_distinct_error_count_too_small",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_color_with_transparent_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_color_with_very_long_name",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_colorblind_on_gray",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_complement_of_gray",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_desaturate_already_gray",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_format_name_with_unnamed_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_mix_equal_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_mix_fraction_one",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_mix_fraction_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_paint_all_styles_combined",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_paint_with_empty_text",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_paint_with_unicode_text",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_rotate_large_angle",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_rotate_negative_angle_with_separator",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_saturate_already_fully_saturated",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_set_alpha_one",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_set_lightness_one",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_set_lightness_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_sort_by_with_single_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_textcolor_on_pure_black",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_textcolor_on_pure_white",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_to_gray_already_gray",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_very_precise_numeric_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_edge_cases.test_very_small_numeric_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_error_handling.test_out_of_range_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_format_command.test_format_ansi_24bit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_format_command.test_format_ansi_8bit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_format_command.test_format_ansi_escapecode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_format_command.test_format_lab_components",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_format_command.test_format_lch_components",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_format_command.test_format_oklab_components",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_format_command.test_format_oklch_components",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_manipulation_commands.test_darken_negative_amount",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b3978b338c73/tests.test_utility_commands.test_to_gray_preserves_luminance",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_color_command.TestColorCommand.test_empty_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestBoundaryValues.test_darken_max",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestBoundaryValues.test_gray_boundaries",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestBoundaryValues.test_lighten_max",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestBoundaryValues.test_rotate_large_angle",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestBoundaryValues.test_saturate_already_saturated",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestErrorHandling.test_format_missing_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestErrorHandling.test_mix_single_color_only",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestPipingBetweenCommands.test_gradient_to_sort_pipe",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestSpecialColorNames.test_case_insensitive_names",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestSpecialColorNames.test_compound_color_names",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_edge_cases.TestSpecialColorNames.test_web_safe_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_format_command.TestFormatCommand.test_all_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_generation.TestRandom.test_random_single_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_global_options.TestGlobalOptions.test_color_mode_24bit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_global_options.TestGlobalOptions.test_color_mode_8bit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_global_options.TestGlobalOptions.test_color_mode_off",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_global_options.TestGlobalOptions.test_force_color_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_bold",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_color_from_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_combined_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_italic",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_multiple_words",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_no_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_text_from_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_underline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c6bf0d5105bc/tests.test_paint.TestPaint.test_paint_with_background",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_edge_cases.test_malformed_hsl",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_edge_cases.test_malformed_rgb",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_edge_cases.test_multiple_dash_args",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_edge_cases.test_out_of_range_darken",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_edge_cases.test_special_chars_in_text_paint",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_edge_cases.test_unicode_handling",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_format_command.test_format_ansi_24bit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_format_command.test_format_ansi_8bit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_format_command.test_format_lab_components",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_format_command.test_format_lch_components",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_format_command.test_format_oklab_components",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_format_command.test_format_oklch_components",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_paint.test_paint_empty_text",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e1213b502534/eval.tests.test_simple_commands.test_colorcheck",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_dash_h_matches_double_dash_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_help_combined_with_unknown_flag_still_shows_help",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_help_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_help_has_usage_line",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_help_lists_commands_header",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_help_lists_options_header",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_help_output_ends_with_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_help_subcommand_matches_main_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_main_help_documents_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_main_help_has_color_picker_possible_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_main.test_main_help_mentions_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_subcommands.test_color_help_exact_fixture_match",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_subcommands.test_color_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_subcommands.test_color_help_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_subcommands.test_color_help_has_arguments_section",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_subcommands.test_color_help_has_options_section",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_subcommands.test_color_help_has_usage",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_subcommands.test_color_help_mentions_stdin_and_pick",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f858dd5429cf/eval.tests.test_help_subcommands.test_color_help_mentions_supported_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

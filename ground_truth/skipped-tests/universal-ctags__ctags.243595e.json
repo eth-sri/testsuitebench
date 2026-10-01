@@ -1,0 +1,916 @@
+{
+  "instance_id": "universal-ctags__ctags.243595e",
+  "skipped_tests": [
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_deeply_nested_structures",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_extremely_long_identifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558224,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_file_with_bom",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558224,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_file_with_null_bytes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558224,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_file_with_only_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_file_with_only_whitespace",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558224,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_invalid_utf8_sequences_handled",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_multiple_nonexistent_files",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558224,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_single_character_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_truncated_source_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558224,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_errors_edge.test_very_long_line",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558224,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_file_handling.test_maxdepth_1_no_subdirectory_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_file_handling.test_recursion_depth_consistent_across_invocations",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_harvest_tmain1.test_tmain",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_harvest_tmain2.test_tmain",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_harvest_tmain3.test_tmain",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_harvest_units.test_units_case",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        },
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_options_gaps.test_etags_mode_via_e_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_options_gaps.test_option_order_checking_append_after_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_output_formats.test_xref_output_sorted_by_name",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_output_formats.test_xref_sorted_with_foldcase",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_output_formats.test_xref_with_no_tags_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_regex_optlib.test_placeholder_flag_hides_tags",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_sorting_fields.test_field_nth_in_scope",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_sorting_fields.test_sort_foldcase_stability",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_blank_lines_ignored",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_empty_stdin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_extras_field",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_json_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_language_force",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_large_input",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_multiple_files",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_nonexistent_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_pattern_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_preserves_file_paths",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_single_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_with_absolute_paths",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_with_exclude_pattern",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_with_fields",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_with_kinds_specification",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_with_sort",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_with_spaces_in_filename",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_with_terminator",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_filter_mode_xref_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_list_file_from_stdin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_list_file_multiple_from_stdin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_list_file_stdin_empty_input",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0368ca6ed669/tests.test_stdin_pipes.test_list_file_with_options_in_stdin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_coverage.test_autoconf_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_coverage.test_ctags_self_test_language",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_coverage.test_iniconf_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_coverage.test_kotlin_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_coverage.test_python_entry_points_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_coverage.test_scala_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_coverage.test_swift_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_coverage.test_systemd_unit_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_a_flag_equivalent_to_append",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_excmd_number",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_excmd_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_extras_inputFile_tag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_format_1",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_kinds_C_disable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_machinable_list_extras",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_machinable_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_n_flag_equivalent_to_excmd_number",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_o_option_alternative_for_f",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_pseudo_tags_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_quiet_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_sort_foldcase",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_sort_yes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_ctags.test_yaml_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_automake_am_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_beta_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_dts_device_tree_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_gemspec_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_inko_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_java_properties_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_list_map_patterns_all",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_myrddin_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_nftables_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_openapi_yaml_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_output_encoding_setting",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_quarto_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_rmarkdown_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_selinux_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_extra_parsers.test_toml_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_automake_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_basic_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_flex_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_ldscript_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_m4_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_machinable_list_pseudo_tags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_machinable_list_roles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_machinable_list_subparsers",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_maven_xml_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_quiet_no_output_on_success",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_rexx_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_sort_foldcase_mixed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_windres_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_with_list_header_no_extras",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_with_list_header_no_fields",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_xml_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c0523186ac1e/eval.tests.test_more_parsers.test_yaml_front_matter_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

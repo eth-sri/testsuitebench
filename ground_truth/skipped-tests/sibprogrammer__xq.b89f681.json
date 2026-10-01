@@ -1,0 +1,534 @@
+{
+  "instance_id": "sibprogrammer__xq.b89f681",
+  "skipped_tests": [
+    {
+      "name": "007a233a3328/eval.tests.test_e2e_xq.test_ext_format_xml_matches_golden_files",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "007a233a3328/eval.tests.test_e2e_xq.test_ext_is_html_heuristic_via_html_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        },
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "007a233a3328/eval.tests.test_e2e_xq.test_ext_is_json_heuristic_via_formatting",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "007a233a3328/eval.tests.test_e2e_xq.test_ext_process_as_json_plain_text_wraps_in_text_key",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "007a233a3328/eval.tests.test_e2e_xq.test_ext_rootcmd_indent_0_produces_single_line",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0ce13a636ff1/tests.test_io_modes.test_inplace_creates_no_backup",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0ce13a636ff1/tests.test_io_modes.test_inplace_file_permissions_preserved",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387776,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0ce13a636ff1/tests.test_io_modes.test_stdin_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387776,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0ce13a636ff1/tests.test_io_modes.test_whitespace_only_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387776,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "2b8d19117358/eval.tests.test_help_output.test_help_ends_with_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2b8d19117358/eval.tests.test_help_output.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2b8d19117358/eval.tests.test_help_output.test_help_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2b8d19117358/eval.tests.test_help_output.test_help_short_and_long_flags_match_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4bb8d103b799/eval.tests.test_edge_cases.test_empty_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4bb8d103b799/eval.tests.test_edge_cases.test_empty_xml",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4bb8d103b799/eval.tests.test_edge_cases.test_indent_boundary_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4bb8d103b799/eval.tests.test_json_output.test_json_compact_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4bb8d103b799/eval.tests.test_xml_variations.test_formatted_xml_files",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "571c56925a3a/eval.tests.test_xq_behavior.test_xml_format_from_stdin_matches_fixture",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "baeab8c64968/eval.tests.test_argparse_validation.test_depth_accepts_negative_one_unlimited",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "baeab8c64968/eval.tests.test_argparse_validation.test_indent_boundary_values_are_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c8dc6c69c595/eval.tests.test_xq_io.test_version_to_stdout_exit0",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cd8785aceaba/eval.tests.test_additional_coverage.test_empty_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cd8785aceaba/eval.tests.test_configuration.test_config_file_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cd8785aceaba/eval.tests.test_edge_cases.test_zero_indent_compact",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cd8785aceaba/eval.tests.test_file_operations.test_in_place_preserves_content",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cd8785aceaba/eval.tests.test_file_operations.test_in_place_with_html",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cd8785aceaba/eval.tests.test_file_operations.test_read_file_preserves_original",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_color_options.test_color_disabled_by_default_in_pipe",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_color_options.test_color_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_color_options.test_color_short_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_color_options.test_force_color_overrides_detection",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_color_options.test_no_color_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_color_options.test_no_color_with_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_color_options.test_no_color_with_json",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_combined_options.test_css_with_node_and_attr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_combined_options.test_html_with_json",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_combined_options.test_html_with_xpath",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_combined_options.test_multiple_indent_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_combined_options.test_no_color_with_color_conflict",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_combined_options.test_xpath_with_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_large_number_of_siblings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_multiple_xml_declarations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_no_final_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_whitespace_only_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_xml_with_doctype",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_xml_with_entity_references",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_xml_with_mixed_empty_tags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_xml_with_numeric_entities",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_xml_with_only_whitespace_content",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_edge_cases.test_xml_with_processing_instructions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_error_handling.test_attr_flag_without_query",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_error_handling.test_binary_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_error_handling.test_conflicting_extraction_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_error_handling.test_invalid_css_selector",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_error_handling.test_invalid_xpath_expression",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_error_handling.test_malformed_xml_declaration",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_error_handling.test_node_flag_without_query",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_error_handling.test_unclosed_tag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_file_operations.test_in_place_preserves_content",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_file_operations.test_multiple_files_not_supported",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_file_operations.test_read_from_file_no_modification",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_html_formatting.test_various_html_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_xml_formatting.test_various_xml_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d546dd70688a/tests.test_xpath.test_xpath_text_function",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

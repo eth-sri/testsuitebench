@@ -1,0 +1,251 @@
+{
+  "instance_id": "psampaz__go-mod-outdated.bb79367",
+  "skipped_tests": [
+    {
+      "name": "0d7f74667e0b/tests.test_harvest.test_has_no_update_with_replace",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387548,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0d7f74667e0b/tests.test_harvest.test_has_no_update_without_replace",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387548,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0d7f74667e0b/tests.test_replace_timestamps.test_missing_update_timestamp_causes_crash",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0d7f74667e0b/tests.test_seed.test_binary_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387548,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "27501e100bd6/tests.test_error_handling.test_malformed_json_field",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3fe36788fd45/eval.tests.test_config_handling.test_no_config_or_env_support_documented",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "498523513ae5/eval.tests.test_executable_behavior.test_ci_exit_code_no_outdated",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "498523513ae5/eval.tests.test_executable_behavior.test_filters_exact_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "498523513ae5/eval.tests.test_executable_behavior.test_help_output_exact_match",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "498523513ae5/eval.tests.test_executable_behavior.test_malformed_json_errors_nonzero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "498523513ae5/eval.tests.test_executable_behavior.test_markdown_style_output_exact",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "498523513ae5/eval.tests.test_executable_behavior.test_unknown_flag_prints_usage_and_flag_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "498523513ae5/eval.tests.test_executable_behavior.test_unknown_style_falls_back_to_default",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "6ae19a5ce7b4/eval.tests.test_io_behavior.test_ci_flag_exit_0_when_no_updates_present",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b72326e507b1/tests.test_go_mod_outdated.TestCiFlag.test_ci_flag_with_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b72326e507b1/tests.test_go_mod_outdated.TestEdgeCases.test_invalid_json",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b72326e507b1/tests.test_go_mod_outdated.TestEdgeCases.test_partial_json_objects",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b72326e507b1/tests.test_go_mod_outdated.TestEdgeCases.test_unicode_in_module_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b72326e507b1/tests.test_go_mod_outdated.TestExactOutputFormat.test_output_ends_with_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b72326e507b1/tests.test_go_mod_outdated.TestTableFormatting.test_direct_column_false",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b72326e507b1/tests.test_go_mod_outdated.TestTableFormatting.test_direct_column_true",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0bceb24b9d4/eval.tests.test_help_usage.test_help_exit_code_is_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0bceb24b9d4/eval.tests.test_help_usage.test_short_help_matches_long_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc2e256c13/eval.tests.test_argparse_validation.test_boolean_flags_accept_explicit_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc2e256c13/eval.tests.test_argparse_validation.test_boolean_flags_accept_presence",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc2e256c13/eval.tests.test_argparse_validation.test_double_dash_ends_flag_parsing_and_allows_flag_like_positionals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc2e256c13/eval.tests.test_argparse_validation.test_last_value_wins_for_repeated_value_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc2e256c13/eval.tests.test_argparse_validation.test_repeated_boolean_flag_with_explicit_values_is_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc2e256c13/eval.tests.test_argparse_validation.test_style_accepts_value_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc2e256c13/eval.tests.test_argparse_validation.test_trailing_positional_arguments_are_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

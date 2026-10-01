@@ -1,0 +1,1227 @@
+{
+  "instance_id": "clog-tool__clog-cli.7066cba",
+  "skipped_tests": [
+    {
+      "name": "1226dc95b5e2/eval.tests.test_subcommand_dispatch.TestArgumentValidation.test_valid_format_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1226dc95b5e2/eval.tests.test_subcommand_dispatch.TestDefaultBehavior.test_no_arguments_behavior",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1226dc95b5e2/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_help_flag_first",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1226dc95b5e2/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_multiple_valid_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1226dc95b5e2/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_version_flag_first",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1226dc95b5e2/eval.tests.test_subcommand_dispatch.TestHelpConsistency.test_help_flag_consistent",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1226dc95b5e2/eval.tests.test_subcommand_dispatch.TestNoSubcommands.test_version_flag_works",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_coverage_gaps.test_both_work_tree_and_git_dir_flags",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_coverage_gaps.test_cgit_link_style",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_coverage_gaps.test_git_dir_only_with_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_coverage_gaps.test_json_format_with_both_flags",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_coverage_gaps.test_stash_link_style",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_coverage_gaps.test_work_tree_only_with_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_debug_coverage.test_env_propagation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_detached_head_state",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_empty_commit_message",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_empty_subtitle_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_from_and_to_same_commit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_invalid_from_commit_hash",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_many_tags_120",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_mixed_conventional_and_non_conventional_commits",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_repo_with_1mb_binary_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_repo_with_200_commits",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_repo_with_symlinks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_setversion_with_invalid_semver_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_very_long_commit_message_20kb",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_very_long_file_path_108_chars",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_very_long_subtitle_1000_chars",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_edge_cases.test_whitespace_only_commit_message",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_file_io.test_changelog_flag_combines_infile_and_outfile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_file_io.test_infile_appends_to_existing_changelog",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_file_io.test_outfile_writes_to_file_not_stdout",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_file_io.test_stdout_output_default_behavior",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_changelog_flag_sets_both_infile_and_outfile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_clog_init_git_dir_only_with_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_clog_init_work_tree_and_git_dir_both",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_clog_init_work_tree_only_with_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_format_json_explicit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_format_json_with_repo_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_format_markdown_explicit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_from_and_to_flags_combined",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_from_flag_sets_clog_from_field",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_from_latest_tag_flag_sets_clog_from_field",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_git_dir_without_work_tree_uses_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_infile_and_outfile_flags_append_behavior",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_link_style_cgit_conversion",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_link_style_github_default",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_link_style_gitlab_conversion",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_link_style_stash_conversion",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_multiple_flags_combination",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_outfile_flag_sets_clog_outfile_field",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_final_gaps.test_work_tree_without_git_dir_uses_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_git_ops.test_changelog_flag_inplace_update",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_git_ops.test_empty_repository",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_git_ops.test_missing_config_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_integration.test_empty_git_repository_no_commits",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_integration.test_from_latest_tag_with_no_new_commits",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_integration.test_from_to_specific_commit_range",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_integration.test_large_repository_many_commits",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_integration.test_link_style_differences_in_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_integration.test_setversion_with_prerelease_and_build_metadata",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_integration.test_subtitle_with_special_characters",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_integration.test_version_progression_with_setversion",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_from_latest_tag_without_tags_produces_empty_version",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_accepts_empty_string",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_accepts_partial_version",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_complex_prerelease",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_json_format_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_large_version_numbers",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_negative_version_numbers",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_overrides_increment_flags",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_simple_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_with_build_metadata",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_with_from_latest_tag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_with_leading_zeros",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_with_only_dots",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_with_prerelease",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_with_unicode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_with_v_prefix",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_with_whitespace",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "93267c5d44be/tests.test_version.test_setversion_zero_version",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog.test_changelog_preserves_old_content",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog.test_invalid_git_dir",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_coverage.test_error_paths_missing_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_errors.test_invalid_git_repository",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_errors.test_missing_config_file_error",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_errors.test_missing_git_executable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_heavy_ops.test_commit_range_with_many_commits",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_heavy_ops.test_from_latest_tag_with_many_commits",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_heavy_ops.test_repo_with_many_commits",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_heavy_ops.test_repo_with_many_commits_json",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_heavy_ops.test_repo_with_tags_and_many_commits",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_massive.test_vary_commit_count",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_regex_heavy.test_commits_with_complex_scopes",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_clog_regex_heavy.test_commits_without_scope",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_simple_coverage_boost.test_changelog_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_simple_coverage_boost.test_major_version_attempt",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_simple_coverage_boost.test_minor_version_attempt",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c7d152868a35/eval.tests.test_simple_coverage_boost.test_patch_version_attempt",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d955d8053fa3/eval.tests.test_help_output.test_dash_h_matches_dash_dash_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d955d8053fa3/eval.tests.test_help_output.test_help_baseline_matches_fixture_exact",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d955d8053fa3/eval.tests.test_help_output.test_help_contains_git_dir_work_tree_note",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d955d8053fa3/eval.tests.test_help_output.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d955d8053fa3/eval.tests.test_help_output.test_help_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d955d8053fa3/eval.tests.test_help_output.test_help_writes_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestBasicExecution.test_no_arguments",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestCommitFlags.test_valid_from_commit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestCommitFlags.test_valid_to_commit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestDefaultValues.test_default_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestDefaultValues.test_default_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestDefaultValues.test_default_link_style",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestDefaultValues.test_default_to_commit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestDuplicateFlags.test_duplicate_format_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestDuplicateFlags.test_duplicate_repository_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestEdgeCases.test_empty_string_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestEdgeCases.test_flag_with_value_no_space",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestEdgeCases.test_multiple_equals_in_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestEdgeCases.test_special_characters_in_strings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestExitCodes.test_success_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFilePathFlags.test_outfile_with_equals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFilePathFlags.test_path_with_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFilePathFlags.test_valid_changelog",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFilePathFlags.test_valid_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFilePathFlags.test_valid_git_dir",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFilePathFlags.test_valid_infile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFilePathFlags.test_valid_outfile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFilePathFlags.test_valid_work_tree",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFlagCombinations.test_git_dir_and_work_tree_together",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFlagCombinations.test_infile_and_outfile_together",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFlagCombinations.test_multiple_independent_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFlagCombinations.test_short_and_long_flags_mixed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFlagOrdering.test_flags_before_and_after",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFlagOrdering.test_short_flags_order",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFormatFlag.test_format_with_equals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFormatFlag.test_valid_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestFromLatestTagFlag.test_from_latest_tag_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestLinkStyleFlag.test_valid_link_styles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestRepositoryFlag.test_repository_empty_string",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestRepositoryFlag.test_repository_with_equals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestRepositoryFlag.test_valid_repository",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestSetVersionFlag.test_setversion_arbitrary_string",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestSetVersionFlag.test_setversion_with_equals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestSetVersionFlag.test_valid_setversion",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestShortFlagEquivalents.test_short_long_equivalence",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestSubtitleFlag.test_valid_subtitle",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestVersionFlags.test_combined_version_flags_short",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestVersionFlags.test_combined_version_flags_short_three",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestVersionFlags.test_major_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestVersionFlags.test_minor_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ffd7bbf54795/eval.tests.test_argument_parsing.TestVersionFlags.test_patch_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

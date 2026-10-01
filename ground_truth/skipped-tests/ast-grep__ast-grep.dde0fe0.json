@@ -1,0 +1,287 @@
+{
+  "instance_id": "ast-grep__ast-grep.dde0fe0",
+  "skipped_tests": [
+    {
+      "name": "5946c18eda4c/eval.tests.test_file_filtering.test_default_respects_gitignore_and_ignore_files",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_file_filtering.test_follow_with_no_ignore_hidden_combines",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_file_filtering.test_no_ignore_dot_ignores_dot_ignore_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_file_filtering.test_no_ignore_hidden_searches_hidden_directories",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_file_filtering.test_scan_command_respects_follow_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_harvest.test_scan_invalid_rule_id",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_harvest.test_scan_unused_suppression_off",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_harvest.test_sg_scan",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_harvest.test_sg_test",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_harvest.test_unused_suppression_only_in_scan",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_harvest.test_yaml_sgconfig_extension",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_all_style_blocks_extracted_from_html",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_css_in_html_style_tags",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_css_media_query_in_html_style_tags",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_css_selector_specificity_in_html",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_empty_and_whitespace_script_tags",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_js_only_in_script_not_inline_handlers",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_languageglobs_svelte_js_extraction",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_mixed_js_and_css_injections_in_html",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_mixed_typescript_and_javascript_in_html",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_multiple_js_script_tags_in_html",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_multiple_style_tags_with_hover_selector",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_plain_js_script_not_matched_as_typescript",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_typescript_in_html_with_lang_attribute",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_language_features.test_typescript_type_alias_in_html",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_multiple_fixers.test_three_fixers_json_consistent_replacement",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_output_formatting.test_color_auto_respects_stdout_redirection",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_parameterized_advanced.test_error_cyclic_dependency",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_parameterized_advanced.test_parameterized_utility_with_stopBy",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_print_initialization.test_color_auto_piped_output_no_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_verify_reporter.test_missing_case_reports_expected_match_not_found",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5946c18eda4c/eval.tests.test_verify_reporter.test_multiple_rules_with_mixed_status_summary",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    }
+  ]
+}

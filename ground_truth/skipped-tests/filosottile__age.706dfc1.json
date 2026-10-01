@@ -1,0 +1,1571 @@
+{
+  "instance_id": "filosottile__age.706dfc1",
+  "skipped_tests": [
+    {
+      "name": "8ebac061b133/tests.test_armor_edge.test_armor_format_structure_large_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_armor_edge.test_armor_no_headers_between_begin_and_end",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_batchpass_01_encrypt_and_decrypt_with_age_passphrase",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_batchpass_02_decrypt_with_age_passphrase_max_work_factor",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_batchpass_03_age_passphrase_max_work_factor_lower_than_work_factor",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_batchpass_04_error_both_age_passphrase_and_age_passphrase_fd_set",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_batchpass_05_error_neither_age_passphrase_nor_age_passphrase_fd_set",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_batchpass_06_error_incorrect_passphrase",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_batchpass_07_error_encrypting_to_other_recipients_along_with_passphrase",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_batchpass_08_decrypt_with_native_scrypt",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_duplicates_05_first_create_an_encrypted_file_for_decrypt_tests",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_duplicates_08_test_no_warning_when_no_duplicates",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_01_todo_age_encrypted_private_keys_multiple_identities_i_orderi",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_02_age_file_password_prompt_during_encryption",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_03_use_an_encrypted_openssh_private_key_without_pub_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_04_e_i_with_an_encrypted_openssh_private_key",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_06_use_an_encrypted_legacy_pem_private_key_with_a_pub_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_07_e_i_with_an_encrypted_legacy_pem_private_key",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_08_legacy_pem_private_key_without_a_pub_file_causes_an_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_09_mismatched_pub_file_causes_an_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_encrypted_keys_10_buffer_armored_ciphertext_before_prompting_if_stdin_is_the_t",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_hybrid_05_convert_to_plugin_identity_and_use_plugin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_keygen_01_unnamed_scenario_line_1",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_output_file_03_url",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_output_file_04_url",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_pkcs8_01_url",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_plugin_01_encrypt_and_decrypt_a_file_with_a_test_plugin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_plugin_02_very_long_identity_and_recipient",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_plugin_03_check_that_path_separators_are_rejected",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_plugin_04_check_plugin_not_found_hint",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_scrypt_01_encrypt_with_a_provided_passphrase",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_scrypt_02_decrypt_with_a_provided_passphrase",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_scrypt_03_decrypt_with_the_wrong_passphrase",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_scrypt_04_encrypt_with_a_generated_passphrase",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_scrypt_05_fail_when_i_is_present",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_scrypt_06_fail_when_passphrases_dont_match",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_scrypt_07_fail_when_i_is_missing",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_01_controlling_terminal_is_used_instead_of_stdinstderr",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_02_autogenerated_passphrase_is_printed_to_terminal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_03_with_no_controlling_terminal_stdin_terminal_is_used",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_04_noctty",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_05_ttyin_stdin_terminal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_06_age_p_o_testage_input",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_07_stderr",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_08_no_terminal_causes_an_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_09_noctty",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_10_age_p_o_testage_input",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_11_stderr_standard_input_is_not_a_terminal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_12_prompt_for_password_before_plaintext_if_stdin_is_the_termina",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_13_check_the_file_was_encrypted_correctly",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_harvest.test_terminal_14_buffer_armored_ciphertext_before_prompting_if_stdin_is_the_t",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_armor_detection_consistency",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_corrupted_header_bad_stanza",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_human_output_format_consistency",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_armored_x25519_human_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_armored_x25519_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_from_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_from_stdin_explicit_dash",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_large_file_json",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_multi_recipient_human_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_multi_recipient_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_nonexistent_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_not_age_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_passphrase_human_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_passphrase_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_recipients_file_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_ssh_key_human_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_ssh_key_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_stdin_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_too_many_arguments",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_truncated_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_very_large_armored_json",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_x25519_human_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_inspect_x25519_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_json_output_valid_structure",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_multiple_json_outputs_are_independent",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_postquantum_field_values",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_size_calculations_consistency",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_stanza_types_array_never_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_version_field_always_present",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_inspect.test_version_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_internal_modules.test_bech32_key_format_validation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_internal_modules.test_bech32_public_key_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_basic_key_generation_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_comments_and_empty_lines_ignored",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_convert_identity_to_recipient_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_convert_identity_to_recipient_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_convert_output_to_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_convert_pq_identity_to_recipient",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_empty_identity_file_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_file_already_exists_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_help_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_invalid_identity_file_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_key_format_checksum_validation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_key_generation_to_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_key_uniqueness",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_multiple_keys_in_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_nonexistent_input_file_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_pq_key_generation_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_pq_key_generation_to_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_pq_key_uniqueness",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_pq_with_y_flag_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_stdin_dash_argument",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_too_many_arguments_convert_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_too_many_arguments_generate_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_version_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_keygen.test_x25519_key_length_exact",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_main_gaps.test_version_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_plugin.test_batchpass_version_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq.test_pq_identity_prefix_uppercase",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq.test_pq_identity_to_recipient_conversion",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq.test_pq_keygen_generates_valid_key_pair",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq.test_pq_recipient_prefix_age1pq",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq_gaps.test_pq_identity_recipient_conversion",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq_gaps.test_pq_identity_string_representation_uppercase",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq_gaps.test_pq_key_lengths_match_spec",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq_gaps.test_pq_multiple_keys_all_different",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_pq_gaps.test_pq_recipient_string_representation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_primitives_format.test_format_stanza_marshal_base64_encoding",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_primitives_format.test_primitives_header_mac_computation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_smoke.test_binary_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/tests.test_stress.test_maximum_path_length",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_advanced.TestDuplicates.test_no_duplicate_no_warning",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_advanced.TestStdinUsage.test_recipients_from_stdin_dash",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_convert_from_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_convert_identity_to_recipient",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_file_not_overwritten",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_help",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_output_long_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_pq_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_pq_to_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_pq_y_incompatible",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_to_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_version",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestKeygenBasic.test_keygen_y_pq_key",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_basic.TestNoArgs.test_version_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_coverage_boost.TestInspectPostQuantumAndMultiple.test_inspect_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_coverage_boost.TestInspectPostQuantumAndMultiple.test_inspect_non_age_binary",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_coverage_boost.TestKeygenConversion.test_keygen_y_to_output_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_error_paths.TestInspectEdgeCases.test_inspect_too_many_args",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_error_paths.TestPassphraseMode.test_encrypt_passphrase_without_tty_needs_passphrase",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_error_paths.TestRecipientFileParsing.test_recipients_file_stdin_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_error_paths.TestVersionOutput.test_version_is_semantic_or_devel",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_error_paths.TestVersionOutput.test_version_not_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_identity_files.TestExistingTestdata.test_decrypt_example_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_identity_files.TestExistingTestdata.test_inspect_example_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_identity_files.TestExistingTestdata.test_inspect_example_json",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_identity_files.TestKeygenWarnings.test_keygen_no_output_flag_key_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_identity_files.TestKeygenWarnings.test_keygen_outputs_not_stdout_if_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_inspect.TestInspectBasic.test_inspect_help",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_inspect.TestInspectBasic.test_inspect_invalid_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_inspect.TestInspectBasic.test_inspect_nonexistent_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_inspect.TestInspectBasic.test_inspect_version",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_convert_no_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_convert_pq_key",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_convert_writes_to_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_file_permissions",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_multiple_keys_different",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_output_format_pq",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_output_format_x25519",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_too_many_args_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_y_nonexistent_file_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_keygen_extra.TestKeygenEdgeCases.test_keygen_y_too_many_args_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df88744325cf/eval.tests.test_age_targeted_coverage.TestTagRecipients.test_tag_and_x25519_mixed_fails",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    }
+  ]
+}

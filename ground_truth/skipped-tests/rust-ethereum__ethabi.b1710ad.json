@@ -1,0 +1,471 @@
+{
+  "instance_id": "rust-ethereum__ethabi.b1710ad",
+  "skipped_tests": [
+    {
+      "name": "10d3210b1675/tests.test_contract_operations.test_decode_event_from_eip20",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "10d3210b1675/tests.test_decode_log.test_decode_log_missing_topic",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "10d3210b1675/tests.test_edge_cases.test_decode_with_0x_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "10d3210b1675/tests.test_edge_cases.test_decode_with_extra_data",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestEdgeCases.test_array_of_array_of_tuple",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestEdgeCases.test_deeply_nested_tuples",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestEdgeCases.test_mixed_named_and_unnamed_tuple_components",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestParamSerialization.test_fixed_array_of_tuples",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestParamSerialization.test_nested_tuple_array_serialization",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestParamSerialization.test_param_tuple_serialization",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestParamSerialization.test_param_with_internal_type_roundtrip",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestParamSerialization.test_tuple_param_with_internal_type",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_coverage.TestParamSerialization.test_tuple_param_without_name",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "13dc3ceeb33d/tests.test_param_error_paths.TestValidComplexParams.test_param_with_all_fields",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "2d7bd3233ce1/eval.tests.test_help_main.test_dash_h_matches_dash_dash_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d7bd3233ce1/eval.tests.test_help_main.test_help_exit_code_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d7bd3233ce1/eval.tests.test_help_main.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d7bd3233ce1/eval.tests.test_help_main.test_help_is_on_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d7bd3233ce1/eval.tests.test_help_main.test_help_takes_precedence_over_other_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestBytesTypes.test_encode_bytes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestBytesTypes.test_encode_bytes_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestComplexFunctions.test_encode_function_with_array",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestComplexFunctions.test_encode_function_with_tuple",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestNestedStructures.test_encode_array_of_tuples",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestNestedStructures.test_encode_nested_tuple",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestNestedStructures.test_encode_tuple_with_array",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestStringEdgeCases.test_encode_long_string",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestStringEdgeCases.test_encode_string_with_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_additional_types.TestStringEdgeCases.test_encode_string_with_special_chars",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_cli.TestInvalidCommands.test_no_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_decode_function.test_decode_function_no_outputs",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_decode_log.test_decode_log_missing_topic",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_decode_log.test_decode_log_multiple_addresses",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_decode_log.test_decode_log_multiple_topics",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_decode_log.test_decode_log_only_indexed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_decode_params.TestEdgeCasesDecode.test_decode_with_0x_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_decode_params.TestInvalidInputsDecode.test_no_types",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_encode_function.test_encode_function_address",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_encode_params.TestArrays.test_encode_empty_array",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_encode_params.TestArrays.test_encode_uint_array_lenient",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_encode_params.TestEdgeCases.test_empty_string",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3201c69b14ef/tests.test_encode_params.TestEdgeCases.test_unicode_string",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "96dbe4a898e8/eval.tests.test_config_handling.test_common_env_vars_do_not_change_help_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "96dbe4a898e8/eval.tests.test_config_handling.test_no_config_flag_or_subcommand_in_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_additional_coverage.test_decode_simple_tuple_alternative",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_additional_coverage.test_encode_array_empty_elements",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_edge_cases.test_decode_tuple_nested",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_error_paths.test_decode_bytes_invalid_padding",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_error_paths.test_decode_extra_data_at_end",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_error_paths.test_decode_invalid_type_name",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_error_paths.test_encode_int8_overflow",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_error_paths.test_encode_int8_underflow",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_error_paths.test_encode_uint8_overflow",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_real_abi_files.test_decode_with_constructor_abi",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_real_abi_files.test_eip20_abi_approval_event",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d9fde585fa84/eval.tests.test_real_abi_files.test_signature_variations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

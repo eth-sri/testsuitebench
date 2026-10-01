@@ -1,0 +1,437 @@
+{
+  "instance_id": "riquito__tuc.16fb471",
+  "skipped_tests": [
+    {
+      "name": "3d59f7dafc94/eval.tests.test_help_basic.test_dash_h_matches_dash_dash_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3d59f7dafc94/eval.tests.test_help_basic.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3d59f7dafc94/eval.tests.test_help_basic.test_help_goes_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3d59f7dafc94/eval.tests.test_help_basic.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "565c68a30560/tests.test_errors.test_greedy_only_delimited_json_mixed_input_panic",
+      "reasons": [
+        {
+          "id": "our_gt_exact_error_location"
+        }
+      ]
+    },
+    {
+      "name": "565c68a30560/tests.test_harvest.test_cannot_use_characters_without_regex",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "565c68a30560/tests.test_harvest.test_does_not_panic_if_attempting_to_use_regex_arg_with_noregex_build",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "565c68a30560/tests.test_harvest.test_fails_to_cut_characters_when_no_regex_support",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "565c68a30560/tests.test_input_advanced.test_unreadable_file_permission_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "65b63a445582/eval.tests.test_tuc.TestGreedyAndCompress.test_compress_preserves_single_delimiter",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "65b63a445582/eval.tests.test_tuc.TestInputModes.test_stdin_with_no_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "65b63a445582/eval.tests.test_tuc.TestPerformanceConstraints.test_large_number_of_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "65b63a445582/eval.tests.test_tuc.TestRangeEdgeCases.test_range_beyond_available_fields",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7c916609e395/eval.tests.test_tuc_io.test_file_input_matches_stdin_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e57edf5017f8/eval.tests.test_edge_cases.test_unicode_in_field_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_additional_coverage.test_bytes_extraction_extended",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_advanced_features.test_trim_with_compress",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_basic_invocation.test_file_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_basic_invocation.test_stdin_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_byte_cutting.test_negative_byte_index",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_bytes_comprehensive.test_bytes_multibyte_utf8",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_bytes_comprehensive.test_bytes_with_delimiter",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_bytes_comprehensive.test_bytes_with_join",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_complex_regex_patterns.test_regex_dot_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_complex_regex_patterns.test_regex_quantifier_star",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_delimiter_modifiers.test_trim_both",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_delimiter_modifiers.test_trim_case_uppercase_L",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_delimiter_modifiers.test_trim_left",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_error_handling.test_regex_without_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_flag_combinations.test_compress_with_complement",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_flag_combinations.test_greedy_with_complement",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_greedy_compress.test_compress_with_join",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_large_inputs.test_empty_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_large_inputs.test_only_delimiters",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_massive_scenarios.test_all_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_massive_scenarios.test_alternating_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_massive_scenarios.test_last_field_only",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_massive_scenarios.test_lines_last",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_massive_scenarios.test_regex_optional",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_massive_scenarios.test_reverse_order",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_alternation",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_char_class",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_greedy_vs_lazy",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_multiple_ranges",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_negated_class",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_newline_literal",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_non_capturing_group",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_non_space",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_non_word",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_path_separator",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_question_quantifier",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_range_class",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_range_quantifier",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e73d7b48bf09/eval.tests.test_regex_exhaustive.test_regex_star_quantifier",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

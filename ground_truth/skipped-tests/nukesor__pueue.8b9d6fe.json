@@ -1,0 +1,6442 @@
+{
+  "instance_id": "nukesor__pueue.8b9d6fe",
+  "skipped_tests": [
+    {
+      "name": "06dabfabaea7/tests.test_add.test_add_dependency_chain",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_add.test_add_long_command",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_add.test_add_multiple_commands_separately",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_add.test_add_sequential_tasks_increment_ids",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_add.test_add_with_follow_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_add.test_add_with_multiple_dependencies",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_concurrent_task_additions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_dependency_resolution_parallel_execution",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_enqueue_stashed_task_timing",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_fifo_queue_ordering",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_kill_multiple_tasks_concurrently",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_many_tasks_same_directory_no_corruption",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_parallel_different_groups_independent",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_parallel_limit_enforced",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_parallel_tasks_queue_when_limit_reached",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_parallel_zero_means_unlimited",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_pause_group_during_execution",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_pause_one_group_not_others",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_pause_wait_lets_running_tasks_finish",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_priority_ordering_over_fifo",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_rapid_status_queries_during_execution",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_start_resumes_paused_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_concurrent.test_switch_task_ordering",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_boolean_setting_false_parsed_correctly",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_boolean_setting_true_parsed_correctly",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_callback_with_value_accepted",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_config_partial_sections_use_defaults",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_default_parallel_tasks_setting_enforced",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_empty_callback_doesnt_crash",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_env_vars_in_daemon_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_multiple_profiles_in_one_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_port_as_string_parsed_correctly",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_profile_loads_different_socket_path",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_pueue_directory_setting_creates_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_status_time_format_in_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_configuration.test_unix_socket_path_setting_exact",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_enqueue_all_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_enqueue_group_selection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_enqueue_mixed_states_by_id",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_all_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_group_json_combined",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_group_selection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_json_all_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_json_single_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_json_with_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_lines_larger_than_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_lines_truncation_boundary",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_lines_with_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_lines_zero",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_daemon_handlers.test_log_nonexistent_task_id",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_edit.test_edit_multiple_tasks_at_once",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_add_with_multiple_dependencies",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_clean_successful_only_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_clean_with_group_filter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_command_with_quotes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_group_parallel_zero_means_unlimited",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_kill_task_with_group_filter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_many_simultaneous_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_multiple_tasks_with_dependencies_chain",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_reset_command_clears_all_state",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_start_with_group_filter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors_edge_cases.test_very_long_command",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_follow_task_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_group_add_with_zero_parallel",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_group_pause_and_start_operations",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_kill_group_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_kill_specific_group_filters_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_parallel_tasks_per_group_enforced",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_pause_specific_group_filters_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_wait_for_all_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_wait_for_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_groups_advanced.test_wait_for_specific_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_add_normal",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_aliases_add",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_callback_variables",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_clean_in_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_clean_normal",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_clean_successful_only",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_dependency_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_dependency_failure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_isolated_environment",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_kill_with_pause",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_kill_without_pause",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_log_full",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_log_order",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_log_partial",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_logs_for_all",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_logs_of_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_pause_running_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_pause_with_wait",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_priority_default_over_negative",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_priority_ordering",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_remove_normal",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_reset",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_reset_multiple_groups",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_reset_single_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_restart_in_place",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_socket_permissions_default",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_start_stashed_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_start_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_stashed_delayed_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_stashed_enqueued_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_worker_env_multiple",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_daemon_worker_env_single",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_enqueue_command",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_env_set",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_env_unset",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_follow_default",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_follow_last_lines",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_follow_on_immediate_add",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_format_status_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_kill_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_last_lines",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_log_json",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_log_read",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_log_truncated",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_log_with_color",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_log_with_label",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_multiple_groups",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_multiple_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_normal_restart_with_edit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_parallel_command",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_pause_and_start_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_read",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_read_truncated",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_and_edit_task_command",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_and_edit_task_path",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_and_edit_task_path_and_command",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_and_edit_task_priority",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_edit_command",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_edit_path",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_edit_priority",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_edit_with_alias",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_restart_normal",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_set_environment",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_single_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_stash_and_start_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_status_default",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_status_json",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_status_multiple_groups",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_status_single_group",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_status_with_color",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_success_failure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_success_success",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_switch_command",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_task_escape",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_task_with_label",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_task_working_directory",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_unset_environment",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_version_command",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_wait_for_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_wait_multiple_tasks",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_wait_success_failure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_wait_success_success",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_harvest.test_wait_target_status",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_follow_no_running_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_all_tasks_selection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_default_line_limit_for_multiple_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_empty_output_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_empty_task_selection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_failed_task_exit_code_display",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_full_flag_overrides_default_limit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_group_selection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_json_all_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_json_envs_cleared",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_json_multiple_tasks_structure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_json_with_lines_limit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_json_with_task_selection_all",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_lines_parameter_explicit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_mixed_stdout_stderr",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_multiple_tasks_with_newline_separator",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_paused_task_display",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_running_task_display",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_stderr_only_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_task_ids_order_preserved",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_task_start_end_times",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_task_with_label_in_info",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_truncation_indicator_with_lines",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_log_gaps.test_log_very_long_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_process_helper.test_kill_multiple_tasks_with_signals",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_process_helper.test_multiple_different_signals_to_same_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_process_helper.test_pause_resume_cycle_maintains_state",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_combined_with_status",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_end_date_equal",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_end_datetime_not_equal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_end_not_equal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_multiple_conditions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_start_date_equal",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_start_date_greater_than",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_start_datetime_equal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_start_datetime_greater_than",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_start_datetime_less_than",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_start_not_equal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_start_time_equal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_datetime_filter_with_status_success",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_limit_first",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_limit_last",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_order_by_end_datetime",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query.test_order_by_start_datetime",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_basic_creation_and_cleanup",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_cleanup_after_crash_and_manual_removal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_cleanup_on_sigint",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_custom_permissions",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_default_permissions",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_different_extensions",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_invalid_path_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_multiple_restarts",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_orphaned_file_removed_automatically",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_path_with_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_permissions_660",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_permissions_700",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_permissions_770",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_rapid_start_stop",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_relative_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_symlink_in_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_unicode_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_socket_unix.test_socket_very_long_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_log_all_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_log_full_vs_default",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_log_group_filter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_log_json_structure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_log_lines_limit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_log_multiple_tasks_selective",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_log_single_task_complete",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_log_with_stderr_mixed",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_status_group_filter_exact",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_status_query_column_selection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_status_query_combined_filters",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_status_query_filter_label",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_status_query_limit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_status_log.test_status_query_order_by",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_clean_successful_only_flag_with_failures",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_clean_with_daemon",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_cleanup_on_graceful_shutdown",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_created_on_daemon_start",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_empty_content",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_in_use_by_different_process",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_invalid_content_non_numeric",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_multiple_daemon_lifecycle",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_prevents_second_daemon_same_socket",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_stale_detection_after_ungraceful_shutdown",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_with_negative_pid",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_with_overflow_value",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_with_pid_zero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_pid_file_with_very_large_pid",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_reset_all_groups",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_system_cli.test_reset_with_force_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_enqueue_multiple_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_restart_all_failed",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_restart_failed_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_restart_immediate",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_restart_in_place",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_restart_successful_task",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_start_multiple_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_stash_queued_task_then_enqueue",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_task_control.test_switch_two_queued_tasks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_certificate_generation_on_first_start",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_certificate_permissions_are_secure",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_certificate_subject_alt_names_includes_localhost",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_certificates_not_regenerated_on_restart",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_client_can_add_and_query_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_connection_with_missing_certificate_fails",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_connection_with_missing_key_fails",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_daemon_restart_preserves_task_state",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_error_on_both_certificates_missing",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_multiple_concurrent_client_connections",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_secure_client_connection_status_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_tls.test_tls_task_execution_over_secure_connection",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_follow_completed_task_shows_full_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_follow_single_running_task_auto_select",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_follow_task_finishes_during_follow",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_wait_all_flag_waits_for_all_groups",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_wait_multiple_tasks_by_id",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_wait_new_task_added_while_waiting",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_wait_paused_group_status_transitions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_wait_status_done_with_all_result_types",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_wait_success_status_exits_on_failure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_wait_task_dependency_failed",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_wait_follow.test_wait_with_group_filter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestCallbackCoverage.test_callback_with_stash_count_template",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestDaemonDirectoryCreation.test_daemon_creates_pueue_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestDaemonModCoverage.test_daemon_with_profile_loads_correctly",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestDaemonProfileLoading.test_daemon_starts_with_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestDaemonProfileLoading.test_daemon_starts_with_verbose_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestDaemonizeFunctionality.test_pueued_daemonize_forks_to_background",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestDaemonizeFunctionality.test_pueued_daemonize_with_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestDaemonizeFunctionality.test_pueued_daemonize_with_verbose",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestEditCoverage.test_edit_multiple_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestEditCoverage.test_edit_running_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestEditFilesModeEdgeCases.test_edit_files_mode_empty_command_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestEditFilesModeEdgeCases.test_edit_files_mode_empty_path_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestOrderByStatusCoverage.test_order_by_enqueue_at_with_queued_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestOrderByStatusCoverage.test_order_by_priority_sorts_correctly",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestOrderByStatusCoverage.test_order_by_status_with_done_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestOrderByStatusCoverage.test_order_by_status_with_mixed_statuses",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestOrderByStatusCoverage.test_priority_sort_on_parallel_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestProcessHelperCoverage.test_kill_with_sigkill",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestProcessHelperCoverage.test_kill_with_sigstop_signal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestResetAllPathCoverage.test_reset_multiple_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestResetAllPathCoverage.test_reset_specific_group_with_running_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestSendCommand.test_send_input_to_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestSettingsSave.test_daemon_creates_config_in_xdg_dir",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestSettingsSave.test_daemon_reads_config_from_xdg_dir",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestStateOrderByColumns.test_order_by_command_asc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestStateOrderByColumns.test_order_by_label_desc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestStateOrderByColumns.test_order_by_path_asc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestStateQueryLimitCoverage.test_order_by_with_limit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_additional_coverage.TestStateQueryLimitCoverage.test_pure_number_limit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestCliEdgeCases.test_help_for_each_main_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestCliEdgeCases.test_unknown_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestCliEdgeCases.test_verbose_v",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestCliEdgeCases.test_verbose_vvv",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestDaemonRestart.test_daemon_state_persistence",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestLogJsonVariants.test_log_json_all",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestLogJsonVariants.test_log_json_lines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestPauseWait.test_pause_wait_lets_running_finish",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDatetimeCoverage.test_combined_columns_and_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDatetimeCoverage.test_enqueue_at_filter_datetime",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDatetimeCoverage.test_filter_start_equals_datetime_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDatetimeCoverage.test_filter_start_with_full_time",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDatetimeCoverage.test_filter_start_with_time_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDatetimeCoverage.test_filter_status_running",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDatetimeCoverage.test_order_by_enqueue_at",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDescendingOrder.test_order_by_command_desc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDescendingOrder.test_order_by_end_desc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestQueryDescendingOrder.test_order_by_label_desc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestUnlimitedParallel.test_group_with_unlimited_parallel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_boost.TestUnlimitedParallel.test_unlimited_parallel_many_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestCallbackTemplate.test_callback_with_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestCallbackTemplate.test_callback_with_template_variables",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestCleanCommand.test_clean_removes_all_finished",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestCleanCommand.test_clean_successful_only_keeps_failed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestCompressedState.test_compressed_state_saves_and_restores",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestEditTomlMode.test_edit_files_mode_with_editor",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestEditTomlMode.test_edit_in_toml_mode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestEditTomlMode.test_edit_with_nonzero_exit_editor",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestEnvCommands.test_env_set_invalid_task_id",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestEnvCommands.test_env_set_on_stashed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestEnvCommands.test_env_unset_on_stashed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestEnvVarConfig.test_pueue_config_path_env_var",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestFollowNoTaskId.test_follow_multiple_running_tasks_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestFollowNoTaskId.test_follow_no_running_tasks_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestFollowNoTaskId.test_follow_single_running_task_auto_select",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestFollowNoTaskId.test_follow_with_lines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestGroupStatusHandling.test_group_json_shows_all_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestGroupStatusHandling.test_group_status_shows_in_group_list",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestLogNoFinished.test_log_no_tasks_at_all",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestLogNoFinished.test_log_specific_nonexistent_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestLogRemote.test_remote_log_all_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestLogRemote.test_remote_log_json_full",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestLogRemote.test_remote_log_lines_limit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestProfileSettings.test_profile_loading",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestRemoveCommand.test_remove_finished_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestRemoveCommand.test_remove_running_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestRemoveCommand.test_remove_stashed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestResetAllGroups.test_reset_all_with_force",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestResetAllGroups.test_reset_nonexistent_group_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestShowExpandedAliases.test_show_expanded_aliases_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusNoColorMode.test_status_always_color",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusNoColorMode.test_status_no_color",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_column_selection",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_command_contains",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_first_limit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_label_contains",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_last_limit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_order_by_command_desc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_status_neq",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_status_running",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusQueries.test_query_status_stashed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusWithAllColumns.test_status_all_columns",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusWithAllColumns.test_status_shows_dependencies_column",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestStatusWithAllColumns.test_status_shows_enqueue_at_column",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestSwitchCommand.test_switch_two_stashed_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestTaskManagementEdgeCases.test_enqueue_all_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestTaskManagementEdgeCases.test_kill_specific_task_with_signal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestTaskManagementEdgeCases.test_kill_with_numeric_signal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestTaskManagementEdgeCases.test_pause_all_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestTaskManagementEdgeCases.test_start_all_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_coverage_targeted.TestTaskManagementEdgeCases.test_stash_all_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_basic",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_immediate",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_multiple_tasks_increments_id",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_no_command_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_print_task_id",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_task_runs_and_completes",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_task_with_stashed_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_with_dependencies",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_with_escape",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_with_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_with_label",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_with_priority",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddBasic.test_add_with_working_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddWithDelay.test_add_with_delay_hours",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_add.TestAddWithDelay.test_add_with_delay_seconds",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestDependencies.test_dependency_column_in_status",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestDependencies.test_dependent_task_runs_after_first",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestDependencies.test_task_with_dependency_waits",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestFailedTaskOutput.test_failed_task_exit_code_in_json",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestFailedTaskOutput.test_failed_task_exit_code_in_status",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestMultipleGroups.test_status_json_shows_all_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestMultipleGroups.test_tasks_in_different_groups_shown_separately",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestPriority.test_priority_in_json",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestPriority.test_priority_shown_in_status",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestStatusDetails.test_status_json_includes_timestamps",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestStatusDetails.test_status_shows_end_time_for_completed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestStatusDetails.test_status_shows_start_time_for_completed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestVerboseMode.test_double_verbose_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestVerboseMode.test_verbose_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestWorkingDirectory.test_default_working_directory_is_current",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_advanced.TestWorkingDirectory.test_task_runs_in_working_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestAddEnqueueAt.test_add_with_delay_shows_formatted_time",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestAddEnqueueAt.test_stash_with_delay_shows_enqueue_info",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestCallbacks.test_callback_on_task_completion",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestCallbacks.test_callback_with_template_variables",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestCallbacksWithFailedTask.test_callback_on_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestCallbacksWithFailedTask.test_callback_with_exit_code_template",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestDaemonWithLogCompress.test_daemon_with_compress_state",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestFollowCompleted.test_follow_completed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestFollowCompleted.test_follow_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestFollowNoTaskId.test_follow_multiple_running_tasks_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestFollowNoTaskId.test_follow_single_running_task_auto_select",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestFollowNoTaskId.test_follow_with_lines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestLogLocalEdgeCases.test_log_lines_limit_from_end",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestLogLocalEdgeCases.test_log_with_large_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestParallelEdgeCases.test_parallel_no_args_shows_current",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestParallelEdgeCases.test_parallel_query_shows_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestRemoteFollow.test_remote_follow_completed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_callbacks_follow.TestRemoteFollow.test_remote_follow_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_config.TestColorOption.test_color_always",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_config.TestColorOption.test_color_auto",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_config.TestColorOption.test_color_never",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_config.TestConfigFile.test_config_env_var_overridden_by_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_config.TestConfigFile.test_config_path_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_config.TestConfigFile.test_invalid_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_config.TestConfigFile.test_pueue_config_path_env_var",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_config.TestDaemonShutdown.test_shutdown_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestAddGroupPausedNotice.test_add_to_paused_group_shows_notice",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestAddGroupPausedNotice.test_add_with_delay_shows_enqueue_time",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestAliases.test_alias_replaces_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestAliases.test_alias_task_runs_successfully",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestAliases.test_no_alias_file_runs_normally",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestCleanAndManagement.test_enqueue_with_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestCleanAndManagement.test_pause_with_wait",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestCleanAndManagement.test_restart_no_ids_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestCleanAndManagement.test_stash_with_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilterOperators.test_command_contains_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilterOperators.test_end_datetime_greater_than",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilterOperators.test_end_datetime_less_than",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilterOperators.test_enqueue_at_datetime_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilterOperators.test_label_contains_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilterOperators.test_start_datetime_equal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilterOperators.test_start_datetime_less_than",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilterOperators.test_start_equals_time",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilters.test_filter_end_greater_than_past",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilters.test_filter_end_not_equal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilters.test_filter_start_equal_today",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilters.test_filter_start_greater_than_past",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilters.test_filter_start_less_than_future",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestDatetimeFilters.test_filter_start_with_time",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestFollowCommand.test_follow_help",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestFollowCommand.test_follow_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestLogNoOutput.test_log_all_no_finished_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestLogNoOutput.test_log_no_finished_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestLogNoOutput.test_log_specific_group_no_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestQueryOrderBy.test_order_by_end_asc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestQueryOrderBy.test_order_by_id_desc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestQueryOrderBy.test_order_by_label_asc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestQueryOrderBy.test_order_by_path_asc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestQueryOrderBy.test_order_by_start_asc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestQueryOrderBy.test_order_by_start_desc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestQueryOrderBy.test_order_by_status_asc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestRemoteLog.test_remote_log_json",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestRemoteLog.test_remote_log_shows_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestRestartFailedInGroup.test_restart_failed_in_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestRestartFailedInGroup.test_restart_not_in_place",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestStatusMoreQueryCoverage.test_query_combined_filter_and_limit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestStatusMoreQueryCoverage.test_query_command_equals",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestStatusMoreQueryCoverage.test_query_command_not_equal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestStatusMoreQueryCoverage.test_query_label_not_equal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestStatusMoreQueryCoverage.test_query_status_paused",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestStatusMoreQueryCoverage.test_query_status_queued",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestStatusMoreQueryCoverage.test_query_with_enqueue_at_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestStyleDarkMode.test_dark_mode_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestTableBuilderCoverage.test_status_shows_killed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestTableBuilderCoverage.test_status_with_failed_dependency_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestWaitEdgeCases.test_wait_empty_selection_with_all_done",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_coverage_gaps.TestWaitEdgeCases.test_wait_status_with_failed_task_exits_nonzero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditBasic.test_edit_multiple_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditBasic.test_edit_nonexistent_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditBasic.test_edit_queued_task_with_true_editor",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditBasic.test_edit_running_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditBasic.test_edit_stashed_task_with_true_editor",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditBasic.test_edit_task_in_files_mode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditBasic.test_edit_without_editor_env_var_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditWithRestartCommand.test_restart_with_edit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditWithScript.test_edit_changes_command_in_toml_mode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_edit.TestEditWithScript.test_edit_changes_in_files_mode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_env.TestEnvSet.test_env_set_persists_in_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_env.TestEnvSet.test_env_set_requires_args",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_env.TestEnvSet.test_env_set_variable",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_env.TestEnvUnset.test_env_requires_subcommand",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_env.TestEnvUnset.test_env_set_then_unset",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_env.TestEnvUnset.test_env_unset_variable",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestAddErrors.test_add_with_invalid_dependency",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestAddErrors.test_add_with_nonexistent_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestAddErrors.test_add_with_nonexistent_working_dir",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestEnqueueErrors.test_enqueue_running_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestEnvErrors.test_env_set_nonexistent_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestEnvErrors.test_env_unset_nonexistent_variable",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestFollowCommand.test_follow_no_running_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestFollowCommand.test_follow_nonexistent_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestFollowCommand.test_follow_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestGroupErrors.test_add_duplicate_group_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestGroupErrors.test_parallel_nonexistent_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestGroupErrors.test_remove_default_group_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestGroupErrors.test_remove_group_with_tasks_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestGroupErrors.test_status_nonexistent_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestKillErrors.test_kill_nonexistent_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestKillErrors.test_kill_with_signal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestLogEdgeCases.test_log_for_stashed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestLogEdgeCases.test_log_group_no_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestLogEdgeCases.test_log_json_empty",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestRemoveDependencies.test_can_remove_task_and_all_dependents",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestRemoveDependencies.test_can_remove_task_with_done_dependent",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestRemoveDependencies.test_cannot_remove_task_with_dependent",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestRemoveErrors.test_remove_multiple_with_nonexistent",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestRemoveErrors.test_remove_running_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestRestartErrors.test_restart_no_matching_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestRestartErrors.test_restart_nonexistent_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestRestartErrors.test_restart_queued_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestSendErrors.test_send_to_non_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestSendErrors.test_send_to_nonexistent_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestStashErrors.test_stash_done_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestStashErrors.test_stash_no_matching_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestStatusEdgeCases.test_status_json_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestStatusEdgeCases.test_status_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestStatusEdgeCases.test_status_with_invalid_query",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestSwitchErrors.test_switch_running_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_errors.TestWaitErrors.test_wait_nonexistent_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupAdd.test_add_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupAdd.test_add_group_appears_in_list",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupAdd.test_add_group_with_parallel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupAdd.test_add_group_with_parallel_zero_unlimited",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupAdd.test_add_multiple_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupList.test_group_list_default",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupList.test_group_list_json",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupList.test_group_list_shows_parallel_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupRemove.test_remove_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestGroupRemove.test_removed_group_not_in_list",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestParallel.test_parallel_adjust_default_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestParallel.test_parallel_adjust_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_groups.TestParallel.test_parallel_zero_means_unlimited",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestEditWithLabel.test_edit_labeled_task_in_files_mode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_all_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_completed_successfully_message",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_full_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_json",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_lines_limit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_multiple_task_ids",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_shows_completed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_shows_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_shows_task_metadata",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLog.test_log_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLogSpecialStatuses.test_log_dependency_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLogSpecialStatuses.test_log_paused_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLogSpecialStatuses.test_log_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_log.TestLogSpecialStatuses.test_log_with_label_shows_label",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestDaemonRestart.test_restart_with_stale_pid_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestDaemonStartupErrors.test_cannot_start_daemon_when_already_running",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestFailedToSpawnTask.test_failed_to_spawn_invalid_shell_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestMinimalConfig.test_config_with_path_expansion",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestMinimalConfig.test_daemon_minimal_config_no_pueue_dir",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestPauseGroupOnFailure.test_pause_all_on_failure",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestPauseGroupOnFailure.test_pause_group_on_failure",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestSettingsDefaultPath.test_read_config_from_xdg_path",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestSocketPermissions.test_daemon_restart_with_stale_socket",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestSocketPermissions.test_daemon_with_custom_socket_permissions",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestUserConfirmation.test_kill_with_confirmation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_settings_coverage.TestUserConfirmation.test_remove_with_confirmation_abort",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestColoredOutput.test_color_always_log_with_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestColoredOutput.test_color_always_status_running",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestColoredOutput.test_color_always_status_with_success_and_failure",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestColoredOutput.test_dark_mode_with_color_always",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestDaemonMultipleConnections.test_multiple_status_requests",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestDaemonMultipleConnections.test_rapid_add_requests",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestEnqueueDelayEdgeCases.test_enqueue_with_rfc3339_delay",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestEnqueueDelayEdgeCases.test_stash_with_time_delay",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestKillWithSignals.test_kill_all_with_signal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestKillWithSignals.test_kill_signal_int_numeric",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestKillWithSignals.test_kill_with_sigint",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestKillWithSignals.test_kill_with_sigterm",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestLogFormats.test_log_json_full",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestLogFormats.test_log_shows_killed_status",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestMaxStatusLines.test_max_status_lines_truncates_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestPauseResumeTaskState.test_pause_group_while_tasks_running",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestPauseResumeTaskState.test_pause_then_resume_specific_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestPauseResumeTaskState.test_resume_paused_group_with_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestResetVariants.test_reset_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestResetVariants.test_reset_with_running_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestSettingsCoverage.test_status_time_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestStashEnqueueCycle.test_enqueue_with_group_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestStashEnqueueCycle.test_stash_enqueue_multiple_times",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestTaskOutputCapture.test_multiline_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestTaskOutputCapture.test_stderr_captured",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestTaskOutputCapture.test_stdout_captured",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestWaitFailedDependency.test_wait_for_running_status",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_state_coverage.TestWaitFailedDependency.test_wait_with_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusBasic.test_status_after_adding_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusBasic.test_status_empty_queue",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusBasic.test_status_json_after_adding_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusBasic.test_status_json_empty",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusBasic.test_status_shows_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusBasic.test_status_shows_path",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusBasic.test_status_shows_task_id",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusGroupFilter.test_status_default_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusGroupFilter.test_status_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_column_selection",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_filter_by_command_contains",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_filter_by_status_stashed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_filter_label",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_filter_status_failed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_filter_status_success",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_limit_first",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_limit_last",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusQuery.test_query_order_by_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusTaskStates.test_status_shows_failed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusTaskStates.test_status_shows_group_paused",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusTaskStates.test_status_shows_queued",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusTaskStates.test_status_shows_running_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusTaskStates.test_status_shows_stashed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_status.TestStatusTaskStates.test_status_shows_success",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestClean.test_clean_removes_finished_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestClean.test_clean_successful_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestClean.test_clean_with_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestEnqueue.test_enqueue_all_stashed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestEnqueue.test_enqueue_stashed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestEnqueue.test_enqueue_with_delay",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestKill.test_kill_all_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestKill.test_kill_default_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestKill.test_kill_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestKill.test_kill_specific_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRemove.test_remove_alias_rm",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRemove.test_remove_multiple_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRemove.test_remove_nonexistent_task_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRemove.test_remove_requires_ids",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRemove.test_remove_stashed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestReset.test_reset_clears_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestReset.test_reset_force",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRestart.test_restart_all_failed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRestart.test_restart_creates_new_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRestart.test_restart_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRestart.test_restart_immediate",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRestart.test_restart_in_place",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestRestart.test_restart_stashed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestSend.test_send_input_to_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestSend.test_send_requires_two_args",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStartPause.test_pause_all_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStartPause.test_pause_default_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStartPause.test_pause_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStartPause.test_start_all_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStartPause.test_start_default_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStartPause.test_start_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStartPause.test_start_specific_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStash.test_stash_all_queued",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStash.test_stash_queued_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStash.test_stash_with_delay",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestStashGroupCoverage.test_stash_group_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestSwitch.test_switch_two_queued_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestSwitch.test_switch_two_stashed_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestSwitchEdgeCases.test_switch_task_with_itself_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_task_management.TestSwitchEdgeCases.test_switch_updates_dependencies",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_wait.TestWait.test_wait_all_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_wait.TestWait.test_wait_for_task_to_finish",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_wait.TestWait.test_wait_quiet_produces_no_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_wait.TestWait.test_wait_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_wait.TestWait.test_wait_specific_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_wait.TestWait.test_wait_with_status_success",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_daemon_wait.TestWait.test_wait_without_quiet_shows_progress",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_edit_priority.TestEditFilesModePriorityError.test_edit_files_mode_invalid_priority_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_edit_priority.TestEditFilesModePriorityError.test_edit_files_mode_non_existing_path_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_edit_priority.TestLogFilesEdgeCases.test_log_lines_reads_from_end",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_edit_priority.TestLogFilesEdgeCases.test_log_output_many_lines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_edit_priority.TestPriorityScheduling.test_priority_sort_with_mixed_priorities",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_edit_priority.TestSettingsReadFromDefault.test_settings_read_from_xdg",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_edit_priority.TestTableBuilderEdgeCases.test_table_output_with_all_columns",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_edit_priority.TestTableBuilderEdgeCases.test_table_with_running_paused_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_datetime_filter_gt",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_datetime_filter_lt",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_datetime_filter_neq",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_end_date_filter_equal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_end_filter_with_no_end_time",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_enqueue_at_filter_no_enqueue",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_start_date_filter_equal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_start_date_filter_neq",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestDatetimeFilterEdgeCases.test_start_filter_with_no_start_time",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestLogEmptyGroups.test_log_group_with_no_finished_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestQueryColumnFiltersEdgeCases.test_command_eq_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestQueryColumnFiltersEdgeCases.test_command_neq_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestQueryColumnFiltersEdgeCases.test_label_neq_filter_no_label",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestSpawnEdgeCases.test_failed_to_spawn_invalid_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestStatusDisplayEdgeCases.test_status_dependency_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestStatusDisplayEdgeCases.test_status_shows_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestStatusDisplayEdgeCases.test_status_shows_killed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestStatusDisplayEdgeCases.test_status_with_enqueue_at_shown",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestStatusDisplayEdgeCases.test_status_with_stashed_no_enqueue",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestStatusFilterPausedTasks.test_filter_paused_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestStatusFilterPausedTasks.test_filter_status_neq_paused",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestStatusOrderByEdgeCases.test_order_by_enqueue_at",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestWaitForQueuingStatus.test_wait_for_running_status_with_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_filter_edge_cases.TestWaitForQueuingStatus.test_wait_status_queued_target",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestDaemonWithoutConfig.test_daemon_creates_default_config",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestFollowEdgeCases.test_follow_invalid_task_id",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestFollowEdgeCases.test_follow_multiple_running_tasks_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestGroupWithTasks.test_group_add_duplicate_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestGroupWithTasks.test_remove_default_group_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestGroupWithTasks.test_remove_group_with_tasks_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestLogAllGroups.test_log_all_shows_tasks_from_all_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestLogAllGroups.test_log_json_all",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestParallelCommand.test_parallel_set_for_default_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestParallelCommand.test_parallel_set_for_specific_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestParallelCommand.test_parallel_unlimited_zero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestRestartEdgeCases.test_restart_multiple_failed_in_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestRestartEdgeCases.test_restart_with_edit_uses_editor",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestShutdownCommand.test_shutdown_terminates_daemon",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusGroupEmpty.test_status_group_nonexistent",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusGroupEmpty.test_status_json_with_query",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusGroupEmpty.test_status_single_empty_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusQueryEdgeCases.test_query_end_column",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusQueryEdgeCases.test_query_limit_count_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusQueryEdgeCases.test_query_order_by_priority",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusQueryEdgeCases.test_query_start_column",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusQueryEdgeCases.test_query_status_not_queued",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusTimeFormats.test_status_with_custom_datetime_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusWithMultipleGroups.test_status_multiple_groups_with_newlines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestStatusWithMultipleGroups.test_status_shows_all_groups_when_no_group_specified",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestVerboseModeCoverage.test_daemon_verbose_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestWaitEdgeCasesMore.test_wait_failed_to_spawn_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestWaitEdgeCasesMore.test_wait_new_task_discovery_during_wait",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestWaitEdgeCasesMore.test_wait_task_killed_shows_message",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestWaitEdgeCasesMore.test_wait_watches_paused_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_more_coverage.TestWaitEdgeCasesMore.test_wait_with_queued_status_target",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_state_restore.TestCompressedStateRestore.test_daemon_restores_from_compressed_state",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_state_restore.TestDaemonRestoreWithRunningTasks.test_daemon_marks_running_tasks_as_killed_on_restart",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_state_restore.TestStateRestoreWithLockedTasks.test_locked_tasks_become_stashed_on_restart",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_state_restore.TestStateRestoreWithTasksInDeletedGroup.test_tasks_moved_to_default_group_on_restore",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_add_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_certs_created",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_clean_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_env_set_unset",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_group_operations",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_kill_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_log_json",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_log_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_parallel_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_pause_resume_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_remove_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_restart_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_run_task_and_get_status",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_stash_enqueue_cycle",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_status_shows_groups",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_switch_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsConnection.test_tls_wait_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsLogReadModes.test_tls_log_full",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_tls_coverage.TestTlsLogReadModes.test_tls_log_with_lines_limit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDaemonTaskHandlerEnqueue.test_delayed_enqueue_stash_with_1s_delay",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDelayFormats.test_delay_as_days_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDelayFormats.test_delay_as_hours_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDelayFormats.test_delay_as_pure_seconds_number",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDelayFormats.test_delay_invalid_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDelayFormats.test_enqueue_with_pure_seconds_delay",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDelayFormats.test_stash_with_pure_seconds_delay",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDelayedTaskEnqueue.test_short_delay_task_auto_enqueues",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDependencyWithPausedGroup.test_dependency_fails_when_dep_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestDependencyWithPausedGroup.test_dependency_in_paused_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitEmptyTaskList.test_wait_empty_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitEmptyTaskList.test_wait_no_matching_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitStatusChanges.test_wait_multiple_tasks",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitStatusChanges.test_wait_shows_status_string_color",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitStatusChanges.test_wait_status_change_queued_to_running",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitWithDependencies.test_wait_dependent_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitWithDependencies.test_wait_failed_dependency_exits_nonzero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitWithKilledTask.test_wait_killed_task_message",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_advanced.TestWaitWithKilledTask.test_wait_shows_progress_for_running_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_edge_cases.TestFollowEdgeCasesMore.test_follow_stashed_task_then_runs",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_edge_cases.TestFollowEdgeCasesMore.test_follow_task_removed_during_follow",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_edge_cases.TestTracing.test_tracing_verbose_4_flags_daemon",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_edge_cases.TestWaitNewTasksDuringWait.test_wait_new_task_added_during_wait",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_edge_cases.TestWaitPausedTask.test_wait_initially_sees_paused_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_edge_cases.TestWaitTaskRemovedDuringWait.test_wait_for_dependency_failed_task",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_edge_cases.TestWaitTaskRemovedDuringWait.test_wait_task_removed_during_wait",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "803faac7d834/eval.tests.test_wait_edge_cases.TestWaitWithFailedToSpawn.test_wait_shows_failed_to_spawn",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    }
+  ]
+}

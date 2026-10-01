@@ -1,0 +1,100 @@
+module completions {
+
+  export extern rustowl [
+    --version(-V)             # Print version
+    --quiet(-q)               # Suppress output
+    --stdio                   # Use stdio to communicate with the LSP server
+    --help(-h)                # Print help
+  ]
+
+  # Check availability
+  export extern "rustowl check" [
+    --all-targets             # Run the check for all targets instead of current only
+    --all-features            # Run the check for all features instead of the current active ones only
+    --help(-h)                # Print help
+    path?: path               # The path of a file or directory to check availability
+  ]
+
+  # Remove artifacts from the target directory
+  export extern "rustowl clean" [
+    --help(-h)                # Print help
+  ]
+
+  # Install or uninstall the toolchain
+  export extern "rustowl toolchain" [
+    --help(-h)                # Print help
+  ]
+
+  # Install the toolchain
+  export extern "rustowl toolchain install" [
+    --path: path              # Runtime directory path to install RustOwl toolchain
+    --skip-rustowl-toolchain  # Install Rust toolchain only
+    --help(-h)                # Print help
+  ]
+
+  # Uninstall the toolchain
+  export extern "rustowl toolchain uninstall" [
+    --help(-h)                # Print help
+  ]
+
+  # Print this message or the help of the given subcommand(s)
+  export extern "rustowl toolchain help" [
+  ]
+
+  # Install the toolchain
+  export extern "rustowl toolchain help install" [
+  ]
+
+  # Uninstall the toolchain
+  export extern "rustowl toolchain help uninstall" [
+  ]
+
+  # Print this message or the help of the given subcommand(s)
+  export extern "rustowl toolchain help help" [
+  ]
+
+  def "nu-complete rustowl completions shell" [] {
+    [ "bash" "elvish" "fish" "powershell" "zsh" "nushell" ]
+  }
+
+  # Generate shell completions
+  export extern "rustowl completions" [
+    --help(-h)                # Print help (see more with '--help')
+    shell: string@"nu-complete rustowl completions shell" # The shell to generate completions for
+  ]
+
+  # Print this message or the help of the given subcommand(s)
+  export extern "rustowl help" [
+  ]
+
+  # Check availability
+  export extern "rustowl help check" [
+  ]
+
+  # Remove artifacts from the target directory
+  export extern "rustowl help clean" [
+  ]
+
+  # Install or uninstall the toolchain
+  export extern "rustowl help toolchain" [
+  ]
+
+  # Install the toolchain
+  export extern "rustowl help toolchain install" [
+  ]
+
+  # Uninstall the toolchain
+  export extern "rustowl help toolchain uninstall" [
+  ]
+
+  # Generate shell completions
+  export extern "rustowl help completions" [
+  ]
+
+  # Print this message or the help of the given subcommand(s)
+  export extern "rustowl help help" [
+  ]
+
+}
+
+export use completions *

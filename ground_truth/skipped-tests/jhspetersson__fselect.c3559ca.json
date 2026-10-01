@@ -1,0 +1,4221 @@
+{
+  "instance_id": "jhspetersson__fselect.c3559ca",
+  "skipped_tests": [
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_aggregate_stddev_variance",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_group_by_order_by_aggregate_result",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_group_by_then_order_by_different_column",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_group_by_with_all_aggregates",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_group_by_with_limit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_group_by_with_multiple_aggregates",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_group_by_with_nested_directories",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_group_by_with_where_filter",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_multiple_aggregates_with_where_and_limit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_order_by_case_sensitivity",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_order_by_multi_column_mixed_directions",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_order_by_name_alphabetical",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_order_by_name_desc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_order_by_size_asc",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_order_by_size_desc",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_order_by_with_limit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_aggregation_ordering.test_order_by_zero_limit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_limit_with_offset",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_limit_without_order",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_order_by_size_desc_limit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_output_format_csv",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_output_format_json",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_select_multiple_columns_name_size",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_where_size_gt",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_where_size_gte",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_core_queries.test_where_size_lt",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_datetime.test_created_field_datetime",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_datetime.test_natural_language_date_uk_dialect",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_dockerignore_gaps.test_comments_and_empty_lines_ignored",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors.test_circular_symlink",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors.test_directory_vs_file_distinction",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors.test_multiple_where_conditions_with_or",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors.test_parenthesized_expressions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_errors.test_permission_denied_directory",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_advanced_settings",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_basic_camera_fields",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_camera_settings",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_datetime_fields",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_datetime_parsing_format",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_exposure_program_decoded",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_exposure_settings",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_exposure_time_fractional_format",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_flash_detailed_decoding",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_gps_altitude_only",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_gps_coordinates",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_image_adjustments",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_image_dimensions_and_specs",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_lens_information",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_metadata_fields",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_metering_mode_decoded",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_orientation_human_readable",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_serial_numbers",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_shutter_and_sensitivity",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_exif_fields_gaps.test_exif_software_version",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_expr_deeper_gaps.test_multiple_datetime_fields_in_select",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_field_dispatch_gaps.test_has_extattrs_extattrs_fields",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_field_dispatch_gaps.test_has_xattrs_xattr_count_fields",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_functions.test_group_by_with_ordering",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_interactive.test_interactive_errors_toggle_persistence",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_between_operator",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_curly_braces_value_set",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_date_year_boundary_lower",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_empty_backtick_quoted_string",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_empty_double_quoted_string",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_empty_single_quoted_string",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_group_by_clause",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_into_json_format",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_limit_clause",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_not_logical_operator",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_offset_clause",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_or_logical_operator",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_lexer_gaps.test_regexp_operator",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_main_cli_gaps.test_multiple_flags_before_query",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_audio_duration_and_bitrate",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_audio_duration_between_range",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_audio_frequency_field",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_audio_json_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_audio_mp3_tags_empty",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_add_dimensions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_calculated_pixel_count",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_concat_dimensions_as_string",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_dimensions_all_formats",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_exif_basic_fields_empty",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_exif_gps_fields_empty",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_exif_software_field",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_filter_exact_dimensions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_filter_width_greater_or_equal_144",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_filter_width_greater_than_100",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_filter_width_less_than_150",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_filter_width_range_with_multiple_conditions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_image_order_by_dimensions_descending",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_media_metadata.test_mixed_media_types_ordered_by_width",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_metadata_fields_gap.test_timestamp_fields_created_accessed_modified_all_present",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_metadata_fields_gap.test_xattr_has_xattrs_and_count",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_metadata_handlers_deeper.test_created_accessed_modified_fields_distinct",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_metadata_handlers_deeper.test_has_extattrs_false_for_regular_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_metadata_handlers_gaps.test_created_field_returns_datetime",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_metadata_handlers_gaps.test_hardlinks_multiple_hardlinks",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_metadata_handlers_gaps.test_is_dir_from_zip_archive_file_info_slash_check",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_mode_coverage_verification.test_windows_platform_paths_not_executed_on_unix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_output_formats.test_default_output_format_is_tabs",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_deeper_gaps.test_field_alias_in_select",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_deeper_gaps.test_regex_mode_keyword",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_deeper_gaps.test_root_alias_assignment",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_arithmetic_addition",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_arithmetic_division",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_arithmetic_modulo",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_arithmetic_multiplication",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_arithmetic_subtraction",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_complex_nested_expression_and_or",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_curly_brace_grouping_nested",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_double_not_negation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_negative_field_value",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_not_with_parentheses",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_operator_precedence_mul_before_add",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_parser_gaps.test_operator_precedence_parentheses_override",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_path_options.test_archives_option_short_form",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_path_options.test_depth_alias_is_equivalent_to_maxdepth",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_path_options.test_symlinks_option_short_form",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_output_format_case_insensitive_csv",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_output_format_case_insensitive_html",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_output_format_case_insensitive_json",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_output_format_csv",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_output_format_html",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_output_format_json",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_output_format_lines",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_output_format_list",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_root_option_archives",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_root_option_gitignore",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_root_option_hgignore",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_query_gaps.test_root_option_nogitignore",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_deeper_gaps.test_limit_restricts_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_deeper_gaps.test_limit_with_offset",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_deeper_gaps.test_traversal_mode_bfs",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_deeper_gaps.test_traversal_mode_dfs",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_edge_cases_3.test_bfs_traversal_mode",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_edge_cases_3.test_depth_with_dfs_mode",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_edge_cases_3.test_dfs_traversal_mode",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_edge_cases_3.test_limit_clause",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_edge_cases_3.test_limit_with_offset",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_gaps.test_limit_restricts_result_count",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_searcher_gaps.test_offset_skips_initial_results",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_unix_features.test_all_unix_columns_combined",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_unix_features.test_extattrs_column",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_unix_features.test_filter_has_extattrs_false",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_unix_features.test_filter_has_extattrs_true",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_unix_features.test_has_extattr_function_multiple_flags",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_unix_features.test_has_extattrs_column",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_unix_features.test_mixed_unix_and_standard_columns",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_util_deeper_gaps.test_hash_length_verification",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_arithmetic_addition_in_where",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_arithmetic_minus_word_syntax",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_arithmetic_mul_word_syntax",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_arithmetic_multiplication_in_where",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_arithmetic_operator_precedence",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_arithmetic_subtraction_in_where",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_between_operator_inclusive",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_comparison_gt",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_comparison_lt",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_comparison_ne",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_comparison_ne_alt_syntax",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_ene_not_triple_equals_operator",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_gt_word_syntax",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_logical_and",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_logical_complex_parentheses",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_ne_word_syntax",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "06dabfabaea7/tests.test_where_expressions.test_notbetween_operator",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_acl_entry_function_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_acl_entry_function_user",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_acl_with_group_entry",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_acl_with_user_and_group_entries",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_default_acl_entry_function",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_default_acl_on_dir",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_has_acl_entry_function",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_has_acl_true",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestACLFunctionality.test_has_default_acl_entry_function",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestCapabilitiesFields.test_capabilities_field_on_file_with_caps",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestCapabilitiesFields.test_has_capabilities_on_binary_with_caps",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_cap_coverage.TestCapabilitiesFields.test_has_capability_function_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLEntryTypes.test_acl_entry_mask",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLEntryTypes.test_acl_entry_other",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLEntryTypes.test_acl_group_entry_by_name",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLEntryTypes.test_acl_m_and_o_aliases",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLEntryTypes.test_has_acl_entry_mask",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLEntryTypes.test_has_acl_entry_other",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFieldsWithRealACL.test_acl_entry_function",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFieldsWithRealACL.test_acl_field_multiple_entries",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFieldsWithRealACL.test_acl_field_shows_entries",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFieldsWithRealACL.test_default_acl_on_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFieldsWithRealACL.test_group_acl_entry",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFieldsWithRealACL.test_has_acl_entry_function_false",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFieldsWithRealACL.test_has_acl_entry_function_true",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFieldsWithRealACL.test_has_acl_true_with_acl",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestACLFiltering.test_filter_by_has_acl",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestDefaultACL.test_default_acl_entry_function",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestDefaultACL.test_default_acl_shows_entries",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestDefaultACL.test_has_default_acl_entry_true",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_coverage.TestDefaultACL.test_has_default_acl_on_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_acl_functions.TestAclFormatting.test_acl_permissions_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_advanced_columns.TestAclColumns.test_acl_column",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_advanced_columns.TestAclColumns.test_has_acl_column",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_advanced_columns.TestFormatTimeFunction.test_format_time",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_coverage.TestArchiveModeMetadata.test_archive_formatted_size",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_coverage.TestArchiveModeMetadata.test_archive_is_dir_field",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_coverage.TestArchiveModeMetadata.test_archive_is_file_field",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_coverage.TestArchiveModeMetadata.test_archive_is_hidden",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_coverage.TestArchiveModeMetadata.test_archive_modified_date",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_coverage.TestArchiveModeMetadata.test_archive_path_field",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_coverage.TestArchiveModeMetadata.test_archive_size_field",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestArchiveFields.test_archive_fsize_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestArchiveFields.test_archive_is_dir_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestArchiveFields.test_archive_is_file_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestArchiveFields.test_archive_path_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestArchiveSearch.test_archive_mode_executable",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestArchiveSearch.test_archive_mode_regular_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestArchiveSearch.test_archive_size_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestFormatUnixMode.test_format_unix_mode_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestFormatUnixMode.test_format_unix_mode_suid",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_archive_mode.TestFormatUnixMode.test_format_unix_mode_symlink",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_capabilities.TestCapabilities.test_capabilities_v1",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_capabilities.TestCapabilities.test_capabilities_v3_with_rootid",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_columns.TestFileNameColumns.test_dir_column",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_columns.TestFileNameColumns.test_dirname_alias",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_columns.TestFileNameColumns.test_fname_alias",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_columns.TestTimestampColumns.test_created_column",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config.TestConfigFile.test_custom_config_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config.TestConfigFile.test_invalid_config_falls_back_to_default",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestCommandLineFlags.test_functions_completion",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestCommandLineFlags.test_no_color_flag_alt",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestCommandLineFlags.test_no_error_flag_suppresses_errors",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestCommandLineFlags.test_no_error_with_inaccessible_dir",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestCommandLineFlags.test_nocolor_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestCommandLineFlags.test_output_formats_completion",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestCommandLineFlags.test_root_options_completion",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestConfigFileFeatures.test_config_gitignore_setting",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestConfigFileFeatures.test_config_invalid_toml_error_message",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestConfigFileFeatures.test_config_no_color_setting",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_config_advanced.TestNoColorEnvironment.test_no_color_env_var",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_content_fields.TestContainsFunction.test_contains_not_found",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost.TestCommandLineOptions.test_no_error_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost.TestFunctionEdgeCases.test_current_group_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost.TestFunctionEdgeCases.test_current_user_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost.TestFunctionEdgeCases.test_format_time_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost.TestSearcherEdgeCases.test_offset_clause",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost.TestSpecialFiles.test_is_char_device_on_dev_null",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestACLWithNumericGroups.test_acl_entry_returns_empty_for_no_match",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestACLWithNumericGroups.test_acl_find_by_gid_number",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestACLWithNumericGroups.test_acl_find_by_uid_number",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestACLWithNumericGroups.test_acl_group_entry_with_unknown_gid",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestACLWithNumericGroups.test_acl_with_group_obj",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestACLWithNumericGroups.test_default_acl_group_entry",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestACLWithNumericGroups.test_default_acl_on_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestACLWithNumericGroups.test_has_acl_entry_using_g_shorthand",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestContentFunctions.test_is_text_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestFunctionEdgeCases.test_random_function_in_range",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestHgIgnoreEdgeCases.test_hgignore_subinclude_invalid_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestHgIgnoreEdgeCases.test_hgignore_with_invalid_syntax_directive",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestParserEdgeCases.test_invalid_depth_value",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestParserEdgeCases.test_order_by_position_asc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestSear\u0441herEdgeCases.test_error_on_invalid_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestStatisticalFunctions.test_stddev_pop_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestStatisticalFunctions.test_stddev_samp_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestStatisticalFunctions.test_var_pop_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_boost2.TestStatisticalFunctions.test_var_samp_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final.TestArchiveModeNone.test_mode_column_empty_for_dos_zip",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final.TestFunctionEdgeCases.test_coalesce_with_empty_first",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final.TestFunctionEdgeCases.test_current_group_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final.TestFunctionEdgeCases.test_current_user_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final_boost.TestDockerIgnoreParentSearch.test_dockerignore_invalid_pattern_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final_boost.TestFieldsAndColumns.test_is_empty_file_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final_boost.TestFieldsAndColumns.test_is_shebang_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final_boost.TestFunctionEdgeCases.test_current_group_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final_boost.TestFunctionEdgeCases.test_current_user_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final_boost.TestMoreOutputFormats.test_list_output_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final_boost.TestParserEdgeCases.test_limit_comma_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_final_boost.TestQueryFeaturesMore.test_order_by_positional_index",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gap_closing.TestExprAdvanced.test_arithmetic_with_functions",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gap_closing.TestHgIgnoreMorePaths.test_hgignore_empty_pattern_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gap_closing.TestSearcherEdgeCases3.test_depth_0_root_only",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestACLFields.test_has_acl_entry_function",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestACLFields.test_set_and_query_posix_acl",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestArchiveWithLimit.test_archive_limit_inner_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestArchiveWithLimit.test_archive_with_limit_restricts",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestCapabilityFields.test_capabilities_on_system_binary",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestFileSizeUnitsEdgeCases.test_invalid_size_with_k_unit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestFileSizeUnitsEdgeCases.test_size_between_kib_and_mb",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestFileSizeUnitsEdgeCases.test_size_eb_modifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestFileSizeUnitsEdgeCases.test_size_eib_modifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestFileSizeUnitsEdgeCases.test_size_with_gib_explicit_unit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestFunctionNonNumericCases.test_greatest_non_numeric",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_gaps.TestHasXattrsFunctions.test_has_xattr_function_false",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestConfigCoverage.test_config_file_with_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestContentHandlerCoverage.test_contains_function_not_found",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestDockerignoreCoverage.test_dockerignore_with_negation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestErrorHandlingCoverage.test_no_errors_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestFunctionEdgeCases.test_format_time_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestFunctionEdgeCases.test_random_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestFunctionEdgeCases.test_random_range_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestModeHandlersCoverage.test_mode_for_block_device",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestModeHandlersCoverage.test_mode_for_char_device",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestOperatorTypeCoverage.test_like_on_integer_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestOperatorTypeCoverage.test_regex_on_bool_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestOperatorTypeCoverage.test_regex_on_integer_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestOutputFormatEdgeCases.test_json_output_structure",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestParserErrorCoverage.test_between_with_wrong_number_of_args",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestParserErrorCoverage.test_unmatched_paren",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_coverage_targeted.TestVariantEdgeCases.test_sqrt_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_datetime_advanced.TestDateInWhereClauses.test_modified_date_comparison",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_datetime_advanced.TestDateInWhereClauses.test_modified_today_keyword",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_datetime_advanced.TestDateInWhereClauses.test_modified_yesterday_keyword",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_datetime_advanced.TestDateInWhereClauses.test_year_function_in_where",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_edge_cases.TestLimitWithCommaOffset.test_limit_comma_offset",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_edge_cases.TestNotBetween.test_not_between_operator",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_edge_coverage.TestColorizedOutputViaTerminal.test_colorized_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_edge_coverage.TestSearcherErrorPaths.test_search_with_permission_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_edge_coverage.TestSizeParsing.test_size_gib_invalid_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_edge_coverage.TestSizeParsing.test_size_kib_invalid_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling.TestColorOptions.test_no_color_env_var",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling.TestColorOptions.test_no_color_flag_variant",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling.TestColorOptions.test_nocolor_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling.TestEdgeCases.test_config_flag_nonexistent",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling.TestInvalidPaths.test_no_errors_flag_suppresses",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling.TestQueryParseErrors.test_invalid_query_syntax",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling_advanced.TestConfigErrors.test_missing_config_file_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling_advanced.TestEdgeCasesInPaths.test_depth_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling_advanced.TestEdgeCasesInPaths.test_limit_one",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling_advanced.TestEdgeCasesInPaths.test_limit_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_error_handling_advanced.TestNoErrorFlag.test_no_error_nonexistent_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_exif.TestExifMetadata.test_exif_color_space",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_exif.TestExifMetadata.test_exif_white_balance",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_extra_coverage.TestDatetimeComparisons.test_datetime_strict_equal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_extra_coverage.TestFormatSize.test_format_size_with_various_modifiers",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_extra_coverage.TestNotExistsOperator.test_not_exists_operator",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_final_coverage.TestACLRemainingCoverage.test_acl_entry_g_alias",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_final_coverage.TestACLRemainingCoverage.test_acl_entry_group_obj_empty_qualifier",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_final_coverage.TestACLRemainingCoverage.test_acl_entry_u_alias",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_final_coverage.TestACLRemainingCoverage.test_acl_entry_user_obj_empty_qualifier",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_final_coverage.TestACLRemainingCoverage.test_acl_with_group_acl_tag_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_final_coverage.TestParserRemainingCoverage.test_limit_offset_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size.TestFormatSizeAdvancedModifiers.test_format_size_conventional_c",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size.TestFormatSizeAdvancedModifiers.test_format_size_short_s",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size.TestFormatTimeModifiers.test_format_time_one_hour",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size.TestFormatTimeModifiers.test_format_time_seconds",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size_advanced.TestFileSizeUnitsInWhere.test_size_gb_where",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size_advanced.TestFormatSizeModifiers.test_format_size_conventional_modifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size_advanced.TestFormatSizeModifiers.test_format_size_decimal_modifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size_advanced.TestFormatSizeModifiers.test_format_size_no_modifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size_advanced.TestFormatSizeModifiers.test_format_size_short_units_modifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_format_size_advanced.TestFormatSizeModifiers.test_format_size_with_zeroes_modifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_function_edge_cases.TestReplaceEdgeCases2.test_replace_one_arg_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_function_edge_cases.TestSubstrEdgeCases2.test_substr_from_zero_index",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_function_errors.TestContainsFunction.test_contains_no_match",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_function_errors.TestFormatSizeEdgeCases.test_format_size_with_kib_modifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_function_errors.TestFormatTimeEdgeCases.test_format_time_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_functions.TestUserFunctions.test_current_group",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_functions.TestUserFunctions.test_current_user",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_glob_like_patterns.TestStrictEqualityWithGlob.test_strict_eq_ignores_glob",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_interactive.TestInteractiveDebug.test_interactive_cd_no_path_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_interactive.TestInteractiveErrors.test_interactive_errors_off_hides_errors",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_interactive.TestInteractiveMode.test_interactive_query_into_json",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_interactive.TestInteractiveMode.test_interactive_with_full_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_interactive.TestInteractiveMode.test_interactive_with_i_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_interactive.TestInteractiveWithConfig.test_interactive_with_config_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_media_files.TestMp3MetadataWithTags.test_mp3_title",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_metadata_fields.TestFileSystemMetadata.test_blocks_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_metadata_fields.TestFileSystemMetadata.test_device_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_metadata_fields.TestFileSystemMetadata.test_gid_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_metadata_fields.TestFileSystemMetadata.test_group_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_metadata_fields.TestFileSystemMetadata.test_user_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_mode_fields.TestModeField.test_mode_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_mode_fields.TestModeField.test_mode_symlink",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_mode_fields.TestPermissionFields.test_group_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_mode_fields.TestPermissionFields.test_user_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_mode_fields_advanced.TestExtAttrFilter.test_has_extattrs_false",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_coverage.TestDatetimeEdgeCases.test_date_comparison_with_hour",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_coverage.TestDatetimeEdgeCases.test_modified_date_specific",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_coverage.TestErrorHandlingPaths.test_no_error_flag_suppresses_path_errors",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_coverage.TestExtAttrSpecific.test_has_extattr_multi_char_returns_false",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_coverage.TestExtAttrSpecific.test_has_extattr_with_single_char_not_in_list",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_coverage.TestOperatorNegation.test_not_between",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_coverage.TestParserEdgeCases.test_group_by_in_path_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_coverage.TestParserEdgeCases.test_order_by_with_numeric_position",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_functions.TestAdditionalStringFunctions.test_lower_mixed_case",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_functions.TestContainsFileContent.test_contains_lowercase_mismatch",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_query_features.TestNotInOperator.test_not_in_multi",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_more_query_features.TestParserEdgeCases.test_extra_tokens_after_query",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestACLFunctions.test_acl_entry_group",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestACLFunctions.test_acl_entry_user_permissions",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestACLFunctions.test_acl_filter_by_entry",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestACLFunctions.test_default_acl_entry_value",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestACLFunctions.test_default_acl_on_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestACLFunctions.test_has_acl_entry_user",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestACLFunctions.test_has_acl_nonexistent_user",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestCapabilityFunctions.test_has_cap_function_false",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestCurrentUserFunctions.test_current_group",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestCurrentUserFunctions.test_current_user",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestFromUnixtime.test_from_unixtime_invalid_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestGlobLikeErrors.test_like_empty_in_query",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestGlobLikeErrors.test_like_empty_pattern_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestGroupByEdgeCases.test_aggregate_no_matching_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestSearcherPathErrors.test_nonexistent_root_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestSearcherPathErrors.test_permission_denied_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestUtilDatetimeEdgeCases.test_invalid_date_in_where_clause",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_new_coverage.TestUtilDatetimeEdgeCases.test_modified_yesterday",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_not_operators.TestNotExistsOperator.test_not_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_not_operators.TestNotOperators.test_not_regex",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_path_options.TestDepthOptions.test_mindepth",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_query_clauses.TestGroupBy.test_group_by_count",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_query_clauses.TestLimit.test_limit_1",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_query_clauses.TestOrderBy.test_order_by_name_asc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_query_clauses.TestOrderBy.test_order_by_name_desc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_searcher_paths.TestGroupByEdgeCases.test_group_by_multiple_columns",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_searcher_paths.TestGroupByEdgeCases.test_group_by_with_sum",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_searcher_paths.TestInaccessibleFiles.test_restricted_subdir_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_searcher_paths.TestOrderByEdgeCases.test_order_by_descending",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_searcher_paths.TestOrderByEdgeCases.test_order_by_multiple_columns",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_searcher_paths.TestOrderByEdgeCases.test_order_by_positional",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_searcher_paths.TestQueryParsingEdgeCases.test_offset_clause",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestContainsFunctionArchive.test_contains_in_archive_returns_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestExpressionComplexCoverage.test_aggregate_in_nested_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestExpressionComplexCoverage.test_where_with_arithmetic_comparison",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_b_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_g_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_gb_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_gib_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_k_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_kb_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_kib_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_m_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_mb_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_parsing_edge_cases.TestFileSizeParsingEdgeCases.test_invalid_mib_unit_prefix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_units.TestDateFilters.test_modified_equals_yesterday",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_size_units.TestFileSizeUnits.test_size_in_gigabytes_g",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_special_files.TestSymlinkFiles.test_mode_readable_with_no_read_permission",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_special_queries.TestDatetimeColumns.test_created_column",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_specific_coverage.TestACLAllCoverage.test_acl_entry_mask",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_specific_coverage.TestACLAllCoverage.test_acl_entry_other",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_specific_coverage.TestACLAllCoverage.test_acl_with_mask_entry",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_specific_coverage.TestACLAllCoverage.test_has_acl_entry_with_u_alias",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_specific_coverage.TestFunctionEdgeCases2.test_random_function",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_specific_coverage.TestSearcherEdgeCases2.test_limit_zero_with_constant_fields",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_subqueries_advanced.TestDatetimeComparisons.test_created_filter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_subqueries_advanced.TestNotOperator.test_not_like",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_system_files.TestGlobEdgeCases.test_empty_glob_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_system_files.TestSpecialFileModes.test_socket_file_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestOperatorVariants.test_between_with_size",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestOperatorVariants.test_ene_operator",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestOperatorVariants.test_ge_operator",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestOperatorVariants.test_lt_operator",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestOperatorVariants.test_ne_operator_alias",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestOperatorVariants.test_not_between_operator",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestPathOptions.test_bfs_option",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestPathOptions.test_dfs_option",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestSizeUnitsInQueries.test_size_in_bytes_b",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestSizeUnitsInQueries.test_size_in_gib",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestSizeUnitsInQueries.test_size_in_kb",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestSizeUnitsInQueries.test_size_in_kib",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestSizeUnitsInQueries.test_size_in_kib_explicit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestSizeUnitsInQueries.test_size_in_mb",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_uncovered_operators.TestSizeUnitsInQueries.test_size_in_mib",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_where_clauses.TestEqualityOperators.test_not_equals_ne_operator",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_xattr.TestExtAttrs.test_extattrs_field_empty",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_xattr.TestExtAttrs.test_extattrs_field_with_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825a526c70ae/eval.tests.test_xattr.TestExtAttrs.test_has_extattrs_filter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    }
+  ]
+}

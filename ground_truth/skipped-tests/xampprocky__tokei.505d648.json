@@ -1,0 +1,231 @@
+{
+  "instance_id": "xampprocky__tokei.505d648",
+  "skipped_tests": [
+    {
+      "name": "5f3dc7c94191/eval.tests.test_help_output.test_help_contains_no_ansi_color_codes_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5f3dc7c94191/eval.tests.test_help_output.test_help_exit_code_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5f3dc7c94191/eval.tests.test_help_output.test_help_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5f3dc7c94191/eval.tests.test_help_output.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5f3dc7c94191/eval.tests.test_help_output.test_short_help_h_matches_long_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "62a430dc1ca2/eval.tests.test_edge_cases.test_permission_denied_handling",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "62a430dc1ca2/eval.tests.test_filtering.test_exclude_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "62a430dc1ca2/eval.tests.test_filtering.test_exclude_short_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "62a430dc1ca2/eval.tests.test_input_output.test_verbose_flag_level_3",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "822765e1e5d8/eval.tests.test_args_parsing_validation.test_columns_accepts_non_negative_integers",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "822765e1e5d8/eval.tests.test_args_parsing_validation.test_verbose_flag_variants_are_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bb1898ebbd54/eval.tests.test_counting_basic.test_output_json_counts_expected_files_and_lines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_cli_basic.test_gitignore_respected_by_default",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_config_input.test_input_from_file_adds_to_scan",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_config_input.test_input_from_stdin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_error_handling.test_file_at_root_of_filesystem",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_filtering.test_gitignore_and_tokeignore_both_apply",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_filtering.test_gitignore_respected_by_default",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_filtering.test_nested_gitignore_files",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_filtering.test_no_ignore_dot_keeps_gitignore_active",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_filtering.test_no_ignore_parent_respects_current_dir_ignore",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_harvest.test_jupyter_notebook",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_smoke.test_binary_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_sorting.test_rsort_files_equals_descending_file_count",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_sorting.test_sort_comments_with_ties_secondary_ordering",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d6cf5754a29c/tests.test_sorting.test_sort_lines_equals_sort_by_total",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387881,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ef8c3f2f4a8e/eval.tests.test_externalized",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    }
+  ]
+}

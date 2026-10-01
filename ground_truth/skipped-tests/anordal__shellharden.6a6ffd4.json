@@ -1,0 +1,1227 @@
+{
+  "instance_id": "anordal__shellharden.6a6ffd4",
+  "skipped_tests": [
+    {
+      "name": "0574468f33d5/eval.tests.test_edge_cases.test_only_whitespace",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2adea0c46a9f/eval.tests.test_help_output.test_help_contains_no_ansi_escape_codes_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2adea0c46a9f/eval.tests.test_help_output.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2adea0c46a9f/eval.tests.test_help_output.test_help_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2adea0c46a9f/eval.tests.test_help_output.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2adea0c46a9f/eval.tests.test_help_output.test_short_help_flag_matches_long_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestDefaultBehavior.test_consistent_defaults",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestDefaultBehavior.test_version_unaffected_by_env",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestEnvIsolation.test_lang_locale_env",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestEnvironmentVariables.test_no_shellharden_options_env",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestEnvironmentVariables.test_no_shellharden_syntax_env",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestEnvironmentVariables.test_term_env_preserved",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestHomeAndXDG.test_missing_home_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestHomeAndXDG.test_unset_home_env",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestHomeAndXDG.test_xdg_cache_home_not_used",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestHomeAndXDG.test_xdg_config_home_ignored",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestHomeAndXDG.test_xdg_data_home_not_used",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestNoConfigFiles.test_config_file_does_not_affect_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestNoConfigFiles.test_no_home_config_file_read",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4d189e44655d/tests.test_env_config.TestNoConfigFiles.test_no_xdg_config_read",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden.TestBasicOptions.test_suggest_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden.TestBasicOptions.test_syntax_suggest_default_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden.TestDoubleDash.test_double_dash_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden.TestEdgeCases.test_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden.TestEdgeCases.test_syntax_error_handling",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden.TestInputHandling.test_read_from_stdin_empty_arg",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden.TestStdinOutput.test_stdin_simple",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden_module_tests.TestErrorHandling.test_syntax_error_in_arithmetic",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden_module_tests.TestErrorHandling.test_syntax_error_in_double_bracket",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden_module_tests.TestErrorHandling.test_syntax_error_in_heredoc",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden_module_tests.TestModuleTests.test_check_returns_0_for_expected",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden_module_tests.TestSpecialVariables.test_dollar_dollar",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5711eac1d37b/eval.tests.test_shellharden_module_tests.TestSpecialVariables.test_question_mark",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "635f12958914/eval.tests.test_moduletests.test_moduletest_check_expected",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_basic_io.TestEmptyInput.test_empty_file_check_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_basic_io.TestEmptyInput.test_empty_stdin_check_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_basic_io.TestFileInput.test_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_basic_io.TestStdinInput.test_stdin_with_empty_arg",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestBinaryAndNonUTF8.test_ascii_only",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestBinaryAndNonUTF8.test_valid_utf8",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestComments.test_inline_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestComplexScripts.test_for_loop",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestComplexScripts.test_function_definition",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestComplexScripts.test_if_statement",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestFilePermissions.test_executable_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestFilePermissions.test_readable_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestLargeInput.test_long_line",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestSpecialCharacters.test_script_with_backticks",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestSpecialCharacters.test_script_with_command_substitution",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestSpecialCharacters.test_script_with_quotes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestSyntaxErrors.test_invalid_variable_syntax",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestSyntaxErrors.test_unclosed_quote",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestWhitespaceHandling.test_multiple_blank_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestWhitespaceHandling.test_no_trailing_newline_in_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestWhitespaceHandling.test_tabs_and_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_edge_cases.TestWhitespaceHandling.test_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_exit_codes.TestCheckModeExitCodes.test_check_multiple_files_all_clean",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_exit_codes.TestCheckModeExitCodes.test_check_no_changes_returns_0",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_exit_codes.TestExitCodeConsistency.test_stdin_vs_file_success",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_exit_codes.TestSuccessExitCodes.test_replace_success",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_exit_codes.TestSuccessExitCodes.test_suggest_success",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_exit_codes.TestSuccessExitCodes.test_syntax_success",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_exit_codes.TestSuccessExitCodes.test_transform_success",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_exit_codes.TestSuccessExitCodes.test_version_success",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_fixtures.TestFixtureCheckMode.test_expected_no_changes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_modes.TestCheckMode.test_check_clean_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_modes.TestReplaceMode.test_replace_preserves_clean_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_modes.TestSuggestMode.test_suggest_clean_script",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_modes.TestSyntaxMode.test_syntax_no_changes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_options.TestOptionCombinations.test_single_mode_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7d5a967832fe/tests.test_options.TestOptionOrdering.test_option_after_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_help_baseline.TestHFlagBaseline.test_h_matches_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_help_behavior.TestHelpExitCodes.test_h_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_help_behavior.TestHelpExitCodes.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_help_behavior.TestHelpOutputStream.test_h_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_help_behavior.TestHelpOutputStream.test_help_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_help_content.TestHelpBasics.test_h_and_help_produce_same_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_help_content.TestHelpFormatting.test_help_ends_with_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_help_exact_output.TestHelpOutputStructure.test_help_has_blank_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_version.TestVersionFlag.test_version_flag_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_version.TestVersionFlag.test_version_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84d2cb456a3c/eval.tests.test_version.TestVersionFlag.test_version_output_is_short",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9627e9fe75b9/tests.test_edge_cases.test_whitespace_only",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9627e9fe75b9/tests.test_idempotency.test_multiple_transform_cycles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9627e9fe75b9/tests.test_input_handling.test_whitespace_only_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestExitCodes.test_help_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestExitCodes.test_success_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestExitCodes.test_version_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFileArgumentHandling.test_empty_file_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFileArgumentHandling.test_valid_file_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFlagBasedInterface.test_suggest_flag_with_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFlagBasedInterface.test_syntax_flag_with_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFlagBasedInterface.test_syntax_suggest_flag_with_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFlagBasedInterface.test_transform_flag_with_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFlagCombinations.test_flag_before_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFlagCombinations.test_multiple_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestFlagCombinations.test_stdin_with_empty_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestMutuallyExclusiveModes.test_last_mode_wins",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "995c83b0c12f/eval.tests.test_subcommand_dispatch.TestNoSubcommands.test_typical_subcommand_names_not_recognized",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9d4d1ea3d183/eval.tests.test_shellharden_edge_cases.test_binary_input_does_not_hang_or_crash",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_cli.test_directory_as_argument_error",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_cli.test_option_after_filename_not_treated_as_option",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_cli.test_replace_mode_on_stdin_does_nothing",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_cli.test_suggest_mode_no_changes_needed",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_cli.test_syntax_mode_no_changes_needed",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_errors.test_empty_file_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_errors.test_file_with_null_bytes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_errors.test_whitespace_only_file_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_harvest.test_expected_check",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_replace.test_replace_binary_file_unchanged",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_replace.test_replace_empty_file_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_replace.test_replace_file_becomes_empty_after_transformation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_replace.test_replace_file_with_only_whitespace",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_replace.test_replace_preserves_executable_bit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_replace.test_replace_preserves_timestamp_when_no_changes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "db558337a6a1/tests.test_variables.test_empty_variable_reference",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387537,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f01414ef851c/eval.tests.test_argparse_validation.test_modes_accept_stdin_only_with_empty_string_sentinel",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f01414ef851c/eval.tests.test_argparse_validation.test_path_with_spaces_is_accepted_as_file_argument",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestArgumentPatterns.test_flags_between_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestArgumentPatterns.test_multiple_empty_strings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestDoubleHyphenSeparator.test_double_hyphen_with_real_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestEdgeCases.test_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestEmptyArgumentList.test_no_arguments",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestExitCodes.test_exit_code_success",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestFileArguments.test_empty_string_as_stdin_marker",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestFileArguments.test_empty_string_with_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestFileArguments.test_multiple_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestFlagCombinations.test_flag_after_file_still_processed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestFlagCombinations.test_flag_order_flags_before_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestFlagCombinations.test_multiple_mode_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestFlagPrecedence.test_flag_precedence",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestFlagVariations.test_repeated_same_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestInvalidFlags.test_unknown_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestMultipleFlagsMixedWithFiles.test_flag_file_flag_file_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestMultipleFlagsMixedWithFiles.test_many_files_with_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestReplaceFlag.test_replace_flag_modifies_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestReplaceFlag.test_replace_with_valid_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestSpecialFilenames.test_absolute_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestSpecialFilenames.test_file_with_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestSpecialFilenames.test_file_with_special_chars",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestSpecialFilenames.test_relative_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestStdinEdgeCases.test_stdin_with_large_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestStdinEdgeCases.test_stdin_with_no_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestStdinProcessing.test_stdin_default_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestStdinProcessing.test_stdin_with_empty_string",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestValidFlags.test_check_flag_with_valid_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestValidFlags.test_suggest_flag_with_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestValidFlags.test_syntax_flag_with_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f553439eb52c/eval.tests.test_argument_parsing.TestValidFlags.test_valid_flags_no_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

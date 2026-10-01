@@ -1,0 +1,598 @@
+{
+  "instance_id": "o2sh__onefetch.e5958ce",
+  "skipped_tests": [
+    {
+      "name": "11b946e11fb8/eval.tests.test_disabled_fields_and_args.test_disabled_fields_with_double_dash_produces_json_without_pending_section",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "11b946e11fb8/eval.tests.test_known_bug_languages_broken_pipe.test_languages_no_broken_pipe_when_output_piped",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "11b946e11fb8/eval.tests.test_output_formats.test_json_output_is_valid_and_has_expected_keys",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "11b946e11fb8/eval.tests.test_output_formats.test_yaml_output_is_valid_and_has_expected_keys",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "275b7d2094b0/eval.tests.test_no_subcommands.test_help_has_no_subcommands_section",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_authors.test_number_separator_plain",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_cli_flags.test_ascii_language_override",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_cli_flags.test_no_art_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_cli_flags.test_no_bold_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_cli_flags.test_number_of_languages_in_text_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_dependencies.test_both_manifests_cargo_takes_precedence",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_generated_language.test_empty_repo_handling",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_generated_language.test_invalid_ascii_art_language",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_git_gaps.test_churn_pool_size_limits_diff_computation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_info_gaps.test_title_empty_username_empty_version",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_languages.test_nested_language_blocks_jupyter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_license.test_both_cargo_and_npm_manifest_cargo_wins",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_project_title_url_final.test_title_empty_when_no_username_or_version",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_color_palette_with_no_art",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_combined_iso_time_no_bold",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_default_text_formatting",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_iso_time_format",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_iso_time_format_consistency",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_no_bold_color_preservation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_no_bold_formatting",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_number_separator_comma",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_number_separator_default_is_plain",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_number_separator_plain",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_number_separator_space",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_number_separator_underscore",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_text_colors_bright_colors_mapping",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_text_colors_full_specification",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_text_formatting.test_text_colors_partial_specification",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36265ef8a882/tests.test_ui_printer_module_gaps.test_ascii_loop_with_more_info_lines_than_logo_lines",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386529,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "41293a2cd57e/eval.tests.test_env_config_handling.test_colorterm_24bit_is_accepted_and_does_not_break_json_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "41293a2cd57e/eval.tests.test_env_config_handling.test_colorterm_other_value_is_accepted_and_does_not_break_json_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "41293a2cd57e/eval.tests.test_env_config_handling.test_colorterm_truecolor_is_accepted_and_does_not_break_json_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "48292bcdfab1/eval.tests.test_edge_cases.test_empty_git_repo",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "48292bcdfab1/eval.tests.test_list_options.test_package_managers_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "58289ba90ca8/eval.tests.test_executable_externalized.test_ext_partial_repo_runs_successfully",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "58289ba90ca8/eval.tests.test_executable_externalized.test_ext_repo_with_pre_epoch_dates_runs_successfully_skip_known_fixture_breakage",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "58289ba90ca8/eval.tests.test_executable_externalized.test_ext_repo_without_code_runs_successfully",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "58289ba90ca8/eval.tests.test_executable_externalized.test_ext_repo_without_remote_runs_successfully",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c76257193fd1/eval.tests.test_help_output.test_h_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c76257193fd1/eval.tests.test_help_output.test_h_writes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c76257193fd1/eval.tests.test_help_output.test_help_and_h_are_content_equivalent_except_known_snippet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c76257193fd1/eval.tests.test_help_output.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c76257193fd1/eval.tests.test_help_output.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c76257193fd1/eval.tests.test_help_output.test_help_writes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_basic.test_default_invocation_in_git_repo",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_combinations.test_all_disabled_fields_at_once",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_edge_cases.test_ascii_input_empty_string",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_edge_cases.test_churn_pool_size_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_edge_cases.test_empty_git_repository",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_edge_cases.test_exclude_everything",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_edge_cases.test_invalid_image_protocol",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_edge_cases.test_multiple_output_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_filtering.test_type_filter_data",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_filtering.test_type_filter_prose",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_image.test_color_resolution_16",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_image.test_color_resolution_256",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_image.test_image_protocol_iterm_valid",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_image.test_image_protocol_kitty_valid",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_image.test_image_protocol_sixel_valid",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_info_fields.test_disabled_fields_all_fields",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e809fcc6ed9b/tests.test_info_fields.test_disabled_fields_single",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f01fe2d9a2d2/eval.tests.test_onefetch_cli.test_version_prints_semver",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f01fe2d9a2d2/eval.tests.test_onefetch_repo_outputs.test_disabled_fields_removes_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f01fe2d9a2d2/eval.tests.test_onefetch_repo_outputs.test_input_path_same_as_cwd",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f01fe2d9a2d2/eval.tests.test_onefetch_repo_outputs.test_no_title_removes_title_line",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f01fe2d9a2d2/eval.tests.test_onefetch_repo_outputs.test_repo_without_code_has_no_language_breakdown",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f01fe2d9a2d2/eval.tests.test_onefetch_repo_outputs.test_repo_without_remote_has_no_url_line",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

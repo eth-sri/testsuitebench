@@ -1,0 +1,24 @@
+│   nt/│tokens search on file name         │nt/fea,he matches HelpFeature.java│▐
+│   ep/│exact string search on sub path    │ep/te\/do matches website/docs    │▐
+│      │fuzzy search on sub path           │flam matches src/flag/mod.rs      │▐
+│   rp/│regex search on sub path           │rp/\d{3}.*txt matches             │▐
+│      │                                   │dir/a123/b.txt                    │▐
+│    t/│tokens search on sub path          │t/help,doc matches                │▐
+│      │                                   │website/docs/help.md              │▐
+│    c/│exact string search on file content│c/find( matches a file containing │▐
+│      │                                   │a.find(b);                        │▐
+│   cr/│regex search on file content       │cr/find/i matches a file          │▐
+│      │                                   │containing A::Find(b)             │▐
+└──────┴───────────────────────────────────┴──────────────────────────────────┘▐
+You can combine searches with logical operators.                               ▐
+For example, to search all toml or rs files containing tomat, you may type (/  ▐
+toml/|/rs$/)&c/tomat.                                                          ▐
+For efficiency, place content search last.                                     ▐
+                                                                               ▐
+Verbs                                                                          ▐
+                                                                               ▐
+To execute a verb, type a space or : then start of its name or shortcut.       ▐
+This table is searchable. Hit a few letters to filter it.                      ▐
+┌──────────────┬────────┬──────────────────────┬──────────────────────────────┐▐
+ Hit esc to get back, or a space to start a verb
+                                                                             y

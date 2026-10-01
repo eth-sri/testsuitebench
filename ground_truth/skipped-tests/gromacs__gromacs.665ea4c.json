@@ -1,0 +1,1339 @@
+{
+  "instance_id": "gromacs__gromacs.665ea4c",
+  "skipped_tests": [
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_angle_distribution_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_angle_vs_time_all_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_angle_vs_time_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_average_correlation_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_dihedral_autocorrelation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_dihedral_distribution_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_dihedral_noperiodic_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_dihedral_trans_fraction_ryckaert",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_angle.test_improper_dihedral_type",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_check.test_compare_different_trajectories",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_check.test_compare_identical_trajectories",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_check.test_empty_index_file_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_check.test_index_file_multiple_groups",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_check.test_index_file_simple",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_check.test_missing_file_error",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_check.test_single_gro_structure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_check.test_single_xtc_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_chi_rama_helix.test_chi_rad_flag_radians_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_cluster.test_cluster_diagonalization",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_cluster.test_cluster_gromos_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_cluster.test_cluster_size_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_clustsize.test_basic_clustering_no_mol_default_cutoff",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_clustsize.test_nopbc_flag_disables_periodic_boundary",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_clustsize.test_temp_output_with_velocities",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_current.test_water_group_high_molecule_count",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_basic_workflow",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_matrix_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_maxdr_auto_detection",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_multiple_outputs",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_nlevels_parameter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_pdb_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_third_power_averaging",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_time_range_selection",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_disre_with_ntop_parameter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_disre_successful_workflows.test_how_to_create_test_data",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_dos.test_dos_absolute_value_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_dos.test_dos_basic_calculation_with_log_output",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_dos.test_dos_reciprocal_units_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_dos.test_dos_temperature_parameter",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_dyecoupl_fix.test_dyecoupl_distance_histogram",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_dyecoupl_fix.test_dyecoupl_kappa2_histogram",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_eneconv.test_output_file_same_as_input_rejected",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_energy.test_energy_single_term_potential",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_energy.test_energy_xvg_format_comments_and_metadata",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_all_option_golden",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_all_option_writes_all_frames",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_both_lowpass_and_highpass",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_combined_options",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_dt_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_error_missing_structure_golden",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_fit_option_golden",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_fit_option_with_group_input",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_highpass_execution",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_highpass_log_golden",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_lowpass_log_golden",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_lowpass_without_output_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_nf_values_affect_filter_weights",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_nojump_option_default",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_nonojump_golden",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_time_range_golden",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_filter.test_filter_without_structure_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_gyrate.test_autocorrelation_function_output",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_harvest.test_physval_grompp_mdrun",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_harvest.test_physval_system_count",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_harvest.test_physval_systems_exist",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_harvest.test_physval_systems_json_valid",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_help.test_gmx_banner_format",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_help.test_gmx_quiet_version_order_independence",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_help.test_gmx_version_includes_all_support_flags",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_help.test_gmx_version_shows_version_info",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        },
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_help.test_gmx_version_with_quiet_still_shows_version",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        },
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_P_order",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_P_order_2",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_acflen",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_beginfit_endfit",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_doublets_linear",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_no_average",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_normalize",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_time_range",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_triplets",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_msd_rotacf.test_rotacf_xvg_none",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_nmeig.test_nmeig_basic_eigenvalue_calculation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_nmeig.test_nmeig_large_eigenvalue_range",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_nmeig.test_nmeig_quantum_corrections",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_nmr.test_nmr_energy_file_read_validation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_nmr.test_nmr_negative_time_range",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_basic_protein_self",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_bin_width_and_rmax",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_cumulative_number",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_normalization_number_density",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_residue_center_of_mass",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_specific_atoms_calpha",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_time_range_selection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_with_cutoff_distance",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_without_pbc",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rdf.test_rdf_xy_plane_only",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rmsdist.test_rmsdist_stderr_clean",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rotmat.test_rotmat_backbone_atoms",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rotmat.test_rotmat_calpha_atoms",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rotmat.test_rotmat_combined_fitxy_nomw",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_rotmat.test_rotmat_no_mass_weighting",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_saltbr.test_cutoff_parameter_filters_pairs",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_saltbr.test_separate_files_mode_with_sep_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_saltbr.test_very_large_cutoff_includes_all_pairs",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_saltbr.test_very_small_cutoff_removes_empty_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_sigeps_wheel.test_wheel_nn_requires_exact_multiple",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_spol.test_basic_spol_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_spol.test_spol_with_com_reference",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_gyrate_protein_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_gyrate_weighting_modes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rms_backbone",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rms_calpha_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rms_fit_translation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rms_mirror_image",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rms_nofit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rms_time_range",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rms_what_rho",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rmsf_calpha_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_structure.test_rmsf_residue_averaging",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_acflen_parameter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_basic_autocorrelation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_cubic_averaging_optional",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_fitfn_parameter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_k34_extended_kvectors",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_molecule_mode",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_normalize_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_time_range_selection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_viscosity_output_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_tcaf_weight_parameter",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_tcaf_trjorder.test_trjorder_z_only_one_group",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_bar_temperature_missing_in_xvg_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_auto_bounds_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_auto_bounds_with_explicit_min_max",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_autocorrelation_analysis",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_basic_umbrella_sampling_two_windows_success",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_bins_50",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_bins_minimal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_bootstrap_parameters_complete",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_boundsonly_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_custom_bins_and_temperature",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_cyclic_coordinate_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_explicit_min_max_boundaries",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_histogram_output_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_histonly_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_log_scale_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_log_scale_pmf_units",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_symmetry_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_temperature_300K",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_temperature_310K",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_time_range_with_timestep",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_tolerance_parameter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_tpr_without_pulling_setup_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_unit_kCal",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_unit_kJ",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_unit_kT",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_verbose_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_verbose_output_mode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bbe83d4d7c01/tests.test_wham_bar.test_wham_zprof0_parameter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    }
+  ]
+}

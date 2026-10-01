@@ -1,0 +1,125 @@
+                   [1m[4mbroot[0m[1m[4m [0m[1m[4m1.54.0[0m
+
+
+[1mbroot[0m lets you explore file hierarchies with a 
+tree-like view, manipulate and preview files, 
+launch actions, and define your own shortcuts.
+
+[1mbroot[0m is best launched as [m[mbr[m[m: this shell function 
+gives you access to more commands, especially [m[mcd.[m[m 
+The br shell function is interactively installed 
+on first broot launch.
+
+Flags and options can be classically passed on 
+launch but also written in the configuration file.
+Each flag has a counter-flag so that you can 
+cancel at command line a flag which has been set 
+in the configuration file.
+
+Complete documentation and tips at 
+https://dystroy.org/broot
+
+[1mUsage: [0m [m[mbroot[m[m[m[m [options][m[m[m[m [ROOT][m[m
+
+[m•[m [m[mROOT[m[m : Root Directory
+
+[1mOptions:[0m
+[m┌[m[m────[m[m┬[m[m───────────────[m[m┬[m[m───────────────────────────[m[m┐[m
+[m│[mshor[m│[m     long      [m│[mdescription                [m│[m
+[m│[m t  [m│[m               [m│[m                           [m│[m
+[m├[m[m────[m[m┼[m[m───────────────[m[m┼[m[m───────────────────────────[m[m┤[m
+[m│[m  [3m[0m  [m│[m--help [3m[0m        [m│[mPrint help information     [m│[m
+[m│[m  [3m[0m  [m│[m--version [3m[0m     [m│[mprint the version          [m│[m
+[m│[m  [3m[0m  [m│[m--conf [3m<paths>[0m [m│[mSemicolon separated paths  [m│[m
+[m│[m    [m│[m               [m│[mto specific config files   [m│[m
+[m│[m-d [3m[0m [m│[m--dates [3m[0m       [m│[mShow the last modified date[m│[m
+[m│[m    [m│[m               [m│[mof files and directories   [m│[m
+[m│[m-D [3m[0m [m│[m--no-dates [3m[0m    [m│[mDon't show the last        [m│[m
+[m│[m    [m│[m               [m│[mmodified date              [m│[m
+[m│[m-f [3m[0m [m│[m--only-folders [3m[0m[m│[mOnly show folders          [m│[m
+[m│[m-F [3m[0m [m│[m--no-only-folde[m│[mShow folders and files     [m│[m
+[m│[m    [m│[mrs             [m│[malike                      [m│[m
+[m│[m  [3m[0m  [m│[m--show-root-fs [3m[0m[m│[mShow filesystem info on top[m│[m
+[m│[m  [3m[0m  [m│[m--max-depth    [m│[mOnly show trees up to a    [m│[m
+[m│[m    [m│[m[3m<MAX_DEPTH>[0m    [m│[mcertain depth              [m│[m
+[m│[m-g [3m[0m [m│[m--show-git-info[m│[mShow git statuses on files [m│[m
+[m│[m    [m│[m[3m[0m               [m│[mand stats on repo          [m│[m
+[m│[m-G [3m[0m [m│[m--no-show-git-i[m│[mDon't show git statuses on [m│[m
+[m│[m    [m│[mnfo            [m│[mfiles and stats on repo    [m│[m
+[m│[m  [3m[0m  [m│[m--git-status [3m[0m  [m│[mOnly show files having an  [m│[m
+[m│[m    [m│[m               [m│[minteresting git status,    [m│[m
+[m│[m    [m│[m               [m│[mincluding hidden ones      [m│[m
+[m│[m-h [3m[0m [m│[m--hidden [3m[0m      [m│[mShow hidden files          [m│[m
+[m│[m-H [3m[0m [m│[m--no-hidden [3m[0m   [m│[mDon't show hidden files    [m│[m
+[m│[m-i [3m[0m [m│[m--git-ignored [3m[0m [m│[mShow git ignored files     [m│[m
+[m│[m-I [3m[0m [m│[m--no-git-ignore[m│[mDon't show git ignored     [m│[m
+[m│[m    [m│[md              [m│[mfiles                      [m│[m
+[m│[m-p [3m[0m [m│[m--permissions [3m[0m [m│[mShow permissions           [m│[m
+[m│[m-P [3m[0m [m│[m--no-permission[m│[mDon't show permissions     [m│[m
+[m│[m    [m│[ms              [m│[m                           [m│[m
+[m│[m-s [3m[0m [m│[m--sizes [3m[0m       [m│[mShow the size of files and [m│[m
+[m│[m    [m│[m               [m│[mdirectories                [m│[m
+[m│[m-S [3m[0m [m│[m--no-sizes [3m[0m    [m│[mDon't show sizes           [m│[m
+[m│[m  [3m[0m  [m│[m--sort-by-count[m│[mSort by count (only show   [m│[m
+[m│[m    [m│[m[3m[0m               [m│[mone level of the tree)     [m│[m
+[m│[m  [3m[0m  [m│[m--sort-by-date [3m[0m[m│[mSort by date (only show one[m│[m
+[m│[m    [m│[m               [m│[mlevel of the tree)         [m│[m
+[m│[m  [3m[0m  [m│[m--sort-by-size [3m[0m[m│[mSort by size (only show one[m│[m
+[m│[m    [m│[m               [m│[mlevel of the tree)         [m│[m
+[m│[m  [3m[0m  [m│[m--sort-by-type [3m[0m[m│[mSame as                    [m│[m
+[m│[m    [m│[m               [m│[msort-by-type-dirs-first    [m│[m
+[m│[m  [3m[0m  [m│[m--no-tree [3m[0m     [m│[mDo not show the tree, even [m│[m
+[m│[m    [m│[m               [m│[mif allowed by sorting mode [m│[m
+[m│[m  [3m[0m  [m│[m--tree [3m[0m        [m│[mShow the tree, when allowed[m│[m
+[m│[m    [m│[m               [m│[mby sorting mode            [m│[m
+[m│[m  [3m[0m  [m│[m--sort-by-type-[m│[mSort by type, directories  [m│[m
+[m│[m    [m│[mdirs-first     [m│[mfirst (only show one level [m│[m
+[m│[m    [m│[m               [m│[mof the tree)               [m│[m
+[m│[m  [3m[0m  [m│[m--sort-by-type-[m│[mSort by type, directories  [m│[m
+[m│[m    [m│[mdirs-last      [m│[mlast (only show one level  [m│[m
+[m│[m    [m│[m               [m│[mof the tree)               [m│[m
+[m│[m  [3m[0m  [m│[m--no-sort [3m[0m     [m│[mDon't sort                 [m│[m
+[m│[m-w [3m[0m [m│[m--whale-spottin[m│[mSort by size, show ignored [m│[m
+[m│[m    [m│[mg              [m│[mand hidden files           [m│[m
+[m│[m-W [3m[0m [m│[m--no-whale-spot[m│[mNo sort, no show hidden, no[m│[m
+[m│[m    [m│[mting           [m│[mshow git ignored           [m│[m
+[m│[m-t [3m[0m [m│[m--trim-root [3m[0m   [m│[mTrim the root too and don't[m│[m
+[m│[m    [m│[m               [m│[mshow a scrollbar           [m│[m
+[m│[m-T [3m[0m [m│[m--no-trim-root [3m[0m[m│[mDon't trim the root level, [m│[m
+[m│[m    [m│[m               [m│[mshow a scrollbar           [m│[m
+[m│[m  [3m[0m  [m│[m--outcmd [3m<path>[0m[m│[mWhere to write the produced[m│[m
+[m│[m    [m│[m               [m│[mcmd (if any)               [m│[m
+[m│[m  [3m[0m  [m│[m--verb-output  [m│[mOptional path for verbs    [m│[m
+[m│[m    [m│[m[3m<verb-output>[0m  [m│[musing [m[m:write_output[m[m        [m│[m
+[m│[m-c  [m│[m--cmd [3m<cmd>[0m    [m│[mSemicolon separated        [m│[m
+[m│[m[3m<cmd[0m[m│[m               [m│[mcommands to execute        [m│[m
+[m│[m [3m>[0m  [m│[m               [m│[m                           [m│[m
+[m│[m  [3m[0m  [m│[m--color [3m<color>[0m[m│[mWhether to have styles and [m│[m
+[m│[m    [m│[m               [m│[mcolors                     [m│[m
+[m│[m  [3m[0m  [m│[m [3m[0m              [m│[m Possible values: [[m[mauto[m[m,   [m│[m
+[m│[m    [m│[m               [m│[m[m[myes[m[m, [m[mno[m[m]                   [m│[m
+[m│[m  [3m[0m  [m│[m [3m[0m              [m│[m Default: [m[mauto[m[m             [m│[m
+[m│[m  [3m[0m  [m│[m--height       [m│[mHeight (if you don't want  [m│[m
+[m│[m    [m│[m[3m<height>[0m       [m│[mto fill the screen or for  [m│[m
+[m│[m    [m│[m               [m│[mfile export)               [m│[m
+[m│[m  [3m[0m  [m│[m--install [3m[0m     [m│[mInstall or reinstall the br[m│[m
+[m│[m    [m│[m               [m│[mshell function             [m│[m
+[m│[m  [3m[0m  [m│[m--set-install-s[m│[mManually set installation  [m│[m
+[m│[m    [m│[mtate [3m<state>[0m   [m│[mstate                      [m│[m
+[m│[m  [3m[0m  [m│[m [3m[0m              [m│[m Possible values: [        [m│[m
+[m│[m    [m│[m               [m│[m[m[mundefined[m[m, [m[mrefused[m[m,        [m│[m
+[m│[m    [m│[m               [m│[m[m[minstalled[m[m]                 [m│[m
+[m│[m  [3m[0m  [m│[m--print-shell-f[m│[mPrint to stdout the br     [m│[m
+[m│[m    [m│[munction [3m<shell>[0m[m│[mfunction for a given shell [m│[m
+[m│[m  [3m[0m  [m│[m--listen       [m│[mA socket to listen to for  [m│[m
+[m│[m    [m│[m[3m<socket>[0m       [m│[mcommands                   [m│[m
+[m│[m  [3m[0m  [m│[m--listen-auto [3m[0m [m│[mcreate a random socket to  [m│[m
+[m│[m    [m│[m               [m│[mlisten to for commands     [m│[m
+[m│[m  [3m[0m  [m│[m--get-root [3m[0m    [m│[mAsk for the current root of[m│[m
+[m│[m    [m│[m               [m│[mthe remote broot           [m│[m
+[m│[m  [3m[0m  [m│[m--write-default[m│[mWrite default conf files in[m│[m
+[m│[m    [m│[m-conf [3m<path>[0m   [m│[mgiven directory            [m│[m
+[m│[m  [3m[0m  [m│[m--send [3m<socket>[0m[m│[mA socket to send commands  [m│[m
+[m│[m    [m│[m               [m│[mto                         [m│[m
+[m└[m[m────[m[m┴[m[m───────────────[m[m┴[m[m───────────────────────────[m[m┘[m
+

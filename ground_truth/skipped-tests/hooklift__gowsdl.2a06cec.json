@@ -1,0 +1,369 @@
+{
+  "instance_id": "hooklift__gowsdl.2a06cec",
+  "skipped_tests": [
+    {
+      "name": "174ba0ea8bbc/eval.tests.test_argparse_validation.test_flag_value_forms_are_accepted_by_parser",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_cli.test_both_client_and_server_files_generated",
+      "reasons": [
+        {
+          "id": "our_gt_final_reference_fail"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_errors.test_file_path_exceeds_system_limit",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_errors.test_http_404_error",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_errors.test_http_500_error",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_errors.test_https_certificate_verification_failure",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_errors.test_https_with_insecure_flag_bypasses_cert_check",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_errors.test_invalid_url_dns_failure",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_harvest.test_version_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_location.test_file_wsdl_with_http_import",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_location.test_http_url_404_error",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_location.test_http_url_as_main_input",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_location.test_https_import_in_wsdl",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_location.test_https_url_as_main_input",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_location.test_url_encoded_characters_in_http_path",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "36519d111ac2/tests.test_seed.test_executable_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "5972c17f0779/eval.tests.test_gowsdl.TestExitCodes.test_help_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5972c17f0779/eval.tests.test_gowsdl.TestExitCodes.test_success_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5972c17f0779/eval.tests.test_gowsdl.TestExitCodes.test_version_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5972c17f0779/eval.tests.test_gowsdl.TestOutputValidation.test_generated_code_is_valid_go",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5972c17f0779/eval.tests.test_gowsdl.TestStdoutFormat.test_error_messages_use_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "79af22e6a745/eval.tests.test_basic_invocation.test_version_flag_no_extra_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "79af22e6a745/eval.tests.test_error_handling.test_invalid_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "79af22e6a745/eval.tests.test_error_handling.test_nonexistent_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "79af22e6a745/eval.tests.test_error_handling.test_unreadable_wsdl",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "79af22e6a745/eval.tests.test_error_handling.test_wsdl_with_syntax_errors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "79af22e6a745/eval.tests.test_fixtures.test_chromedata_wsdl",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "79af22e6a745/eval.tests.test_fixtures.test_large_wsdl_files",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8384425dbf58/eval.tests.test_basic.TestInputHandling.test_valid_local_wsdl_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8384425dbf58/eval.tests.test_edge_cases.TestComplexWSDLFiles.test_chromedata_wsdl",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8384425dbf58/eval.tests.test_edge_cases.TestComplexWSDLFiles.test_ec2_wsdl",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8384425dbf58/eval.tests.test_edge_cases.TestEmptyAndEdgeCases.test_very_long_package_name",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8384425dbf58/eval.tests.test_edge_cases.TestFlagCombinations.test_special_package_names",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8384425dbf58/eval.tests.test_edge_cases.TestWSDLVariations.test_minimal_wsdl",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8384425dbf58/eval.tests.test_edge_cases.TestWSDLVariations.test_wsdl_with_external_schema",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "966baa6441ca/eval.tests.test_externalized_gowsdl.test_ext_vbox_fixtures_generate_go_without_syntax_errors",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "966baa6441ca/eval.tests.test_externalized_gowsdl.test_ext_wsdl_unmarshal_vim_wsdl_is_valid_xml",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dab235980e78/eval.tests.test_help_output.test_dash_h_matches_dash_dash_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dab235980e78/eval.tests.test_help_output.test_executable_exists_and_is_executable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dab235980e78/eval.tests.test_help_output.test_help_ends_with_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dab235980e78/eval.tests.test_help_output.test_help_exit_code_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fafedd2177bc/eval.tests.test_subcommand_dispatch.TestErrorHandling.test_output_same_as_input_validation",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fafedd2177bc/eval.tests.test_subcommand_dispatch.TestMainUsagePattern.test_no_subcommand_list_in_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fafedd2177bc/eval.tests.test_subcommand_dispatch.TestNoSubcommandBehavior.test_version_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

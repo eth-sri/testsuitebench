@@ -1,0 +1,32 @@
+{
+  "instance_id": "rs__curlie.5dfcbb1",
+  "skipped_mutants": [
+    {
+      "id": "repo_55",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "14b17ef91067/eval.tests.test_config_env.test_cli_overrides_config_file"
+    },
+    {
+      "id": "repo_56",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "14b17ef91067/eval.tests.test_config_env.test_explicit_config_file_overrides_dotcurlrc"
+    },
+    {
+      "id": "repo_57",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "14b17ef91067/eval.tests.test_config_env.test_missing_config_file_warns_but_still_runs_request"
+    }
+  ]
+}

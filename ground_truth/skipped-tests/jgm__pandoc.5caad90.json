@@ -1,0 +1,2196 @@
+{
+  "instance_id": "jgm__pandoc.5caad90",
+  "skipped_tests": [
+    {
+      "name": "08afe9ff1778/eval.tests.test_pandoc.test_biblatex_writer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "08afe9ff1778/eval.tests.test_pandoc.test_endnotexml_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "08afe9ff1778/eval.tests.test_pandoc.test_eol_lf",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "08afe9ff1778/eval.tests.test_pandoc.test_fragment_mode_no_doctype",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "08afe9ff1778/eval.tests.test_pandoc.test_markdown_smart_punctuation",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "08afe9ff1778/eval.tests.test_pandoc.test_xlsx_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_citations.test_bibliography_entry_ids",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_citeproc_advanced.test_csl_style_apa_comma_after_author",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_citeproc_advanced.test_suppress_bibliography_no_refs_div",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_cli_error_handling.test_conflicting_columns_values_last_wins",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_context_latex_advanced.test_beamer_nonincremental_detection",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_conversion_roundtrip.test_large_document_conversion_performance",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_css_styling.test_no_highlight_syntax_highlighting_none_equivalent",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_csv_tables.test_csv_roundtrip_through_native",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_defaults.test_defaults_reference_links",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_defaults.test_defaults_strip_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_diagnostics.test_dump_args_exits_without_conversion",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_diagnostics.test_fail_if_warnings_succeeds_without_warnings",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_diagnostics.test_quiet_suppresses_warnings",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_diagnostics.test_trace_disabled_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_diagnostics.test_trace_explicit_false",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_document_structure.test_toc_without_toc_flag_ignores_depth",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_error_handling.test_medium_large_file_processing",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_filesystem_ops.test_binary_output_format_pdf_requires_output_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_filesystem_ops.test_empty_filename_extract_media_fails_gracefully",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_filesystem_ops.test_output_same_as_input_file_handles_atomicity",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10094",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10185_2",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10271",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10271_2",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10271_3",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10271_4",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10279",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10281",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10490",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10491",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10594",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10791",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10825",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10855",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10855_2",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10855_3",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10855_4",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10884",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10926",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10926_2",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_10983",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_11013",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_11017",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_11048",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_11150",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_11162",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_11210",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch1.test_cmd_11362",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch2.test_cmd_11498_1",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch3.test_cmd_3824",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch3.test_cmd_4164",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch3.test_cmd_4164_1",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch3.test_cmd_4172",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch3.test_cmd_4172_1",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch4.test_cmd_4933_case1",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch4.test_cmd_5541_nesting_case1",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_266",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_aksin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_almendro",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_angenendt",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_aristotle_anima",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_aristotle_physics",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_aristotle_poetics",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_aristotle_rhetoric",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_article",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_augustine",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_averroes_bland",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_averroes_hannes",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_averroes_hercz",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_baez_article",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_baez_online",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_basic",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_bertram",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_bibstring_resolution",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_book_averroes",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_book_coleridge",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_book_title_maintitle_series",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_book_vazques_de_parga",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_brandt",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_britannica",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_chiu",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_cicero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_cms",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_coleridge",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_companion",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_cotton",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_crossref_inbook_mvbook",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_crossref_nested",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_ctan",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_dates",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_doody",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_edtf_date",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_escapedquotes",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_formatting",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_gaonkar",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_gaonkar_in",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_geer",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_gerhardt",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_cmd_batch8.test_cmd_biblatex_gillies",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_0_level_headers",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_adjacent_codeblocks",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_already_auto_ident",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_alternate_document_path",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_anchor_header_after_anchor",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_block_quotes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_char_styles",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_codeblock",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_comments_no_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_compact_style_removal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_cross_reference",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_custom_style_no_styles",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_custom_style_with_styles",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_deep_normalize",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_definition_list",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_diagram",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_drop_cap",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_dummy_item_after_list_item",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_dummy_item_after_paragraph",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_empty_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_enumerated_headings",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_german_styled_lists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_hanging_indent",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_headers",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_i18n_blocks",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_image_no_embed",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_image_vml",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_image_vml_as_object",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_image_with_textbox_caption",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_inline_code",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_inline_formatting",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_inline_images",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_instrText_hyperlink",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_link_in_notes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_links",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_lists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_lists_compact",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_lists_continuing",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_lists_level_override",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_lists_restarting",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_lists_sublist_reset",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_mendeley_citations_minus",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_mendeley_citations_plus",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch1.test_docx_metadata",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_metadata_after_normal",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_nested_anchors_in_header",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_nested_instrText",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_nested_sdt",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_nested_smart_tags",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_normalize",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_notes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_numbered_header",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_overlapping_targets",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_pageref",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_paragraph_insertion_deletion_accept",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_paragraph_insertion_deletion_all",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_paragraph_insertion_deletion_reject",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_relative_indentation_blockquotes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_sdt_elements",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_sdt_in_footnote",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_special_punctuation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_table_captions_no_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_table_captions_with_field",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_table_gridbefore",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_table_header_rowspan",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_table_one_header_row",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_table_one_row",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_table_variable_width",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_table_with_list_cell",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_tables",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_tabs",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_task_list",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_text_in_shape_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_textbox_image",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_textbox_image_duplicate_encoding",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_deletion_accept",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_deletion_all",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_deletion_reject",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_insertion_accept",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_insertion_all",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_insertion_reject",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_move_accept",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_move_all",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_move_reject",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_track_changes_scrubbed_metadata",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_trailing_spaces_in_formatting",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_trim_last_inline",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_unicode",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_unused_anchors",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_verbatim_subsuper",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_zotero_citations_minus",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_docx_batch2.test_docx_zotero_citations_plus",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_harvest_formats.test_odt_reader",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_identifiers.test_id_prefix_empty_string_is_noop",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_identifiers.test_id_prefix_special_characters",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_identifiers.test_strip_comments_explicit_true_vs_implicit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_info_commands.test_list_commands_ignore_output_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_info_commands.test_list_extensions_gfm",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_info_commands.test_print_highlight_style_output_deterministic",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_ipynb_ignore.test_ignore_args_does_not_affect_stdin_reading",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_ipynb_ignore.test_ipynb_output_default_is_best",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_markdown_headings_lists.test_markdown_headings_roundtrip_atx",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_markdown_headings_lists.test_markdown_headings_roundtrip_setext",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_pdf.test_pdf_large_document",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_pdf.test_pdf_with_lists",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_pdf.test_pdf_with_unicode_content",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_performance_limits.test_document_with_thousands_of_links",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_performance_limits.test_large_code_block",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_query_commands.test_print_highlight_style_deterministic_order",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_signal_handling.test_binary_stdin_rejection",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_signal_handling.test_broken_pipe_no_error_messages",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_signal_handling.test_output_to_stdout_with_sigint",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_signal_handling.test_sigkill_exit_code_negative_9",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_slides.test_revealjs_fragment_index_order",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_streaming_performance.test_file_vs_stdin_output_identical",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_streaming_performance.test_large_file_10mb_streaming",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_streaming_performance.test_large_file_1mb_streaming",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_syntax_highlighting.test_syntax_highlighting_default_equals_pygments",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_syntax_pdf_opts.test_pdf_engine_opt_newline_in_value",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_syntax_pdf_opts.test_syntax_definition_cdata_section",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_syntax_pdf_opts.test_syntax_definition_deeply_nested_xml",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_syntax_pdf_opts.test_syntax_definition_malformed_regex_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_textile_muse_jira.test_jira_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_textile_muse_jira.test_muse_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_textile_muse_jira.test_textile_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_toc_crossref.test_auto_id_generation_for_headings_without_text",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_toc_crossref.test_toc_in_docx_format_with_number_sections",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_track_obfuscation.test_email_obfuscation_javascript_noscript_fallback",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_tsv_tables.test_tsv_roundtrip_through_native",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_variable_json.test_variable_json_boolean_false",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ea7a9f0674dc/tests.test_variable_json.test_variable_json_empty_array",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387541,
+          "user": "kilian"
+        }
+      ]
+    }
+  ]
+}

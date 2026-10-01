@@ -1,0 +1,32 @@
+{
+  "instance_id": "chmln__handlr.90e78ba",
+  "skipped_mutants": [
+    {
+      "id": "repo_31",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "08a92821049f/tests.test_config_advanced.test_config_with_invalid_toml_causes_panic"
+    },
+    {
+      "id": "repo_40",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "08a92821049f/tests.test_open.test_open_file_url_scheme"
+    },
+    {
+      "id": "repo_41",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "08a92821049f/tests.test_open.test_open_file_with_extension_mime_detection"
+    }
+  ]
+}

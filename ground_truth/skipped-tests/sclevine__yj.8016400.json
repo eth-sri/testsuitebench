@@ -1,0 +1,439 @@
+{
+  "instance_id": "sclevine__yj.8016400",
+  "skipped_tests": [
+    {
+      "name": "09b0bec043ae/tests.test_basic.test_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "09b0bec043ae/tests.test_gaps.test_invalid_flag_combination",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "09b0bec043ae/tests.test_json.test_json_e_flag_only_valid_for_json_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "09b0bec043ae/tests.test_json.test_json_k_flag_only_valid_for_yaml",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3d13bf8d9dfb/eval.tests.test_edge_cases.test_single_string_yaml",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3d13bf8d9dfb/eval.tests.test_error_handling.test_whitespace_only_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3d13bf8d9dfb/eval.tests.test_error_handling.test_yaml_syntax_error_bad_indent",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3d13bf8d9dfb/eval.tests.test_flags.test_escape_html_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ad54866ae646/eval.tests.test_help_usage.test_dash_h_and_double_dash_help_share_same_help_block",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ad54866ae646/eval.tests.test_help_usage.test_dash_h_emits_help_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ad54866ae646/eval.tests.test_help_usage.test_dash_h_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ad54866ae646/eval.tests.test_help_usage.test_dash_h_stderr_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ad54866ae646/eval.tests.test_help_usage.test_executable_exists_and_is_executable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ad54866ae646/eval.tests.test_help_usage.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ad54866ae646/eval.tests.test_help_usage.test_help_not_colorized_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ad54866ae646/eval.tests.test_help_usage.test_help_output_is_stable_under_no_color_env",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c05b963de7e0/eval.tests.test_argparse_validation.test_flag_constraints_invalid_combinations",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c05b963de7e0/eval.tests.test_argparse_validation.test_indent_flag_is_accepted_even_when_output_is_not_json_or_toml",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c157470833d6/eval.tests.test_executable_behavior.test_invalid_flag_prints_help_to_stderr_and_error_line",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "e88cc5e301f1/eval.tests.test_edge_cases.test_scientific_notation",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e88cc5e301f1/eval.tests.test_flag_combinations.test_escape_html_with_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e88cc5e301f1/eval.tests.test_flag_combinations.test_n_flag_with_toml",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e88cc5e301f1/eval.tests.test_flag_combinations.test_n_flag_with_yaml",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e88cc5e301f1/eval.tests.test_toml_conversions.test_toml_special_floats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e88cc5e301f1/eval.tests.test_toml_conversions.test_toml_special_floats_no_convert",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e88cc5e301f1/eval.tests.test_yaml_conversions.test_yaml_to_json_with_html_escape",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestBinaryAndEncoding.test_utf8_encoding",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestBinaryAndEncoding.test_various_unicode_ranges",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestComplexStructures.test_boolean_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestComplexStructures.test_deeply_nested_structure",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestComplexStructures.test_large_numbers",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestComplexStructures.test_mixed_array_types",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestComplexStructures.test_string_with_newlines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestComplexStructures.test_string_with_quotes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestComplexStructures.test_string_with_unicode_escape",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestEdgeCases.test_arrays_with_objects",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestEdgeCases.test_nested_structures",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestEdgeCases.test_numeric_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestEdgeCases.test_special_characters",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestEmptyAndMinimalInputs.test_single_string_json",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestEmptyAndMinimalInputs.test_single_value_json",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestExitCodes.test_help_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestExitCodes.test_success_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestExitCodes.test_version_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestFlagCombinations.test_toml_indent",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestFlagValidation.test_conflicting_input_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestInputOutput.test_empty_input_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestInputOutput.test_output_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestInputOutput.test_whitespace_only_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestMultipleDocuments.test_single_yaml_document",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestSpecialFloats.test_infinity_yaml_to_json_with_n_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestWhitespaceAndFormatting.test_compact_json_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestYAMLKeyParsing.test_numeric_key_with_k_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "edbc931c6777/eval.tests.test_yj.TestYAMLKeyParsing.test_numeric_key_without_k_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

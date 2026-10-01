@@ -1,0 +1,101 @@
+
+use builtin;
+use str;
+
+set edit:completion:arg-completer[rustowl] = {|@words|
+    fn spaces {|n|
+        builtin:repeat $n ' ' | str:join ''
+    }
+    fn cand {|text desc|
+        edit:complex-candidate $text &display=$text' '(spaces (- 14 (wcswidth $text)))$desc
+    }
+    var command = 'rustowl'
+    for word $words[1..-1] {
+        if (str:has-prefix $word '-') {
+            break
+        }
+        set command = $command';'$word
+    }
+    var completions = [
+        &'rustowl'= {
+            cand -V 'Print version'
+            cand --version 'Print version'
+            cand -q 'Suppress output'
+            cand --quiet 'Suppress output'
+            cand --stdio 'Use stdio to communicate with the LSP server'
+            cand -h 'Print help'
+            cand --help 'Print help'
+            cand check 'Check availability'
+            cand clean 'Remove artifacts from the target directory'
+            cand toolchain 'Install or uninstall the toolchain'
+            cand completions 'Generate shell completions'
+            cand help 'Print this message or the help of the given subcommand(s)'
+        }
+        &'rustowl;check'= {
+            cand --all-targets 'Run the check for all targets instead of current only'
+            cand --all-features 'Run the check for all features instead of the current active ones only'
+            cand -h 'Print help'
+            cand --help 'Print help'
+        }
+        &'rustowl;clean'= {
+            cand -h 'Print help'
+            cand --help 'Print help'
+        }
+        &'rustowl;toolchain'= {
+            cand -h 'Print help'
+            cand --help 'Print help'
+            cand install 'Install the toolchain'
+            cand uninstall 'Uninstall the toolchain'
+            cand help 'Print this message or the help of the given subcommand(s)'
+        }
+        &'rustowl;toolchain;install'= {
+            cand --path 'Runtime directory path to install RustOwl toolchain'
+            cand --skip-rustowl-toolchain 'Install Rust toolchain only'
+            cand -h 'Print help'
+            cand --help 'Print help'
+        }
+        &'rustowl;toolchain;uninstall'= {
+            cand -h 'Print help'
+            cand --help 'Print help'
+        }
+        &'rustowl;toolchain;help'= {
+            cand install 'Install the toolchain'
+            cand uninstall 'Uninstall the toolchain'
+            cand help 'Print this message or the help of the given subcommand(s)'
+        }
+        &'rustowl;toolchain;help;install'= {
+        }
+        &'rustowl;toolchain;help;uninstall'= {
+        }
+        &'rustowl;toolchain;help;help'= {
+        }
+        &'rustowl;completions'= {
+            cand -h 'Print help (see more with ''--help'')'
+            cand --help 'Print help (see more with ''--help'')'
+        }
+        &'rustowl;help'= {
+            cand check 'Check availability'
+            cand clean 'Remove artifacts from the target directory'
+            cand toolchain 'Install or uninstall the toolchain'
+            cand completions 'Generate shell completions'
+            cand help 'Print this message or the help of the given subcommand(s)'
+        }
+        &'rustowl;help;check'= {
+        }
+        &'rustowl;help;clean'= {
+        }
+        &'rustowl;help;toolchain'= {
+            cand install 'Install the toolchain'
+            cand uninstall 'Uninstall the toolchain'
+        }
+        &'rustowl;help;toolchain;install'= {
+        }
+        &'rustowl;help;toolchain;uninstall'= {
+        }
+        &'rustowl;help;completions'= {
+        }
+        &'rustowl;help;help'= {
+        }
+    ]
+    $completions[$command]
+}

@@ -1,0 +1,715 @@
+{
+  "instance_id": "rbakbashev__elfcat.52f8cc7",
+  "skipped_tests": [
+    {
+      "name": "0b64bd84aa2b/tests.test_edge_cases.test_elf_with_no_program_headers_but_sections_present",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf32.test_32bit_big_endian_parsing",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf64.test_elf64_cp_utility_parsing",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf64.test_elf64_executable_cat_basic_structure",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf64.test_elf64_executable_ls_complete_parsing",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_aix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_freebsd",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_hurd",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_irix",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_linux",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_netbsd",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_openbsd",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_openvms",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_solaris",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_standalone",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_abi_tru64",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_aarch64",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_amdgpu",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_arm32",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_cuda",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_i860",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_ia64",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_m68k",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_m88k",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_mips",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_mips_rs3000",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_powerpc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_powerpc64",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_riscv",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_s390",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_sparc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_machine_type_x86",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_flags_r",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_flags_rwx",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_flags_w",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_flags_x",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_type_hios",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_type_hiproc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_type_loos",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_type_loproc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_type_shlib",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_program_header_type_tls",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_flags_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_flags_wax",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_type_fini_array",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_type_hios",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_type_hiproc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_type_init_array",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_type_loos",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_type_loproc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_section_header_type_shlib",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_type_core",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_type_loos_hios",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_type_loproc_hiproc",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_type_none",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0b64bd84aa2b/tests.test_elf_defs.test_type_rel",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "4448450aa190/tests.test_elf32.test_elf32_big_endian_mips",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "4448450aa190/tests.test_elf32.test_elf32_sparc_big_endian",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "4448450aa190/tests.test_smoke.test_process_valid_elf",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "477924bdcf54/eval.tests.test_help_usage.test_dash_h_matches_double_dash_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "477924bdcf54/eval.tests.test_help_usage.test_help_ends_with_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "477924bdcf54/eval.tests.test_help_usage.test_help_exit_code_is_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "477924bdcf54/eval.tests.test_help_usage.test_help_goes_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "477924bdcf54/eval.tests.test_help_usage.test_nonexistent_file_arg_errors_on_stderr",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "688f31297cef/eval.tests.test_elfcat_io.test_generates_html_named_after_basename_in_cwd",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "688f31297cef/eval.tests.test_elfcat_io.test_overwrites_existing_output_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "6d8fbd2a6ff1/eval.tests.test_argparse.test_filename_with_spaces_passes_through_as_single_argument",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6d8fbd2a6ff1/eval.tests.test_argparse.test_help_flags_exit0_and_print_usage",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6d8fbd2a6ff1/eval.tests.test_argparse.test_single_argument_is_treated_as_filename_not_usage",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6d8fbd2a6ff1/eval.tests.test_argparse.test_version_flags_exit0_print_version_line_only",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6d8fbd2a6ff1/eval.tests.test_argparse.test_wrong_arity_prints_usage_and_exit1",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c761f01ee11f/tests.test_edge_cases.TestBinaryContent.test_elf_with_null_bytes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c761f01ee11f/tests.test_edge_cases.TestELFVariants.test_big_endian_elf",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c761f01ee11f/tests.test_edge_cases.TestELFVariants.test_little_endian_elf",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f75c6d083a5c/eval.tests.test_edge_cases.test_large_file_size_display",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f75c6d083a5c/eval.tests.test_elf_parsing.test_parse_elf32_if_available",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    }
+  ]
+}

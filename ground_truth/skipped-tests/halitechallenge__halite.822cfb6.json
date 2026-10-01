@@ -1,0 +1,1166 @@
+{
+  "instance_id": "halitechallenge__halite.822cfb6",
+  "skipped_tests": [
+    {
+      "name": "0f662b93eb7c/eval.tests.test_externalized_environment.test_ext_general_environment_modbot_vs_modbot_seed_1001",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0f662b93eb7c/eval.tests.test_externalized_environment.test_ext_tie_evaluation_modbot_vs_modbot_seed_998",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "0f662b93eb7c/eval.tests.test_externalized_environment.test_ext_timeout_evaluation_mixed_bots_seed_998",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_custom_map_dimensions",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_deterministic_game_with_seed",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_init_timeout_handling",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_map_seed_reproducibility",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_map_serialization_format",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_multiple_games_cleanup",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_no_replay_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_single_player_mode_with_n_players_map",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_six_bot_game_maximum_players",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_bot_communication.test_three_bot_mixed_quality",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_cli_errors.test_explicit_seed_reproducible",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_cli_errors.test_override_flag_success",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_cli_errors.test_override_flag_three_bots",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_cli_errors.test_random_map_dimensions_valid_choices",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_cli_errors.test_random_seed_generation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_game_logic.test_different_seeds_different_outcomes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_game_logic.test_large_map_50x50",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_game_logic.test_map_no_dimensions_uses_random",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_game_logic.test_multiple_timeouts_all_players_dead",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_game_logic.test_same_seed_deterministic_outcome",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_game_logic.test_six_player_max_players",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_game_logic.test_three_player_game_complete_rankings",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_game_logic.test_timeout_bot_loses_immediately",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_harvest.test_cpp_starter_package_build",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_harvest.test_java_starter_package_build",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_harvest.test_rust_starter_package_build",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_harvest.test_starter_package_game",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_harvest.test_timeout_evaluation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_dimensions_edge_case_1x1",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_dimensions_large_nonsquare",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_large_map_100x100",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_multiple_flags_combination",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_noreplay_flag_prevents_file_creation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_quiet_mode_output_format",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_random_dimensions_generation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_seed_determinism",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_six_bots_multiplayer",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_six_players_maximum",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_init_config.test_two_bots_multiplayer",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_four_player_game_replay_completeness",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_frame_progression_territory_changes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_initial_frame_player_starting_positions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_large_map_replay_size_and_structure",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_multiple_games_produce_unique_replay_files",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_normal_mode_displays_turn_progress",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_quiet_mode_suppresses_turn_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_quiet_mode_two_player_rankings_order",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_replay_directory_without_replays_subdir_fallback",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_replay_frame_structure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_replay_owner_values_within_valid_range",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_replay_player_names_preserved",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_replay_productions_static_across_frames",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_replay_with_different_map_dimensions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_six_player_maximum_replay_structure",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_replay_output.test_three_player_rankings_in_quiet_mode",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_seed.test_version_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_timeout_errors.test_complex_failure_mix",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_timeout_errors.test_multiple_bots_timeout_init",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1040f6b8a219/tests.test_timeout_errors.test_timeout_init_single_bot",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestAdditionalFeatures.test_five_player_game",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestAdditionalFeatures.test_four_player_game",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestAdditionalFeatures.test_single_player_n3_mode",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestAdditionalFeatures.test_single_player_n5_mode",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestAdditionalFeatures.test_single_player_n6_mode",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestBotManagement.test_invalid_bot_command_creates_error_log",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestBotManagement.test_two_bot_game",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestEdgeCases.test_medium_map_size",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestEdgeCases.test_same_seed_reproducibility",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestEdgeCases.test_six_player_game",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestFlagCombinations.test_quiet_and_noreplay_together",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestMapConfiguration.test_custom_seed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestOutputFormats.test_machine_parsable_quiet_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestReplayGeneration.test_default_replay_generation",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2f1ec8e1ac43/tests.test_halite.TestReplayGeneration.test_disable_replay_with_r_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3b7277406c3f/eval.tests.test_executable_behavior.test_dimensions_zero_zero_falls_back_to_default_prefix_only",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3b7277406c3f/eval.tests.test_executable_behavior.test_noreplay_suppresses_replay_line",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3b7277406c3f/eval.tests.test_executable_behavior.test_quiet_two_bot_known_seed_1001_exact_tail",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3b7277406c3f/eval.tests.test_executable_behavior.test_replay_created_in_specified_directory",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_dimensions_invalid_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_double_dash_stops_flag_parsing",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_missing_value_for_value_flags",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_multiple_bots_with_nplayers_is_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_no_args_requires_bot_command",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_nplayers_invalid_values",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_override_rejects_odd_count",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_override_requires_even_pairs_min_4",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_seed_invalid_type",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4d0676f46d8c/eval.tests.test_args.test_unknown_flag_is_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestAdditionalFeatures.test_log_files_not_created_with_r_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestAdditionalFeatures.test_noreplay_flag_long",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestAdditionalFeatures.test_rectangular_map_wide",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestAdditionalFeatures.test_seed_consistency_across_runs",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestAdditionalFeatures.test_single_player_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestAdditionalFeatures.test_very_small_map_3x3",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestEdgeCases.test_large_map",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestEdgeCases.test_large_seed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestEdgeCases.test_small_map",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestEdgeCases.test_zero_seed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestMapGeneration.test_seed_determinism",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestReplayGeneration.test_invalid_bot_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5980e8550b63/tests.test_halite.TestReplayGeneration.test_noreplay_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestNoSubcommandArchitecture.test_all_flags_are_global",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestNoSubcommandArchitecture.test_arbitrary_string_not_treated_as_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestNoSubcommandArchitecture.test_common_subcommand_names_not_recognized",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        },
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestNoSubcommandArchitecture.test_flag_order_doesnt_matter_no_subcommand_boundary",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestNoSubcommandArchitecture.test_help_string_only_one_is_present",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestNotSubcommandErrors.test_multiple_args_treated_as_bot_commands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestNotSubcommandErrors.test_no_did_you_mean_suggestions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestNotSubcommandErrors.test_no_subcommand_listing_in_main_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestSingleCommandInterface.test_invalid_flag_produces_game_execution",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestSubcommandAbsence.test_hyphenated_args_processed_not_as_subcommands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.TestSubcommandAbsence.test_no_subcommand_help_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "825ed294d730/eval.tests.test_subcommand_dispatch.test_executable_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b377895d0633/eval.tests.test_map_config.test_large_map_dimensions",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "b377895d0633/eval.tests.test_override_edge_cases.test_five_players",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "b377895d0633/eval.tests.test_replay_output.test_noreplay_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b377895d0633/eval.tests.test_replay_output.test_noreplay_long_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b377895d0633/eval.tests.test_timeouts_errors.test_two_bots_ranking",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_dash_h_matches_dash_dash_help_exactly",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_after_double_dash_is_not_treated_as_help",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_describes_dimensions",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_describes_noreplay",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_describes_nplayers_single_player_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_describes_override_server_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_describes_quiet_machine_parsable",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_describes_replaydirectory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_describes_seed",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_describes_timeout_ignore_timeouts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_documents_flags",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_documents_version_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_documents_where_section",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_ends_with_newline",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_exit_code_is_zero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_has_array_of_strings_argument",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_has_usage_header",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_precedence_with_other_flags",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_help_prints_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_missing_required_args_prints_usage_to_stderr",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ebd38a6614ab/eval.tests.test_help_usage.test_usage_line_mentions_ignore_rest_separator",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    }
+  ]
+}

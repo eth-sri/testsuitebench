@@ -1,0 +1,41 @@
+{
+  "instance_id": "trasta298__keifu.3331426",
+  "skipped_mutants": [
+    {
+      "id": "repo_23",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "3d0fce5660f9/tests.test_tui_navigation.test_launch_shows_commit_graph"
+    },
+    {
+      "id": "repo_26",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "3d0fce5660f9/tests.test_graph_rendering.test_single_commit_repository"
+    },
+    {
+      "id": "repo_29",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "3d0fce5660f9/tests.test_graph_edge_cases.test_empty_lane_allocation"
+    },
+    {
+      "id": "repo_49",
+      "reasons": [
+        {
+          "id": "our_gt_target_test_skipped"
+        }
+      ],
+      "target_test": "3d0fce5660f9/tests.test_graph_edge_cases.test_uncommitted_changes_with_blocked_head_lane"
+    }
+  ]
+}

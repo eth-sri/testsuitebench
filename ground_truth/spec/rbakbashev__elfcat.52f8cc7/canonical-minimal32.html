@@ -1,0 +1,783 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=900, initial-scale=1'>
+    <title>minimal32.elf</title>
+    <style>
+      html {
+        font-family: monospace;
+      }
+      #headertable {
+        width: 100%;
+      }
+      #rightmenu {
+        vertical-align: top;
+        text-align: right;
+        float: right;
+      }
+      #credits {
+        color: #ddd;
+        text-decoration: none;
+        margin-bottom: 0.5em;
+        display: block;
+      }
+      #credits:hover {
+        color: #000;
+      }
+      #arrow_opacity_range {
+        width: 8em;
+      }
+      .right_hidden {
+        text-align: left;
+        display: none;
+      }
+      .textbutton {
+        color: #222;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 0.5em;
+      }
+      .textbutton::before {
+        content: "[";
+      }
+      .textbutton::after {
+        content: "]";
+      }
+      .textbutton:hover {
+        color: #922;
+      }
+      .textbutton:active {
+        color: #d11;
+      }
+      .textbutton:hover::before {
+        color: #222;
+      }
+      .textbutton:hover::after {
+        color: #222;
+      }
+      label, input {
+        vertical-align: middle;
+      }
+      .legend_rect {
+        float: left;
+        margin-right: 0.4em;
+        width: 3em;
+        height: 1.5em;
+        border: 1px solid rgba(0, 0, 0, .2);
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      #help > p {
+        margin-top: 0;
+        margin-bottom: 0.5em;
+        width: 29em;
+      }
+      #help > ul {
+        margin-top: 0;
+      }
+      #help > p + p {
+        margin-top: 1em;
+      }
+      li {
+        clear: left;
+        height: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .number {
+        text-decoration: underline dotted #888;
+      }
+      #desc {
+        width: 250px;
+      }
+      .infotables {
+        padding: 0;
+        display: block;
+      }
+      .conceal {
+        display: none;
+        border: 1px solid #000;
+        max-width: 600px;
+        margin-bottom: 1em;
+      }
+      .conceal div {
+        word-break: break-word;
+      }
+      .indirect .phdr_itable::after {
+        content: " (references this segment)";
+      }
+      .indirect .shdr_itable::after {
+        content: " (references this section)";
+      }
+      .phdr_itable::before {
+        content: "Program header";
+      }
+      .shdr_itable::before {
+        content: "Section header";
+      }
+      .phdr_itable {
+        text-align: left;
+      }
+      .shdr_itable {
+        text-align: left;
+      }
+      .segment_itable::before {
+        content: "Segment";
+      }
+      .section_itable::before {
+        content: "Section";
+      }
+      .segment_itable {
+        text-align: left;
+      }
+      .section_itable {
+        text-align: left;
+      }
+      #offsets {
+        display: inline-block;
+        text-align: right;
+        white-space: pre;
+      }
+      #bytes {
+        border: 1px solid;
+        display: inline-block;
+        word-break: break-word;
+        /* 16 bytes * (2 chars per byte + 1 space) - 1 final space */
+        width: 47ch;
+        white-space: pre;
+      }
+      #ascii {
+        border: 1px solid;
+        display: inline-block;
+        width: 16ch;
+        white-space: pre;
+      }
+      #vmap {
+        border: 1px solid;
+        display: inline-block;
+        width: 47ch;
+        vertical-align: top;
+        position: sticky;
+        top: 8px;
+      }
+      #sticky_table {
+        display: inline-block;
+        vertical-align: top;
+        position: sticky;
+        top: 8px;
+      }
+      #desc, .itable {
+        vertical-align: top;
+      }
+      .hover:hover {
+        background-color: #ee9;
+      }
+
+      .ident {
+        background-color: #e99;
+      }
+      /* highlight fields */
+      .ident:hover > span {
+        background-color: #ebb;
+      }
+      /* Duplicate of .hover:hover with more specifity. Used for elements like `#magic', for whom
+       * rule `.ident:hover > span' would override rule `.hover:hover' */
+      .ident:hover > span:hover {
+        background-color: #ee9;
+      }
+
+      /* same for .ehdr, but we also don't want to highlight .ident */
+      .ehdr {
+        background-color: #99e;
+      }
+      .ehdr:hover > span:not(.ident) {
+        background-color: #bbe;
+      }
+      .ehdr:hover > span:not(.ident):hover {
+        background-color: #ee9;
+      }
+
+      .phdr {
+        background-color: #eb9;
+      }
+      .phdr:hover > span {
+        background-color: #ed9;
+      }
+      .phdr:hover > span:hover {
+        background-color: #ef9;
+      }
+
+      .shdr {
+        background-color: #9be;
+      }
+      .shdr:hover > span {
+        background-color: #9de;
+      }
+      .shdr:hover > span:hover {
+        background-color: #9fe;
+      }
+
+      .segment {
+        background-color: #f99;
+      }
+      .section {
+        background-color: #f9f;
+      }
+      /* there are only sections inside segments due to code */
+      .segment > .section, .segm_sect_legend {
+        background: repeating-linear-gradient(
+          -45deg,
+          #f99,
+          #f99 10px,
+          #f9f 10px,
+          #f9f 20px
+        );
+      }
+      /* another duplicate of .hover:hover with more specifity */
+      .segment > .section:hover {
+        background: initial;
+        background-color: #ee9;
+      }
+
+      .segment > .segment_subrange:hover {
+        background: initial;
+        background-color: #f59;
+      }
+
+      svg {
+        position: absolute;
+        left: 0;
+        right: 0;
+        pointer-events: none;
+        overflow: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <svg width='100%' height='100%'>
+      <defs>
+        <marker id='arrowhead' viewBox='0 0 10 10' refX='10' refY='5' markerWidth='10' markerHeight='10' orient='auto'>
+          <path d='M 0 0 L 10 5 L 0 10 z' />
+        </marker>
+      </defs>
+      <g id='arrows' stroke='black' stroke-width='1' marker-end='url(#arrowhead)'></g>
+    </svg>
+    <div id='rightmenu'>
+      <a id='credits' href='https://github.com/rbakbashev/elfcat'>generated with elfcat 0.1.10</a>
+      <button class='textbutton' id='settings_toggle'>Settings</button>
+      <button class='textbutton' id='help_toggle'>Help</button>
+      <div class='right_hidden' id='settings'>
+        <label for='arrow_opacity_range'>Arrow opacity:</label>
+        <input type='range' id='arrow_opacity_range' min='0' max='100' value='100'>
+      </div>
+      <div class='right_hidden' id='help'>
+        <p>The leftmost column shows offsets within the file. The middle column is the file dump. It has ELF structs, sections and segments highlighted. Some fields that reference areas in the file are clickable and connected with arrows. The rightmost column shows printable ASCII characters corresponding to the file bytes.</p>
+        <p>Legend</p>
+        <ul>
+          <li><span class='legend_rect ident'></span>ELF Identification</li>
+          <li><span class='legend_rect ehdr'></span>ELF Header</li>
+          <li><span class='legend_rect phdr'></span>Program Header</li>
+          <li><span class='legend_rect shdr'></span>Section Header</li>
+          <li><span class='legend_rect segment'></span>Segment</li>
+          <li><span class='legend_rect section'></span>Section</li>
+          <li><span class='legend_rect segm_sect_legend'></span>Segment &amp; Section overlap</li>
+        </ul>
+      </div>
+    </div>
+    <table>
+      <tr class='fileinfo_file_name'> <td>File name:</td> <td>minimal32.elf</td> </tr>
+      <tr class='fileinfo_file_size'> <td>File size:</td> <td>84 B</td> </tr>
+      <tr class='fileinfo_class'> <td>Object class:</td> <td>32-bit</td> </tr>
+      <tr class='fileinfo_data'> <td>Data encoding:</td> <td>Little endian</td> </tr>
+      <tr class='fileinfo_abi'> <td>ABI:</td> <td>SysV</td> </tr>
+      <tr class='fileinfo_e_type'> <td>Type:</td> <td>Executable file (EXEC)</td> </tr>
+      <tr class='fileinfo_e_machine'> <td>Architecture:</td> <td>x86</td> </tr>
+      <tr class='fileinfo_e_entry'> <td>Entrypoint:</td> <td><span class='number' title='134512640'>0x8048000</span></td> </tr>
+      <tr class='fileinfo_ph'> <td>Program headers:</td> <td><span title='0x1' class='number fileinfo_e_phnum'>1</span> * <span title='0x20' class='number fileinfo_e_phentsize'>32</span> @ <span title='0x34' class='number fileinfo_e_phoff'>52</span></td> </tr>
+      <tr class='fileinfo_sh'> <td>Section headers:</td> <td><span title='0x0' class='number fileinfo_e_shnum'>0</span> * <span title='0x28' class='number fileinfo_e_shentsize'>40</span> @ <span title='0x0' class='number fileinfo_e_shoff'>0</span></td> </tr>
+    </table>
+    <div id='offsets'>0
+10
+20
+30
+40
+50</div>
+    <div id='bytes'><span class='ehdr'><span class='ident'><span class='magic'>7f &nbsp;E &nbsp;L &nbsp;F</span> <span class='class'>01</span> <span class='data'>01</span> <span class='ver'>01</span> <span class='abi'>00</span> <span class='abi_ver'>00</span> <span class='pad'>00 00 00 00 00 00 00</span></span>
+<span class='e_type'>02 00</span> <span class='e_machine'>03 00</span> <span class='e_version'>01 00 00 00</span> <span class='e_entry'>00 80 04 08</span> <span class='e_phoff'>34 00 00 00</span>
+<span class='e_shoff'>00 00 00 00</span> <span class='e_flags'>00 00 00 00</span> <span class='e_ehsize'>34 00</span> <span class='e_phentsize'>20 00</span> <span class='e_phnum'>01 00</span> <span class='e_shentsize'>28 00</span>
+<span class='e_shnum'>00 00</span> <span class='e_shstrndx'>00 00</span></span> <span class='bin_phdr0 phdr'><span class='p_type'>01 00 00 00</span> <span class='p_offset'>00 00 00 00</span> <span class='p_vaddr'>00 80 04 08</span>
+<span class='p_paddr'>00 80 04 08</span> <span class='p_filesz'>10 00 00 00</span> <span class='p_memsz'>10 00 00 00</span> <span class='p_flags'>05 00 00 00</span>
+<span class='p_align'>04 00 00 00</span></span></div>
+    <div id='ascii'>.ELF............
+............4...
+........4.....(.
+................
+................
+....</div>
+    <table id='sticky_table' cellspacing='0'>
+      <tr>
+        <td id='desc'></td>
+        <td class='infotables'>
+          <table class='conceal itable' id='info_phdr0'>
+          <th colspan='2' class='phdr_itable'></th>
+            <tr> <td>Type:</td> <td>LOAD</td> </tr>
+            <tr> <td>Flags:</td> <td>RX</td> </tr>
+            <tr> <td>Offset in file:</td> <td><span class='number' title='0'>0x0</span></td> </tr>
+            <tr> <td>Size in file:</td> <td><span class='number' title='0x10'>16</span></td> </tr>
+            <tr> <td>Vaddr in memory:</td> <td><span class='number' title='134512640'>0x8048000</span></td> </tr>
+            <tr> <td>Size in memory:</td> <td><span class='number' title='0x10'>16</span></td> </tr>
+            <tr> <td>Alignment:</td> <td><span class='number' title='4'>0x4</span></td> </tr>
+          </table>
+        </td>
+        <td class='infotables'>
+          <table class='conceal itable' id='info_segment0'>
+          <th colspan='2' class='segment_itable'></th>
+            <tr> <td>Type:</td> <td>LOAD</td> </tr>
+            <tr> <td>Size in file:</td> <td><span class='number' title='0x10'>16</span></td> </tr>
+            <tr> <td>Size in memory:</td> <td><span class='number' title='0x10'>16</span></td> </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <script type='text/javascript'>
+      let color = "#ee9";
+
+      function addPairHighlighting(elem, depElem) {
+          elem.addEventListener("mouseenter", function(event) {
+              event.target.style.backgroundColor = color;
+              depElem.style.backgroundColor = color;
+          }, false);
+
+          elem.addEventListener("mouseleave", function(event) {
+              event.target.style.backgroundColor = "";
+              depElem.style.backgroundColor = "";
+          }, false);
+      }
+
+      function highlightClasses(primaryClass, secondaryClass) {
+          let primaryElems = document.getElementsByClassName(primaryClass);
+          let secondaryElems = document.getElementsByClassName(secondaryClass);
+
+          if (primaryElems.length === 0 || secondaryElems.length === 0) {
+              return;
+          }
+
+          let primaryElem = primaryElems[0];
+          let secondaryElem = secondaryElems[0];
+
+          addPairHighlighting(primaryElem, secondaryElem);
+          addPairHighlighting(secondaryElem, primaryElem);
+      }
+
+      highlightClasses('fileinfo_class', 'class')
+      highlightClasses('fileinfo_data', 'data')
+      highlightClasses('fileinfo_abi', 'abi')
+      highlightClasses('fileinfo_abi_ver', 'abi_ver')
+      highlightClasses('fileinfo_e_type', 'e_type')
+      highlightClasses('fileinfo_e_machine', 'e_machine')
+      highlightClasses('fileinfo_e_entry', 'e_entry')
+      highlightClasses('fileinfo_e_phoff', 'e_phoff')
+      highlightClasses('fileinfo_e_shoff', 'e_shoff')
+      highlightClasses('fileinfo_e_flags', 'e_flags')
+      highlightClasses('fileinfo_e_ehsize', 'e_ehsize')
+      highlightClasses('fileinfo_e_phentsize', 'e_phentsize')
+      highlightClasses('fileinfo_e_phnum', 'e_phnum')
+      highlightClasses('fileinfo_e_shentsize', 'e_shentsize')
+      highlightClasses('fileinfo_e_shnum', 'e_shnum')
+      highlightClasses('fileinfo_e_shstrndx', 'e_shstrndx')
+    </script>
+    <script type='text/javascript'>
+      let label = document.getElementById('desc')
+      let descriptions = {
+          ehdr:         "ELF file header (ehdr)",
+          ident:        "Identifier (e_ident)",
+          magic:        "Magic (EI_MAG0 .. EI_MAG3)",
+          class:        "Object file class (EI_CLASS)",
+          data:         "Data encoding (EI_DATA)",
+          ver:          "File version, should be 1 (EI_VERSION)",
+          abi:          "ABI (EI_OSABI)",
+          abi_ver:      "ABI version, should be 0 for SysV (EI_ABIVERSION)",
+          pad:          "Identifier padding",
+          e_type:       "Object file type (e_type)",
+          e_machine:    "Object file type (e_machine)",
+          e_version:    "File version, should be 1 (e_version)",
+          e_entry:      "Entrypoint vaddr (e_entry)",
+          e_phoff:      "Offset in file to program header table (e_phoff)",
+          e_shoff:      "Offset in file to section header table (e_shoff)",
+          e_flags:      "Processor-specific flags (e_flags)",
+          e_ehsize:     "Size of ELF file header (e_ehsize)",
+          e_phentsize:  "Size of a program header table entry (e_phentsize)",
+          e_phnum:      "Number of program header table entries (e_phnum)",
+          e_shentsize:  "Size of a section header table entry (e_shentsize)",
+          e_shnum:      "Number of section header table entries (e_shnum)",
+          e_shstrndx:   "What section is a string table (e_shstrndx)",
+          phdr:         "Program header",
+          p_type:       "Segment type (p_type)",
+          p_flags:      "Segment flags (p_flags)",
+          p_offset:     "Offset in file (p_offset)",
+          p_vaddr:      "Virtual address in memory (p_vaddr)",
+          p_paddr:      "Reserved for physical address in memory (p_paddr)",
+          p_filesz:     "Size of segment in file (p_filesz)",
+          p_memsz:      "Size of segment in memory (p_memsz)",
+          p_align:      "Alignment (p_align)",
+          segment:      "Segment",
+          shdr:         "Section header",
+          sh_name:      "Offset to the section name string table containing this section name (sh_name)",
+          sh_type:      "Section type (sh_type)",
+          sh_flags:     "Section flags (sh_flags)",
+          sh_addr:      "Virtual address in memory. Should be 0 if not put into memory (sh_addr)",
+          sh_offset:    "Offset in file (sh_offset)",
+          sh_size:      "Section size. Also size in file unless type is SHT_NOBITS (sh_size)",
+          sh_link:      "Section index of an associated section (sh_link)",
+          sh_info:      "Additional information about section (sh_info)",
+          sh_addralign: "Address alignment of the section (sh_addralign)",
+          sh_entsize:   "Size of each entry if section has table of fixed-size entries (sh_entsize)",
+          section:      "Section",
+          section_in_segment: "Section in segment",
+      }
+      let separator = "<br>&#x2193<br>";
+
+      function stripFileInfoPrefix(str) {
+          return str.replace("fileinfo_", "");
+      }
+
+      function stripInfoPrefix(str) {
+          return str.replace("info_", "");
+      }
+
+      function stripBinPrefix(str) {
+          return str.replace("bin_", "");
+      }
+
+      function getDesc(cl) {
+          if (cl === "") {
+              return null;
+          }
+
+          if (descriptions[cl] !== undefined) {
+              return descriptions[cl];
+          }
+
+          if (descriptions[stripFileInfoPrefix(cl)] !== undefined) {
+              return descriptions[stripFileInfoPrefix(cl)];
+          }
+
+          if (descriptions[stripInfoPrefix(cl)] !== undefined) {
+              return descriptions[stripInfoPrefix(cl)];
+          }
+
+          if (descriptions[stripBinPrefix(cl)] !== undefined) {
+              return descriptions[stripBinPrefix(cl)];
+          }
+
+          return null;
+      }
+
+      function iterateParents(el) {
+          let txt = "";
+          let keywords = [];
+
+          do {
+              let classList = el.classList;
+              if (classList !== undefined) {
+                  for (let i = 0; i < classList.length; ++i) {
+                      keywords.push(classList[i]);
+                  }
+              }
+
+              el = el.parentNode;
+          } while (el !== null && el.tagName !== "HTML")
+
+          // fix all occurences where segments and sections overlap.
+          // once again we are relying on programming by which sections are always inside segments.
+          // also, this is O(n^2) ugly.
+          let i = 1;
+          while (i < keywords.length) {
+              if (keywords[i] !== 'segment') {
+                  ++i;
+                  continue;
+              }
+
+              let have_section_before = false;
+              let j = 0;
+              for (; j < i; ++j) {
+                  if (keywords[j] == 'section') {
+                      have_section_before = true;
+                      break;
+                  }
+              }
+
+              if (have_section_before) {
+                  keywords[i] = 'section_in_segment';
+                  keywords.splice(j, 1);
+              } else {
+                  ++i;
+              }
+          }
+
+          for (let i = 0; i < keywords.length; ++i) {
+              let keyword = keywords[i];
+              let desc = getDesc(keyword);
+
+              if (desc !== null) {
+                  if (txt === "") {
+                      txt = desc;
+                  } else {
+                      txt = desc + separator + txt;
+                  }
+              }
+          }
+
+          return txt;
+      }
+
+      document.addEventListener("mouseover", function (e) {
+          let event = e || window.event;
+
+          let target = event.target || event.srcElement;
+
+          if (!target.classList.contains('legend_rect')) {
+              document.getElementById('desc').innerHTML = iterateParents(target);
+          }
+      }, false);
+    </script>
+    <script type='text/javascript'>
+      let prevShownTables = [];
+
+      function getFirstClass(el) {
+          let cls = el.classList[0];
+
+          if (cls === undefined) {
+              return "";
+          } else {
+              return cls;
+          }
+      }
+
+      function listOfParents(el) {
+          let list = [getFirstClass(el)];
+
+          while (el.tagName !== "HTML") {
+              el = el.parentNode;
+
+              list.unshift(getFirstClass(el));
+          }
+
+          return list;
+      }
+
+      function hidePreviousTables() {
+          for (let i = 0; i < prevShownTables.length; ++i) {
+              prevShownTables[i].style.display = "none";
+              prevShownTables[i].classList.remove("indirect");
+          }
+      }
+
+      function showIfMatches(cl, prefix, newPrefix, indirect = false) {
+          if (!cl.startsWith(prefix)) {
+              return;
+          }
+
+          let tableId = cl.replace(prefix, newPrefix);
+          let table = document.getElementById(tableId);
+
+          if (table === null) {
+              return;
+          }
+
+          table.style.display = "block";
+
+          if (indirect) {
+              table.classList.add("indirect");
+          } else {
+              table.classList.remove("indirect");
+          }
+
+          prevShownTables.push(table);
+      }
+
+      document.addEventListener("mouseover", function (e) {
+          let event = e || window.event;
+          let target = event.target || event.srcElement;
+          let parents = listOfParents(target);
+          let cleared = false;
+          const prefix = 'bin_';
+
+          for (let i = 0; i < parents.length; i++) {
+              let cl = parents[i];
+
+              if (!cl.startsWith(prefix)) {
+                  continue;
+              }
+
+              if (!cleared) {
+                  cleared = true;
+                  hidePreviousTables();
+              }
+
+              showIfMatches(cl, prefix, "info_");
+              showIfMatches(cl, "bin_segment", "info_phdr", true);
+              showIfMatches(cl, "bin_section", "info_shdr", true);
+          }
+      }, false);
+    </script>
+    <script type='text/javascript'>
+      let fileLen = 84
+      function populateOffsets(columns) {
+          let rows = Math.ceil(fileLen / columns);
+          let elements = "";
+          let offset = 0;
+
+          for (let i = 0; i < rows; ++i) {
+              elements += offset.toString(16) + "</br>\n";
+              offset += columns;
+          }
+
+          document.getElementById('offsets').innerHTML = elements;
+      }
+    </script>
+    <script type='text/javascript'>
+      const arrows = document.getElementById('arrows');
+      let connections = [];
+      let batchElems = '';
+
+      function getAbsPosition(elem) {
+          let x = 0, y = 0;
+
+          do {
+              x += elem.offsetLeft || 0;
+              y += elem.offsetTop || 0;
+
+              elem = elem.offsetParent;
+          } while (elem);
+
+          return {
+              x: x,
+              y: y
+          };
+      }
+
+      function getBoundingBoxSizes(elem) {
+          let rect = elem.getBoundingClientRect();
+
+          return {
+              w: rect.width || elem.offsetWidth,
+              h: rect.height || elem.offsetHeight
+          };
+      }
+
+      function addSvgArrow(elem1, elem2) {
+          let off1 = getAbsPosition(elem1);
+          let off2 = getAbsPosition(elem2);
+
+          let bb1 = getBoundingBoxSizes(elem1);
+
+          let x1 = off1.x + bb1.w / 2;
+          let y1 = off1.y;
+
+          let x2 = off2.x;
+          let y2 = off2.y;
+
+          batchElems += '<line x1="' + x1 + '" y1="' + y1 + '" '
+                            + 'x2="' + x2 + '" y2="' + y2 + '"/>';
+      }
+
+      function jumpToElem(elem) {
+          elem.scrollIntoView();
+      }
+
+      function setJumpCallback(elemFrom, elemTo) {
+          elemFrom.addEventListener("click", function(e) {
+              jumpToElem(elemTo);
+          }, true);
+      }
+
+      function connect(sel1, sel2) {
+          let elem1 = document.querySelector(sel1);
+          let elem2 = document.querySelector(sel2);
+
+          if (elem1 === null || elem2 === null) {
+              return;
+          }
+
+          connections.push([elem1, elem2]);
+
+          addSvgArrow(elem1, elem2);
+
+          setJumpCallback(elem1, elem2);
+          setJumpCallback(elem2, elem1);
+      }
+
+      function clearArrows() {
+          batchElems = '';
+
+          arrows.innerHTML = '';
+      }
+
+      function pushArrowElems() {
+          arrows.innerHTML = batchElems;
+      }
+
+      function redrawArrows() {
+          clearArrows();
+
+          for (let i = 0; i < connections.length; ++i) {
+              let conn = connections[i];
+
+              addSvgArrow(conn[0], conn[1]);
+          }
+
+          pushArrowElems();
+      }
+
+      window.onresize = function() {
+          redrawArrows();
+      }
+
+      connect('.e_phoff', '.bin_phdr0');
+      connect('.e_shoff', '.bin_shdr0');
+      connect('.bin_phdr0 > .p_offset', '.bin_segment0');
+      pushArrowElems();
+    </script>
+    <script type='text/javascript'>
+      const settings = document.getElementById('settings');
+      const help = document.getElementById('help');
+      const arrow_input = document.getElementById('arrow_opacity_range');
+      /* const arrows is reused from arrows.js */
+
+      function toggleVisibility(elem) {
+          if (elem.style.display === "none" || elem.style.display === "") {
+              elem.style.display = "block";
+          } else {
+              elem.style.display = "none";
+          }
+      }
+
+      document.getElementById('settings_toggle').onclick = function() {
+          toggleVisibility(settings);
+
+          help.style.display = "none";
+      }
+
+      document.getElementById('help_toggle').onclick = function() {
+          toggleVisibility(help);
+
+          settings.style.display = "none";
+      }
+
+      function setArrowOpacity(e) {
+          arrows.style.opacity = e.target.valueAsNumber / 100;
+      }
+
+      arrow_input.addEventListener('change', setArrowOpacity);
+      arrow_input.addEventListener('input', setArrowOpacity);
+    </script>
+  </body>
+</html>

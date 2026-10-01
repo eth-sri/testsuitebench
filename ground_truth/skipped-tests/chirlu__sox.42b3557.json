@@ -1,0 +1,411 @@
+{
+  "instance_id": "chirlu__sox.42b3557",
+  "skipped_tests": [
+    {
+      "name": "269b33cf14ef/tests.test_basic.test_monkey_wav_fixture_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_basic.test_sox_executable_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_cli_options.test_reproducible_random",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_cli_options.test_short_and_long_options_equivalent",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_cli_options.test_verbosity_level_1",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_effects_amplitude.test_gain_zero_db",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_effects_amplitude.test_vol_unity_gain",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_effects_amplitude.test_vol_zero_db",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_effects_fade_silence.test_silence_entire_file_is_silent",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_effects_fade_silence.test_silence_no_silence_to_remove",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_effects_fade_silence.test_silence_stop_periods_negative_restart",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_effects_utility.test_reverse_twice_returns_original",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_effects_utility.test_trim_zero_length_position",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_formats_core.test_aiff_big_endian_byte_order",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_formats_core.test_aiff_header_form_signature",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_formats_core.test_au_big_endian_byte_order",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_formats_core.test_au_header_magic_signature",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_formats_core.test_wav_header_pcm16_channel_and_rate",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_formats_core.test_wav_header_riff_signature",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_formats_gsrt_htk_prc.test_gsrt_odd_sample_count_padding",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_formats_lpc10_cvsd.test_lpc10_very_short_audio",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_alaw_multichannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_ima_singlechannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_s16_multichannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_s32_multichannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_u24_multichannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_u24_to_paf_multichannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_u8_multichannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_ulaw_multichannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_vox_singlechannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_harvest_formats.test_wavu8_multichannel",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_soxi.test_soxi_duration_zero_for_unavailable",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_synth.test_synth_dc_offset",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_synth.test_synth_fractional_duration",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_synth.test_synth_no_duration_provided",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_synth.test_synth_zero_duration",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_util_coverage.test_enum_option_case_insensitive",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_util_coverage.test_enum_option_exact_match",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "269b33cf14ef/tests.test_util_coverage.test_enum_option_partial_match",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387538,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "86f3178a4b28/eval.tests.test_effects.test_reverse_preserves_length",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "86f3178a4b28/eval.tests.test_global_options.test_quiet_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "86f3178a4b28/eval.tests.test_global_options.test_verbosity_level_1",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "86f3178a4b28/eval.tests.test_stdin_stdout.test_sox_pipe_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "86f3178a4b28/eval.tests.test_synth_stat.test_synth_with_stats_pipe",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+# Python packages that model-authored eval/run.sh scripts install at runtime.
+#
+# Preinstalling them serves two purposes:
+#
+# 1. Offline eval. pip exits 0 when every requested package is already
+#    satisfied, even with no network, and non-zero only when something is
+#    genuinely missing. A survey of 196 reference suites found 158 call
+#    `pip install`, and 138 of them failed under --network none purely because
+#    pytest-timeout was absent. With this list preinstalled, 0 of 279 pip
+#    invocations fail offline, so run.sh keeps working with networking off.
+#
+# 2. Solve/eval parity. The same file is installed into the codex cleanroom
+#    (solve, generate-tests) and the patched task image (eval), so a suite that
+#    imports one of these while being written can still import it while being
+#    graded.
+#
+# This list is identical in every task image, so it reveals nothing about the
+# task under test. Keep it that way: nothing task-specific belongs here.
+#
+# Versions are deliberately unpinned. The 200 upstream task images do not share
+# a Python version, and hard pins would fail to build on the older ones. The
+# constraint file (scripts/docker/pip-constraints.txt) bounds what may resolve.
+pytest
+pytest-xdist
+pytest-timeout
+pytest-dependency
+
+# eval.py installs this at eval time to get per-test --reruns, accepting failure
+# if pip cannot reach the network. Under --network none that best-effort install
+# always fails and reruns are silently lost, so it has to ship in the image.
+pytest-rerunfailures
+
+# libtmux's pytest11 entry-point plugin marks a fixture, which pytest 9.1 turned
+# from a deprecation into a hard error. It loads on every pytest run in every
+# image, so an eval/run.sh that installs pytest unpinned would die before
+# collecting a single test and never write results.xml. 0.62.0 drops the mark.
+libtmux>=0.62.0
+pexpect
+
+# Requested by a small number of suites for fixture data and output parsing.
+PyYAML
+lxml
+beautifulsoup4
+pillow
+numpy
+xattr
+piexif
+
+# Everything below was found by scanning the `pip install` line of all 1832
+# eval/run.sh scripts across the 200 reference suites and subtracting what is
+# already installed above. 21 suites ask for one of these; 7 of them do it
+# unguarded under `set -e`, so offline the script aborts before writing
+# results.xml and every test in that branch is recorded as an error rather than
+# as a behavioural result. That is what made axodotdev__oranda report 56% instead
+# of 95%: one branch asked for `requests`, pip could not reach an index, and 301
+# tests died before running.
+#
+# These stay in the same single list rather than a per-task one: it has to be
+# byte-identical in every image so it reveals nothing about the task under test.
+requests
+toml
+tomli
+flask
+waitress
+psutil
+portpicker
+websocket-client
+brotli
+zstandard
+icalendar
+pytest-asyncio
+asyncssh
+paramiko
+cryptography
+pymysql
+
+# Five more packages are wanted by a single reference suite each and need system
+# libraries or a build toolchain that the upstream base images do not all carry,
+# so a hard install here would fail the layer -- and the image -- for every task
+# that cannot build them. They live in scripts/docker/eval_deps/<task>.sh instead, which
+# installs the system libraries too and runs in every image variant so solve,
+# test generation and eval still agree:
+#   pysam (bedtools2), weasyprint + pypdf (pandoc), pikepdf (typst),
+#   mysqlclient (skeema)

@@ -1,0 +1,41 @@
+{
+  "instance_id": "orf__gping.26eb5b9",
+  "skipped_mutants": [
+    {
+      "id": "repo_32",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "98aa118a0d99/tests.test_shortcuts.test_aws_multiple_region_formats"
+    },
+    {
+      "id": "repo_33",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "98aa118a0d99/tests.test_shortcuts.test_gcp_multiple_region_formats"
+    },
+    {
+      "id": "repo_50",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "98aa118a0d99/tests.test_errors.test_cmd_mode_empty_command"
+    },
+    {
+      "id": "repo_66",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "98aa118a0d99/tests.test_tui_ping.test_ctrl_c_quit"
+    }
+  ]
+}

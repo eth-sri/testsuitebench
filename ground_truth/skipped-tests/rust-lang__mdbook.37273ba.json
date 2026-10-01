@@ -1,0 +1,1864 @@
+{
+  "instance_id": "rust-lang__mdbook.37273ba",
+  "skipped_tests": [
+    {
+      "name": "2612fa701400/tests.test_build.test_build_twice_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_clean.test_clean_on_non_existent_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_clean.test_clean_preserves_source",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_clean.test_clean_without_book_toml",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_completions.test_completions_elvish",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_edge_cases.test_nested_directories",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_init.test_init_force_without_gitignore",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_test_command.test_test_book_with_no_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_test_command.test_test_book_with_valid_rust_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2612fa701400/tests.test_watch_serve.test_watch_with_watcher_native",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_1023_bytes_below_kib_threshold",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_absolute_dest_dir_path",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_bytes_formatting_kib",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_bytes_formatting_under_1024",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_combination_files_dirs_symlinks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_empty_book_directory_zero_bytes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_empty_subdirectories_multiple_levels",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_exact_1024_bytes_boundary",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_hard_linked_files",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_large_directory_tree",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_mixed_files_and_directories",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_multiple_directories_nested",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_nested_directories_with_files",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_only_directories_no_files_with_bytes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_single_directory_empty",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_single_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_very_small_file_single_byte",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_clean_with_symlinks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_cli.test_help_command_without_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_config.test_html_copy_fonts_false",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_errors.test_markdown_with_null_bytes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_errors.test_src_directory_same_as_build_dir",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_errors.test_summary_with_invalid_markdown_link",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_errors.test_summary_with_only_whitespace",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_harvest.test_backends_receive_render_context_via_stdin",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_harvest.test_copy_fonts_false_no_theme",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_harvest.test_example_doesnt_support_not_supported",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_harvest.test_example_supports_whatever",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_harvest.test_failing_preprocessor",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_harvest.test_legacy_relative_command_path",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_harvest.test_nop_preprocessor",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_harvest.test_renderer_with_arguments",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_init.test_init_in_existing_directory_preserves_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_init.test_init_multiple_invocations_idempotent",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_init.test_init_preserves_existing_nested_chapter_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_init.test_init_preserves_existing_non_default_files_in_src",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_init.test_init_with_ignore_none",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_init.test_init_without_theme_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_custom_preprocessor_executes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_escaped_include_directive_not_expanded",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_include_entire_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_include_from_subdirectory_with_relative_paths",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_include_single_line",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_include_with_anchors",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_include_with_line_range_from_start",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_include_with_line_range_start_end",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_include_with_line_range_to_end",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_nested_includes_three_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_playground_directive_includes_file_content",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_preprocessor_error_causes_build_failure",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_preprocessor_supports_renderer_query",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_readme_case_insensitive_conversion",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_readme_converts_to_index_html",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_rustdoc_include_with_anchors_hides_other_sections",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_preprocessors.test_title_directive_overrides_page_title",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "26df40b96ca8/tests.test_search.test_search_disabled_no_files_generated",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387775,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "2db098794610/eval.tests.test_help_main.test_dash_h_matches_dash_dash_help_exact",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2db098794610/eval.tests.test_help_main.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2db098794610/eval.tests.test_help_main.test_help_goes_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2db098794610/eval.tests.test_help_main.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2db098794610/eval.tests.test_help_subcommands.test_help_subcommand_equals_main_help_exact",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "56bf6c11ffdc/eval.tests.test_help_and_version.test_version_flag_prints_to_stdout_and_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6a8c685062d5/eval.tests.test_args_parsing.test_argument_starting_with_dash_is_accepted_with_equals_and_validated",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "6a8c685062d5/eval.tests.test_args_parsing.test_completions_accepts_only_known_choices",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6a8c685062d5/eval.tests.test_args_parsing.test_dest_dir_value_forms_are_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b6ebddb2c496/eval.tests.test_subcommand_dispatch",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389191,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_basic_build",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_create_missing",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_creates_index",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_custom_dest_dir",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_failure_on_missing_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_generates_print_html",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_generates_search_index",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_generates_toc",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_includes_css",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_no_reserved_filename",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_output_contains_content",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_build.test_build_stderr_messages",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_clean.test_clean_idempotent",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_clean.test_clean_removes_book_dir",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_clean.test_clean_with_custom_dest",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_config.test_authors_in_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_errors.test_build_broken_link",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_errors.test_build_invalid_summary",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_output_structure.test_chapter_html_has_navigation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_output_structure.test_output_has_book_js",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_output_structure.test_output_has_favicon",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_output_structure.test_output_has_fonts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_output_structure.test_output_html_contains_title",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_output_structure.test_output_html_has_main_tag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c8cbe415e02d/tests.test_output_structure.test_output_print_html_has_content",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_book_metadata_fields",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_build_with_index_preprocessing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_build_with_links_preprocessor",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_build_with_no_section_label",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_curly_quotes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_definition_lists",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_escape_characters",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_heading_attributes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_math_inline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_multiple_output_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_rust_edition_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_strikethrough_text",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_additional_features.test_task_lists",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_build_use_default_preprocessors_false",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_build_with_extra_watch_dirs",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_html_edit_url_template",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_html_fold_enable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_html_git_repository_icon",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_html_playground_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_html_redirect_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_html_search_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_config.test_html_site_url",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_preprocessors.test_external_preprocessor_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_preprocessors.test_markdown_renderer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_preprocessors.test_multiple_preprocessors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_advanced_preprocessors.test_preprocessor_with_renderer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_book_structure.test_build_with_footnotes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_book_structure.test_build_with_index_md",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_book_structure.test_build_with_mixed_content_types",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_book_structure.test_build_with_multiple_parts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_clean.test_clean_specific_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_clean.test_clean_without_book_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_cli_options.test_build_with_absolute_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_cli_options.test_test_with_chapter_filter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_cli_options.test_test_with_library_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_config.test_build_with_preprocessor_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_edge_cases.test_build_with_broken_relative_link",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_edge_cases.test_build_with_special_characters_in_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_edge_coverage.test_draft_chapters",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_edge_coverage.test_separators_in_summary",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_conditions.test_build_destination_is_source",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_conditions.test_build_with_readonly_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_conditions.test_build_with_special_markdown_chars",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_conditions.test_build_with_symlinks",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_conditions.test_build_with_very_long_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_conditions.test_test_with_compilation_warnings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_paths_fixed.test_build_open_flag_basic",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_paths_fixed.test_build_with_missing_chapter_file_creates_it",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_paths_fixed.test_build_without_book_toml_creates_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_paths_fixed.test_clean_without_book_toml_fails_gracefully",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_paths_fixed.test_test_with_chapter_filter_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_error_paths_fixed.test_test_without_book_toml_fails_gracefully",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_book_toml_all_sections",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_clean_variants",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_code_with_line_numbers",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_different_file_encodings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_init_no_prompt_variants",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_playground_not_editable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_print_page_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_search_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_coverage.test_very_deep_nesting",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_push.test_build_with_absolute_and_relative_paths",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_push.test_build_with_preprocessor_combinations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_push.test_config_variations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_push.test_file_operations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_push.test_markdown_renderer_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_push.test_multiple_init_scenarios",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_push.test_rust_code_with_various_attributes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_final_push.test_summary_parsing_edge_cases",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_html_features.test_build_with_no_copy_button",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_html_features.test_build_with_theme_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_improved_weak.test_copy_fonts_false_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_improved_weak.test_extra_watch_dirs_config_syntax",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_init.test_init_twice_requires_force",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_init.test_init_with_ignore_none",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_anchor_links_within_page",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_build_multiple_times",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_build_with_duplicate_chapter_names",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_clean_multiple_times",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_code_blocks_with_annotations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_empty_lines_in_summary",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_mixed_line_endings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_relative_path_links",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_summary_with_unicode_names",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_more_coverage.test_test_multiple_times",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_preprocessors.test_include_with_range",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_preprocessors.test_nested_includes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_preprocessors.test_playground_directive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_preprocessors.test_rustdoc_include_directive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_rust_code.test_multiple_rust_code_blocks",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_rust_code.test_non_rust_code_blocks_ignored",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_rust_code.test_rust_code_with_attributes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_rust_code.test_rust_code_with_edition",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_rust_code.test_rust_code_with_external_crate",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_rust_code.test_rust_code_with_hidden_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_rust_code.test_rust_code_with_should_panic",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_strong_features_fixed.test_rust_edition_in_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_summary.test_summary_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_summary.test_summary_with_draft_chapters",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_summary.test_summary_with_numbered_chapters",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_summary.test_summary_with_separators",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_test.test_test_no_rust_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "cdadd94435ff/tests.test_test.test_test_with_dest_dir",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_error_handling.test_init_with_existing_files_no_force",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_error_handling.test_test_command_with_library_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_init_extended.test_init_output_message",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_init_extended.test_init_with_ignore_none",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_init_extended.test_init_with_theme_creates_theme_dir",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_preprocessors.test_book_with_playpen_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_summary_parsing.test_summary_with_external_links",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_summary_parsing.test_summary_without_summary_heading",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_command.test_test_basic_no_rust_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_command.test_test_custom_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_command.test_test_with_dest_dir",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_command.test_test_with_rust_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_extended.test_test_no_rust_code_blocks",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_extended.test_test_with_chapter_filter",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_extended.test_test_with_edition_annotation",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_extended.test_test_with_ignored_code_blocks",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_extended.test_test_with_multiple_library_paths",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d044b8e852e1/tests.test_test_extended.test_test_with_no_run_annotation",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

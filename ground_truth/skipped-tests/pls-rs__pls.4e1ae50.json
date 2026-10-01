@@ -1,0 +1,319 @@
+{
+  "instance_id": "pls-rs__pls.4e1ae50",
+  "skipped_tests": [
+    {
+      "name": "4e239660f8fd/tests.test_args_output.test_detail_view_all_fields_single_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_detail_meta.test_det_time_fields_atime_ctime_btime",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_detail_size_time.test_all_timestamp_fields_together",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_detail_size_time.test_btime_field",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_detail_size_time.test_empty_file_zero_blocks",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_detail_size_time.test_sparse_file_blocks_vs_real",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_combined_filter_type_and_importance",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_exclude_pattern_character_class",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_exclude_pattern_hidden_files",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_exclude_pattern_txt_extension",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_importance_filter_cutoff_0",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_importance_filter_cutoff_1",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558223,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_importance_filter_negative_cutoff",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_only_empty_pattern",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_only_pattern_extension_alternation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_only_pattern_substring_match",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_type_filter_all_explicit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_type_filter_fifo_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_type_filter_multiple_special_types",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_type_filter_multiple_types",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_type_filter_none",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_filtering.test_type_filter_symlink_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_graphics.test_icon_case_sensitivity_in_extensions",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_presentation.test_align_disabled",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_presentation.test_align_enabled_dotfiles",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_presentation.test_align_with_grid_multiple_dotfiles",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_smoke.test_binary_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387548,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_sorting.test_sort_by_btime",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_sorting.test_sort_by_dev",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_sorting.test_sort_mixed_forward_and_reverse",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_symlinks.test_multiple_symlink_error_types_in_same_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_symlinks.test_symlink_error_sorting_with_other_entries",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_symlinks.test_symlink_error_state_conversion_from_symtarget",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_symlinks.test_symlink_error_with_detail_fields",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_symlinks.test_symlink_to_inaccessible_path_shows_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_symlinks.test_symlink_to_path_in_blocked_directory",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_window_name.test_cname_empty_after_stripping",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e239660f8fd/tests.test_window_name.test_ext_with_no_extension_files",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    }
+  ]
+}

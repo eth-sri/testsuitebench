@@ -1,0 +1,136 @@
+# Complete paths after @ in options:
+function __executable_complete_data
+    string match -qr '^(?<prefix>.*@)(?<path>.*)' -- (commandline -ct)
+    printf '%s\n' -- $prefix(__fish_complete_path $path)
+end
+complete -c executable -n 'string match -qr "@" -- (commandline -ct)' -kxa "(__executable_complete_data)"
+
+complete -c executable -l raw -d 'Pass raw request data without extra processing' -r
+complete -c executable -l pretty -d 'Controls output processing' -r -f -a "all\t'(default) Enable both coloring and formatting'
+colors\t'Apply syntax highlighting to output'
+format\t'Pretty-print json and sort headers'
+none\t'Disable both coloring and formatting'"
+complete -c executable -l format-options -d 'Set output formatting options' -r
+complete -c executable -s s -l style -d 'Output coloring style' -r -f -a "auto\t''
+solarized\t''
+monokai\t''
+fruity\t''"
+complete -c executable -l response-charset -d 'Override the response encoding for terminal display purposes' -r
+complete -c executable -l response-mime -d 'Override the response mime type for coloring and formatting for the terminal' -r
+complete -c executable -s p -l print -d 'String specifying what the output should contain' -r
+complete -c executable -s P -l history-print -d 'The same as --print but applies only to intermediary requests/responses' -r
+complete -c executable -s o -l output -d 'Save output to FILE instead of stdout' -r -F
+complete -c executable -l session -d 'Create, or reuse and update a session' -r
+complete -c executable -l session-read-only -d 'Create or read a session without updating it from the request/response exchange' -r
+complete -c executable -s A -l auth-type -d 'Specify the auth mechanism' -r -f -a "basic\t''
+bearer\t''
+digest\t''"
+complete -c executable -s a -l auth -d 'Authenticate as USER with PASS (-A basic|digest) or with TOKEN (-A bearer)' -r
+complete -c executable -l bearer -d 'Authenticate with a bearer token' -r
+complete -c executable -l max-redirects -d 'Number of redirects to follow. Only respected if --follow is used' -r
+complete -c executable -l timeout -d 'Connection timeout of the request' -r
+complete -c executable -l proxy -d 'Use a proxy for a protocol. For example: --proxy https:http://proxy.host:8080' -r
+complete -c executable -l verify -d 'If "no", skip SSL verification. If a file path, use it as a CA bundle' -r
+complete -c executable -l cert -d 'Use a client side certificate for SSL' -r -F
+complete -c executable -l cert-key -d 'A private key file to use with --cert' -r -F
+complete -c executable -l ssl -d 'Force a particular TLS version' -r -f -a "auto\t''
+tls1\t''
+tls1.1\t''
+tls1.2\t''
+tls1.3\t''"
+complete -c executable -l default-scheme -d 'The default scheme to use if not specified in the URL' -r
+complete -c executable -l http-version -d 'HTTP version to use' -r -f -a "1.0\t''
+1.1\t''
+2\t''
+2-prior-knowledge\t''
+3-prior-knowledge\t''"
+complete -c executable -l resolve -d 'Override DNS resolution for specific domain to a custom IP' -r
+complete -c executable -l interface -d 'Bind to a network interface or local IP address' -r
+complete -c executable -l unix-socket -d 'Connect using a Unix domain socket' -r -F
+complete -c executable -l generate -d 'Generate shell completions or man pages' -r -f -a "complete-bash\t''
+complete-elvish\t''
+complete-fish\t''
+complete-nushell\t''
+complete-powershell\t''
+complete-zsh\t''
+man\t''"
+complete -c executable -s j -l json -d '(default) Serialize data items from the command line as a JSON object'
+complete -c executable -s f -l form -d 'Serialize data items from the command line as form fields'
+complete -c executable -l multipart -d 'Like --form, but force a multipart/form-data request even without files'
+complete -c executable -s h -l headers -d 'Print only the response headers. Shortcut for --print=h'
+complete -c executable -s b -l body -d 'Print only the response body. Shortcut for --print=b'
+complete -c executable -s m -l meta -d 'Print only the response metadata. Shortcut for --print=m'
+complete -c executable -s v -l verbose -d 'Print the whole request as well as the response'
+complete -c executable -l debug -d 'Print full error stack traces and debug log messages'
+complete -c executable -l all -d 'Show any intermediary requests/responses while following redirects with --follow'
+complete -c executable -s q -l quiet -d 'Do not print to stdout or stderr'
+complete -c executable -s S -l stream -d 'Always stream the response body'
+complete -c executable -s x -l compress -d 'Content compressed (encoded) with Deflate algorithm'
+complete -c executable -s d -l download -d 'Download the body to a file instead of printing it'
+complete -c executable -s c -l continue -d 'Resume an interrupted download. Requires --download and --output'
+complete -c executable -l ignore-netrc -d 'Do not use credentials from .netrc'
+complete -c executable -l offline -d 'Construct HTTP requests without sending them anywhere'
+complete -c executable -l check-status -d '(default) Exit with an error status code if the server replies with an error'
+complete -c executable -s F -l follow -d 'Do follow redirects'
+complete -c executable -l native-tls -d 'Use the system TLS library instead of rustls (if enabled at compile time)'
+complete -c executable -l https -d 'Make HTTPS requests if not specified in the URL'
+complete -c executable -s 4 -l ipv4 -d 'Resolve hostname to ipv4 addresses only'
+complete -c executable -s 6 -l ipv6 -d 'Resolve hostname to ipv6 addresses only'
+complete -c executable -s I -l ignore-stdin -d 'Do not attempt to read stdin'
+complete -c executable -l curl -d 'Print a translation to a curl command'
+complete -c executable -l curl-long -d 'Use the long versions of curl\'s flags'
+complete -c executable -l help -d 'Print help'
+complete -c executable -l no-json
+complete -c executable -l no-form
+complete -c executable -l no-multipart
+complete -c executable -l no-raw
+complete -c executable -l no-pretty
+complete -c executable -l no-format-options
+complete -c executable -l no-style
+complete -c executable -l no-response-charset
+complete -c executable -l no-response-mime
+complete -c executable -l no-print
+complete -c executable -l no-headers
+complete -c executable -l no-body
+complete -c executable -l no-meta
+complete -c executable -l no-verbose
+complete -c executable -l no-debug
+complete -c executable -l no-all
+complete -c executable -l no-history-print
+complete -c executable -l no-quiet
+complete -c executable -l no-stream
+complete -c executable -l no-compress
+complete -c executable -l no-output
+complete -c executable -l no-download
+complete -c executable -l no-continue
+complete -c executable -l no-session
+complete -c executable -l no-session-read-only
+complete -c executable -l no-auth-type
+complete -c executable -l no-auth
+complete -c executable -l no-bearer
+complete -c executable -l no-ignore-netrc
+complete -c executable -l no-offline
+complete -c executable -l no-check-status
+complete -c executable -l no-follow
+complete -c executable -l no-max-redirects
+complete -c executable -l no-timeout
+complete -c executable -l no-proxy
+complete -c executable -l no-verify
+complete -c executable -l no-cert
+complete -c executable -l no-cert-key
+complete -c executable -l no-ssl
+complete -c executable -l no-native-tls
+complete -c executable -l no-default-scheme
+complete -c executable -l no-https
+complete -c executable -l no-http-version
+complete -c executable -l no-resolve
+complete -c executable -l no-interface
+complete -c executable -l no-ipv4
+complete -c executable -l no-ipv6
+complete -c executable -l no-unix-socket
+complete -c executable -l no-ignore-stdin
+complete -c executable -l no-curl
+complete -c executable -l no-curl-long
+complete -c executable -l no-generate
+complete -c executable -l no-help
+complete -c executable -s V -l version -d 'Print version'

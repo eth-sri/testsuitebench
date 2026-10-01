@@ -1,0 +1,50 @@
+{
+  "instance_id": "foriequal0__git-trim.07c2f50",
+  "skipped_mutants": [
+    {
+      "id": "repo_28",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "df37316a82f6/tests.test_main_errors.test_old_fetch_head_with_prune_enabled"
+    },
+    {
+      "id": "repo_29",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "df37316a82f6/tests.test_main_errors.test_should_update_missing_fetch_head"
+    },
+    {
+      "id": "repo_30",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "df37316a82f6/tests.test_main_errors.test_explicit_update_flag_forces_fetch"
+    },
+    {
+      "id": "repo_56",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "a03959b491c9/tests.test_output_verification.test_dry_run_shows_what_would_be_deleted"
+    },
+    {
+      "id": "repo_57",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "df37316a82f6/tests.test_interactive.test_dry_run_skips_confirmation"
+    }
+  ]
+}

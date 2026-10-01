@@ -1,0 +1,2606 @@
+{
+  "instance_id": "facebook__zstd.1168da0",
+  "skipped_tests": [
+    {
+      "name": "5676ac394b4f/tests.test_advanced.TestAdaptiveMode.test_adapt_roundtrip",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_advanced.TestContentSize.test_no_content_size",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_advanced.TestFormatFlag.test_format_zstd",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_advanced.TestListMode.test_list_multiple",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_advanced.TestListMode.test_list_null_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_advanced.TestListMode.test_list_single",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_advanced.TestNoProgress.test_no_progress_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_advanced.TestShowDefaultCparams.test_show_default_cparams",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_basic.test_memlimit_valid_suffixes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestBasicCompression.test_compress_and_test",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestBasicCompression.test_compress_check_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestBasicCompression.test_compress_checksum_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestBasicCompression.test_compress_double_dash",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestBasicCompression.test_compress_keep_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestBasicCompression.test_compress_no_check_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestBasicCompression.test_compress_with_z_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressLiterals.test_compress_literals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressLiterals.test_no_compress_literals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressLiterals.test_no_compress_literals_fast",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressLiterals.test_no_compress_literals_high_level",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressToStdout.test_compress_c_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressToStdout.test_compress_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressToStdout.test_compress_stdout_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressionLevels.test_fast_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressionLevels.test_fast_size_ordering",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestCompressionLevels.test_level_ordering",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestEnvironmentVariable.test_zstd_clevel_negative",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestEnvironmentVariable.test_zstd_clevel_positive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestLongDistanceMatching.test_long_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestLongDistanceMatching.test_long_with_window_log",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestMultiThreaded.test_rsyncable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestMultiThreaded.test_single_thread",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestMultiThreaded.test_t0",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestMultiThreaded.test_t2",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestMultipleFiles.test_compress_multiple_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestRowMatchFinder.test_no_row_match_finder",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestRowMatchFinder.test_row_match_finder",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestStreamSize.test_size_hint",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_compression.TestStreamSize.test_stream_size",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestGoldenCompression.test_compress_golden_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestGoldenDecompression.test_block_128k",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestGoldenDecompression.test_golden_decompress_all",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestGoldenDecompression.test_zeroSeq_2B",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestIntegrityCheck.test_t_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestIntegrityCheck.test_t_multiple_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestIntegrityCheck.test_t_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestIntegrityCheck.test_test_long_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_decompression.TestPassThrough.test_pass_through_short_files",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_dictionary.TestGoldenDictionary.test_golden_dict_roundtrip",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_file_handling.TestOutputDirMirror.test_output_dir_mirror_roundtrip",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_file_handling.TestOverwriteProtection.test_force_overwrite",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_file_handling.TestRemoveSource.test_rm_disabled_when_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5676ac394b4f/tests.test_file_handling.TestRemoveSource.test_rm_disabled_with_multiple_concat",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59556079aeb4/eval.tests.test_zstd_cli.test_decompress_unrecognized_passthrough_with_force",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "59556079aeb4/eval.tests.test_zstd_cli.test_invalid_level_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "59556079aeb4/eval.tests.test_zstd_cli.test_output_dir_mirror",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "a7550aa7a65f/eval.tests.test_env_config.test_env_zstd_clevel_changes_default_when_no_cli_level",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ac2ea32e87c1/eval.tests.test_no_subcommands.test_help_has_no_subcommand_section",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b8c420f7bc83/eval.tests.test_args_parsing.test_auto_threads_accepts_valid_choices",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b8c420f7bc83/eval.tests.test_args_parsing.test_auto_threads_invalid_choice_is_not_rejected_by_parser",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b8c420f7bc83/eval.tests.test_args_parsing.test_equals_forms_are_accepted_by_parser",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b8c420f7bc83/eval.tests.test_args_parsing.test_no_bracket_flags_accept_form_without_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_advanced_options.test_exclude_compressed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_benchmark.test_benchmark_basic",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_benchmark.test_benchmark_duration",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_comprehensive_final.test_list_and_test_all_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_all_levels_with_diverse_data",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_all_levels_with_threading",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_comprehensive_fast_modes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_extreme_long_distance",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_literals_with_all_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_massive_combination_matrix",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_row_matcher_variations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_rsyncable_variations",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_ultra_with_all_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost.test_varied_block_sizes_all_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_boost_70.test_exclude_compressed_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_gaps.test_exclude_compressed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_gaps.test_memory_limit_decompression",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_coverage_gaps.test_verbose_mode_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_decompression.test_test_compressed_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_edge_cases.test_invalid_compression_level",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_edge_cases.test_pass_through_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_edge_cases.test_recursive_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_compress_directory_without_recursive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_compress_read_permission_denied",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_compress_symlink",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_compress_write_permission_denied",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_conflicting_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_empty_filelist",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_invalid_long_value",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_list_non_zstd_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_multiple_output_specifications",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_ultra_without_level",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_very_long_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths.test_very_small_memory_limit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths_extended.test_conflicting_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths_extended.test_edge_case_filenames",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths_extended.test_invalid_compression_level",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths_extended.test_multiple_file_operations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_error_paths_extended.test_recursive_directory_operations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_extended_coverage.test_benchmark_per_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_extended_coverage.test_benchmark_range",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_extended_coverage.test_decompress_multiple_files",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_extended_coverage.test_dictionary_id_explicit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_extended_coverage.test_list_with_multiple_verbosity",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_extended_coverage.test_output_dir_mirror_structure",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_extended_coverage.test_test_multiple_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_extended_coverage.test_train_legacy_parameters",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_final_coverage_push.test_list_with_all_verbosity_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_final_coverage_push.test_test_with_various_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_final_push.test_dictionary_extensive",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_missing_features.test_filelist_with_mixed_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_missing_features.test_patch_apply_basic",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_missing_features.test_priority_realtime",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_more_options.test_test_multiple_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_realistic_scenarios.test_archive_multiple_files_keep_structure",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_special_modes.test_benchmark_short_duration",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_special_modes.test_filelist",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_special_modes.test_output_dir_mirror",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_special_modes.test_recursive_compression",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_verbosity.test_verbose_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcc0b83fd418/eval.tests.test_verbosity.test_very_verbose_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_07_dictionaries.test_compress_with_dictionary",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_07_dictionaries.test_decompress_with_dictionary",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_07_dictionaries.test_train_dictionary_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_07_dictionaries.test_train_with_dictID",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_07_dictionaries.test_train_with_maxdict",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_13_filelist.test_filelist_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_14_sparse.test_sparse_mode_with_file",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_16_exclude_compressed.test_exclude_compressed_skips_compressed",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_17_additional_options.test_mmap_dict_option",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_17_additional_options.test_no_dictID_option",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_17_additional_options.test_no_mmap_dict_option",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_18_error_handling.test_corrupt_dictionary",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_18_error_handling.test_double_dash_separator",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_18_error_handling.test_empty_filelist",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_18_error_handling.test_patch_without_reference",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_19_compression_strategies.test_no_pass_through_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_19_compression_strategies.test_pass_through_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_21_checksums_integrity.test_integrity_with_verbose",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_21_checksums_integrity.test_list_info_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_21_checksums_integrity.test_list_multiple_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_21_checksums_integrity.test_multiple_frames_integrity",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_25_passthrough_and_output_dirs.test_no_pass_through_uncompressed_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_25_passthrough_and_output_dirs.test_output_dir_mirror_preserves_structure",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_25_passthrough_and_output_dirs.test_pass_through_uncompressed_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "be378a85aca3/eval.tests.test_25_passthrough_and_output_dirs.test_pass_through_with_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_advanced.TestAdaptiveCompression.test_adapt_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_advanced.TestAsyncIO.test_no_asyncio_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_advanced.TestExcludeCompressed.test_exclude_compressed_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_advanced.TestJobSize.test_jobsize_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_advanced.TestRowMatchFinder.test_row_match_finder",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_advanced.TestSparseMode.test_sparse_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_advanced.TestStreamOptions.test_stream_size_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_advanced.TestTargetCompressedBlockSize.test_target_compressed_block_size",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_basic.TestBasicCompression.test_compress_and_decompress_stdout",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_basic.TestBasicCompression.test_compress_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_basic.TestBasicCompression.test_compress_to_stdout",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_basic.TestBasicCompression.test_decompress_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_basic.TestCompressionLevels.test_compression_level",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_basic.TestCompressionLevels.test_fast_compression",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_basic.TestCompressionLevels.test_ultra_compression",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_basic.TestFileTypes.test_small_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestByteExactness.test_decompress_to_file_exact",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestDeterminism.test_decompression_always_same",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestDeterminism.test_determinism_different_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestDeterminism.test_same_input_same_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestRoundTripIdentity.test_roundtrip_at_levels",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestRoundTripIdentity.test_roundtrip_binary_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestRoundTripIdentity.test_roundtrip_unicode_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestRoundTripIdentity.test_roundtrip_with_fast",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_determinism.TestRoundTripIdentity.test_roundtrip_with_ultra",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryCompression.test_compress_with_dictionary",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryCompression.test_decompress_with_dictionary",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryCompression.test_decompress_without_dictionary_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryOptions.test_no_dictID_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryTraining.test_maxdict_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryTraining.test_train_cover_algorithm",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryTraining.test_train_dictionary_basic",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryTraining.test_train_fastcover_algorithm",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryTraining.test_train_legacy_algorithm",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_dictionaries.TestDictionaryTraining.test_use_trained_dictionary",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_directories.TestFileList.test_filelist_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_directories.TestOutputDirectories.test_output_dir_flat",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_directories.TestOutputDirectories.test_output_dir_mirror_single_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_directories.TestRecursiveOperations.test_recursive_compression",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestBoundaryConditions.test_max_compression_level_without_ultra",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestBoundaryConditions.test_min_compression_level",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestBoundaryConditions.test_ultra_max_level",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestBoundaryConditions.test_very_fast_compression",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestCorruptedFiles.test_corrupted_zst_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestCorruptedFiles.test_truncated_zst_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestEmptyInput.test_no_input_provided",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestInvalidOptions.test_conflicting_options",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestInvalidOptions.test_invalid_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestMemoryLimit.test_memory_limit_too_low",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestMissingFiles.test_decompress_missing_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestMissingFiles.test_missing_input_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestSpecialCharacters.test_spaces_in_filename",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestSpecialCharacters.test_special_chars_in_filename",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_errors.TestSpecialCharacters.test_unicode_in_filename",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestChecksumOptions.test_check_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestChecksumOptions.test_no_check_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestDecompressionOptions.test_decompress_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestDecompressionOptions.test_list_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestDecompressionOptions.test_test_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestFormatOptions.test_format_gzip",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestFormatOptions.test_format_zstd",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestKeepAndRemove.test_keep_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestOutputOptions.test_force_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestOutputOptions.test_output_file_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestOutputOptions.test_stdout_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestThreadingOptions.test_single_thread_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestThreadingOptions.test_thread_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestVerbosityOptions.test_quiet_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d700e9fa5362/tests.test_options.TestVerbosityOptions.test_verbose_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e247d829e335/eval.tests.test_help_usage.test_dashdash_help_exits_zero_and_prints_stdout_only",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e247d829e335/eval.tests.test_help_usage.test_executable_exists_and_is_executable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e247d829e335/eval.tests.test_help_usage.test_h_help_exits_zero_and_prints_stdout_only",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e247d829e335/eval.tests.test_help_usage.test_long_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ea01fe38a6c7/eval.tests.test_mode_dispatch.TestGlobalVsModeSpecificFlags.test_force_flag_works_globally",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ea01fe38a6c7/eval.tests.test_mode_dispatch.TestGlobalVsModeSpecificFlags.test_verbose_flag_works_globally",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ea01fe38a6c7/eval.tests.test_mode_dispatch.TestHelpByMode.test_short_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ea01fe38a6c7/eval.tests.test_mode_dispatch.TestModeRecognition.test_bench_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ea01fe38a6c7/eval.tests.test_mode_dispatch.TestModeRecognition.test_train_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ea01fe38a6c7/eval.tests.test_mode_dispatch.TestModeRouting.test_test_validates_integrity",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "ea01fe38a6c7/eval.tests.test_mode_dispatch.TestNoArgumentBehavior.test_no_arguments_shows_usage",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_basic_smoke.test_binary_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_decompression.test_decompression_with_dictionary",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_errors.test_quiet_flag_suppresses_stats",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_cltools_zstdless",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_common_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_common_platform",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_compression_adapt",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_compression_compress_literals",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_compression_golden",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_compression_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_compression_multi_threaded",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_compression_row_match_finder",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_compression_stream_size",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_compression_verbose_wlog",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_decompression_golden",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_determinism_basic",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_determinism_multithread",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_determinism_reuse",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_dict_builder_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_dictionaries_dictionary_mismatch",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386527,
+          "user": "kilian"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_dictionaries_golden",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_file_stat_compress_file_to_dir_without_write_perm",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_file_stat_compress_file_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_file_stat_compress_stdin_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_progress_no_progress",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f7278a893d6d/tests.test_harvest_cli.test_progress_progress",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_advanced_compression.test_compress_and_no_compress_literals_mutually_exclusive",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_advanced_compression.test_exclude_compressed_skips_zst_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_advanced_compression.test_exclude_compressed_with_gz_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_advanced_compression.test_exclude_compressed_with_xz_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_benchfn_gap.test_benchmark_with_memory_limit_ultra_level",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_basic_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_different_compressibility_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_exact_block_boundary",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_large_size",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_seed_determinism",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_seed_variation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_small_size",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_sparse_content",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_stdout_with_litproba",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_very_large_size",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_datagen_gap.test_datagen_zero_size",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_errors.test_conflicting_compression_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_fileio_gaps.test_keep_source_after_compression",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_formats.test_gzip_test_mode_valid_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_harvest_cli1.TestCltools.test_zstdgrep",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_harvest_cli1.TestCltools.test_zstdless",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_harvest_cli2.test_compression_gzip_compat",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_harvest_cli2.test_decompression_golden",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_harvest_cli3.test_dict_builder_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_harvest_cli4.test_file_stat_compress_file_to_dir_without_write_perm",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestAdvancedParameters.test_long_distance_matching",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestAdvancedParameters.test_multithreading",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestAdvancedParameters.test_no_compress_literals",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestAdvancedParameters.test_rsyncable",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestChecksum.test_with_checksum",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestCompressionStrategies.test_strategies_with_data_patterns",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestCustomParameters.test_all_strategies_explicit",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestCustomParameters.test_custom_strategy_params",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestCustomParameters.test_custom_window_log",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestErrorPaths.test_no_content_size_frame",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestExtremeCases.test_extreme_levels",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestExtremeCases.test_incompressible_data",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestExtremeCases.test_tiny_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestRowMatchFinder.test_row_matchfinder_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestRowMatchFinder.test_row_matchfinder_enabled",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lib_coverage.TestWindowSizes.test_custom_windowlog",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lorem_gap.test_benchmark_near_word_boundary_sizes",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_lorem_gap.test_benchmark_sequential_buffer_sizes_comprehensive",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_threading.test_determinism_varying_thread_counts",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_threading.test_determinism_with_threading",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_util_gap.test_filelist_with_only_newlines",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "ff48618e10b3/tests.test_util_gap.test_recursive_directory_with_no_compressible_files",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    }
+  ]
+}

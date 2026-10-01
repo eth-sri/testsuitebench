@@ -1,0 +1,1487 @@
+{
+  "instance_id": "dandavison__delta.acd758f",
+  "skipped_tests": [
+    {
+      "name": "37cdad8ab074/eval.tests.test_help_output.test_help_after_double_dash_treated_as_arg_not_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "37cdad8ab074/eval.tests.test_help_output.test_help_long_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "37cdad8ab074/eval.tests.test_help_output.test_help_long_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "37cdad8ab074/eval.tests.test_help_output.test_help_long_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "37cdad8ab074/eval.tests.test_help_output.test_help_short_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "37cdad8ab074/eval.tests.test_help_output.test_help_short_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_basic.test_profraw_created",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_diff_and_syntect.test_diff_invalid_arg_format",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_delta_flags_before_git_subcommand",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_branch_command",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_cat_file_with_delta_flags",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_diff_with_refs",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_log_basic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_log_with_color_option",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_log_with_graph",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_no_args_after",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_only_no_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_rev_parse_plain_output",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_show_output_structure",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_show_with_side_by_side",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_status_output_structure",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_subcommand_with_name",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_with_dash_flags_directly_after",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_with_multiple_dash_c_flags",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_git_with_only_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_external_subcommands.test_multiple_delta_flags_before_git",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_config_env_var_git_2_31_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_config_env_var_git_2_32_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_config_env_var_with_numeric_values",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_config_from_global_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_config_from_local_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_config_invalid_file",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_config_multiple_settings_combination",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_config_numeric_value_from_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_show_bash_syntax_highlighting",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_show_javascript_syntax_highlighting",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_show_json_syntax_highlighting",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_show_nonexistent_file",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_config_gaps.test_git_show_with_revision_head_tilde",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_git_remote_urls.test_purely_numeric_hash_not_hyperlinked",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_after_context_only",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_basic_output",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_before_context_only",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386409,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_case_variations",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_context_zero_lines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_custom_match_styles",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386409,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_json_file_syntax",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386409,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_multiple_files",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_multiple_matches_same_line",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_ripgrep_format_with_context",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_ripgrep_output_format",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_separator_keep_option",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_show_function_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_show_function_with_decorations",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_tabs_expansion",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_with_color",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_with_context_lines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_with_function_context",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_without_line_numbers",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777816048,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_git_grep_without_line_numbers_no_n_flag",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep.test_grep_with_multiple_patterns",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_after_context_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_before_context_only",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_classic_output_type_override",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386409,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_custom_context_line_style",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_custom_match_styles",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_file_with_hyphens_in_path",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_file_with_long_extension",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_file_without_extension",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_filename_with_spaces",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_function_context_W_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_navigate_with_function_context",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_separator_keep_with_context",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_show_function_p_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_tabs_expanded",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_very_long_line",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386409,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_git_grep_without_line_numbers",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_ripgrep_format_multiple_files_blank_separator",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_grep_gaps.test_ripgrep_format_with_navigate",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386409,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_hyperlinks.test_hyperlinks_without_flag_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_main_errors.test_diff_with_malformed_utf8",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_main_errors.test_git_diff_invalid_option_exit_code",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_navigate_gaps.test_navigate_with_newline_in_label",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_options_edge_cases.test_git_config_main_section_overrides_features",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_show_themes.test_show_themes_excludes_non_themes",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_style_edge_cases.test_style_with_all_16_color_equivalences",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_subcommands.test_direct_file_comparison_with_diff_args",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_subcommands.test_list_syntax_themes_deterministic_order",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "3c702ddd0c23/tests.test_subcommands.test_list_syntax_themes_sorted",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "57d88096f3b4/eval.tests.test_subcommand_dispatch.test_double_dash_is_accepted_and_does_not_trigger_dispatch_errors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "57d88096f3b4/eval.tests.test_subcommand_dispatch.test_executable_does_not_use_git_style_subcommands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "57d88096f3b4/eval.tests.test_subcommand_dispatch.test_no_subcommand_is_not_a_routing_error",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_bool_choice_option_accepts_false",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_combined_short_flags_supported_for_n_and_s",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_flag_with_value_accepts_equals_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_flag_with_value_accepts_space_separated_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_integer_option_accepts_expression_string_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_integer_option_accepts_negative_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_no_args_is_allowed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_one_positional_is_allowed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7a224fd708d6/eval.tests.test_argparse_validation.test_short_option_with_equals_allows_dash_prefixed_value_for_diff_args",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestDefaultBehavior.test_no_arguments_with_empty_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestDefaultBehavior.test_two_file_arguments",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestDefaultBehavior.test_with_stdin_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestExternalSubcommands.test_git_diff_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestExternalSubcommands.test_git_subcommand_recognized",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestExternalSubcommands.test_rg_subcommand_recognized",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestGlobalFlags.test_global_flag_after_external_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestGlobalFlags.test_global_flag_with_internal_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestGlobalFlags.test_multiple_global_flags_with_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestInternalSubcommands.test_internal_subcommand_recognized",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestInternalSubcommands.test_parse_ansi_without_input_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestInternalSubcommands.test_show_themes_without_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandArgumentParsing.test_generate_completion_valid_shells",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandArgumentParsing.test_parse_ansi_with_ansi_codes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandArgumentParsing.test_parse_ansi_with_empty_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandEdgeCases.test_multiple_internal_subcommands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandEdgeCases.test_stdin_with_internal_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandEdgeCases.test_version_short_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandHelp.test_internal_subcommand_with_help_after",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandIntegration.test_color_only_with_diff_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandIntegration.test_line_numbers_with_diff_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandIntegration.test_show_themes_with_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandIntegration.test_side_by_side_with_diff_input",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandRouting.test_default_stdin_routes_correctly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestSubcommandRouting.test_git_external_routes_correctly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9a72bf2b5f74/tests.test_subcommand_dispatch.TestUnknownSubcommands.test_conflicting_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c38555181625/delta.not_a_tui_application",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d999389a8dce/eval.tests.test_config_env_behavior.test_env_delta_features_overrides_gitconfig_features_when_not_prefixed_plus",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d999389a8dce/eval.tests.test_config_env_behavior.test_home_gitconfig_is_loaded_and_affects_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestBooleanFlags.test_boolean_flags_no_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestBooleanFlags.test_combined_short_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestBooleanFlags.test_short_long_equivalence",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestColorModeFlags.test_color_mode_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestComplexFlagCombinations.test_mixed_boolean_and_value_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestComplexFlagCombinations.test_multiple_boolean_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestComplexFlagCombinations.test_multiple_value_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestDashArguments.test_single_dash_as_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestDiffArgsEdgeCases.test_diff_args_short_with_equals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestDiffArgsEdgeCases.test_diff_args_value_not_starting_with_dash",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestDiffArgsEdgeCases.test_diff_args_with_equals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestEdgeCases.test_flag_with_empty_string_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestEdgeCases.test_negative_integer_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestEdgeCases.test_special_characters_in_string_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestEdgeCases.test_unicode_in_string_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestEdgeCases.test_very_long_string_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagOrdering.test_flags_before_and_after_same_result",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagValueFormats.test_short_flag_with_equals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagValueFormats.test_space_vs_equals_syntax",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithEnumValues.test_enum_flags_valid_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithFloatValues.test_float_flags_valid_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithIntegerValues.test_integer_flags_equals_syntax",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithIntegerValues.test_integer_flags_valid_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithIntegerValues.test_integer_flags_zero_and_small_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithIntegerValues.test_short_flag_with_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithPathValues.test_config_flag_nonexistent_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithPathValues.test_config_flag_with_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithPathValues.test_pager_flag_with_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithStringValues.test_string_flags_empty_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithStringValues.test_string_flags_valid_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestFlagsWithStringValues.test_string_flags_with_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestInterleavedFlagsAndPositionals.test_flag_file_flag_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestLongIntegerValues.test_extremely_large_integer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestLongIntegerValues.test_very_large_integer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestMultipleEnumValues.test_line_fill_method_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestPositionalArguments.test_flags_after_positional_args",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestPositionalArguments.test_no_positional_args",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestPositionalArguments.test_one_positional_arg",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestPositionalArguments.test_positional_args_with_flags_before",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestPositionalArguments.test_two_positional_args_diff_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestSpecialArguments.test_double_dash_separator",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestStringValueEdgeCases.test_string_with_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestStringValueEdgeCases.test_string_with_quotes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestStringValueEdgeCases.test_string_with_tabs",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestStyleStringFlags.test_style_flags_valid_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestVersionFlag.test_version_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "e0d0c8beca51/eval.tests.test_argument_parsing.TestVersionFlag.test_version_short_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fa8c1600628e/eval.tests.test_externalized_delta.test_ext_deprecated_options_do_not_error",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

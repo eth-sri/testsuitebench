@@ -1,0 +1,1087 @@
+{
+  "instance_id": "quinn-rs__quinn.bb359cc",
+  "skipped_tests": [
+    {
+      "name": "1f503144a513/eval.tests.test_help_main.test_help_flag_exit_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1f503144a513/eval.tests.test_help_main.test_help_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1f503144a513/eval.tests.test_help_main.test_help_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1f503144a513/eval.tests.test_help_main.test_short_help_matches_long_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1f503144a513/eval.tests.test_help_subcommands.test_client_help_exit_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1f503144a513/eval.tests.test_help_subcommands.test_server_help_exit_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_bbr_congestion",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_cubic_congestion",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_initial_rtt",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_max_udp_payload_size",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_multiple_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_new_reno_congestion",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_receive_window",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_send_window",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_advanced_options.test_server_with_stream_receive_window",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_argument_parsing.test_server_buffer_size_plain_number",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_argument_parsing.test_server_buffer_size_with_G",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_argument_parsing.test_server_buffer_size_with_M",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_argument_parsing.test_server_buffer_size_with_T",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_argument_parsing.test_server_buffer_size_with_k",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_config_application.test_client_applies_congestion_bbr",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_config_application.test_server_with_initial_mtu_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_config_application.test_server_with_max_udp_payload_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_config_application.test_server_with_recv_buffer_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_config_application.test_server_with_send_buffer_config",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_config_application.test_server_with_window_configs",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_integration.test_server_starts_and_binds",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_integration.test_server_with_custom_buffer_sizes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_real_connections.test_bidirectional_transfer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_real_connections.test_server_handles_connection",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_real_connections.test_server_with_keylog",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_real_connections.test_unidirectional_transfer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_server_runtime.test_server_with_all_congestion_algorithms",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_client_with_custom_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_client_with_custom_max_udp_payload",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_client_with_custom_mtu",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_server_cert_and_key_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_server_with_conn_stats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_server_with_custom_max_udp_payload",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_server_with_custom_mtu",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_server_with_keylog_env",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "66fdfa416565/eval.tests.test_special_features.test_server_with_no_protection",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6cc2c21701cd/eval.tests.test_argparse.test_client_accepts_optional_host_positional",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6cc2c21701cd/eval.tests.test_argparse.test_client_size_options_accept_si_suffixes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6cc2c21701cd/eval.tests.test_argparse.test_equal_sign_form_is_accepted_for_duration",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6cc2c21701cd/eval.tests.test_argparse.test_equal_sign_form_is_accepted_for_server_listen",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6cc2c21701cd/eval.tests.test_argparse.test_json_dash_is_accepted_as_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "863642ded312/eval.tests.test_client_json_and_network.test_client_json_to_stdout_option_is_present_in_help",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_basic.test_executable_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387548,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_client.test_client_connection_refused",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestBoundaryConditions.test_mtu_minimum_value",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestBoundaryConditions.test_mtu_zero_rejected",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestBoundaryConditions.test_send_window_zero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestCombinedFlags.test_initial_rtt_extremely_high",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestCombinedFlags.test_initial_rtt_zero",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestCongestionAlgorithmEdgeCases.test_congestion_bbr",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestCongestionAlgorithmEdgeCases.test_congestion_cubic",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestCongestionAlgorithmEdgeCases.test_congestion_new_reno",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestNetworkErrorConditions.test_connection_to_nonexistent_host_times_out",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestNetworkErrorConditions.test_connection_to_unreachable_port_times_out",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestResourceExhaustion.test_extremely_large_buffer_sizes",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestResourceExhaustion.test_very_high_concurrency_bi",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestResourceExhaustion.test_very_high_concurrency_uni",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_edge_cases.TestShutdownBehavior.test_client_interrupted_mid_connection",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_errors.test_client_nonexistent_host_resolution",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_integration.test_ipv6_localhost_address",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_noprotection.test_client_accepts_no_protection_flag",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_noprotection.test_client_no_protection_with_multiple_flags",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_noprotection.test_mixed_protection_server_noprotection_client_protected_fails",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_server.test_server_basic_ipv6_startup",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386530,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_server.test_server_invalid_cert_file_format",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_server.test_server_ipv6_address",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_server_protocol.test_bidirectional_stream_basic_transfer",
+      "reasons": [
+        {
+          "id": "our_gt_flaky"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_stress.test_high_concurrency_unidirectional_streams",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_stress.test_large_transfer_1gb_download",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_stress.test_large_transfer_1gb_upload",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "c34b74dad75c/tests.test_stress.test_sustained_throughput_300_seconds",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_advanced.test_client_with_ip_override",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_advanced.test_client_zero_duration_exits_quickly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_advanced.test_server_generates_self_signed_cert",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_advanced.test_server_listens_on_ipv6",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_actual_T_suffix_parsing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_buffer_size_warnings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_connecting_to_ipv6_triggers_unspec",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_extreme_buffer_sizes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_ipv6_unspecified_binding",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_json_output_to_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_large_concurrent_streams",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_many_uni_streams",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_new_reno_congestion",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_qlog",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_stream_receive_window",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_very_small_downloads",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_client_with_zero_upload",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_explicit_G_suffix_in_multiple_places",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_explicit_T_suffix_in_buffer_size",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_ipv6_socket_configuration",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_server_with_qlog",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_server_with_specific_buffer_sizes_to_trigger_warnings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_coverage_boost.test_trigger_buffer_size_warning",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_client_server_basic_connection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_client_with_uni_requests",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_client_with_various_sizes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_ack_frequency",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_congestion_bbr",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_congestion_cubic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_congestion_new_reno",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_custom_buffer_sizes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_initial_mtu",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_initial_rtt",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_max_udp_payload_size",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_no_protection_flag",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_integration.test_server_with_window_sizes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_handles_bidirectional_stream",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_handles_multiple_concurrent_streams",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_handles_unidirectional_stream",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_with_congestion_bbr",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_with_congestion_cubic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_with_conn_stats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_with_custom_buffer_and_window_sizes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_with_large_transfers",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_actual_traffic.test_server_with_no_protection_handles_traffic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_coverage.test_server_with_congestion_and_traffic",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_coverage.test_server_with_no_protection",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_direct.test_server_starts_and_stops",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_direct.test_server_with_custom_cert_paths",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_server_errors.test_server_invalid_initial_mtu",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_size_parsing.test_multiple_sizes_with_different_suffixes",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_size_parsing.test_size_with_G_suffix",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_size_parsing.test_size_with_M_suffix",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_size_parsing.test_size_with_T_suffix",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_size_parsing.test_size_with_k_suffix",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f0880c2f605b/eval.tests.test_size_parsing.test_size_without_suffix",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f8ade3f0c196/eval.tests.test_env_config.test_keylog_flag_requires_sslkeylogfile_to_be_nonempty",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "instance_id": "noborus__ov.b96c2ba",
+  "skipped_mutants": [
+    {
+      "id": "repo_112",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "f61aaa36db33/tests.test_additional_main_coverage.test_config_style_settings"
+    },
+    {
+      "id": "repo_3",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "c2f41c67393a/tests.test_content_control_misc.test_stdin_input_reading"
+    },
+    {
+      "id": "repo_47",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "1b0eaae9a998/eval.tests.test_tui_ov.test_quit_exits_to_shell_prompt"
+    },
+    {
+      "id": "repo_48",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "1b0eaae9a998/eval.tests.test_tui_ov.test_unbound_key_does_not_exit"
+    }
+  ]
+}

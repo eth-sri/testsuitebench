@@ -1,0 +1,389 @@
+{
+  "instance_id": "facebookresearch__fasttext.1142dc4",
+  "skipped_tests": [
+    {
+      "name": "2172e38aeb0e/eval.tests.test_autotune.TestAutotune.test_autotune_produces_good_model",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2172e38aeb0e/eval.tests.test_autotune.TestAutotune.test_autotune_with_metric_f1",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2172e38aeb0e/eval.tests.test_autotune.TestAutotune.test_autotune_with_predictions_arg",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2172e38aeb0e/eval.tests.test_error_handling.TestInvalidInputHandling.test_training_with_empty_input_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2172e38aeb0e/eval.tests.test_prediction.TestPredict.test_predict_top_k",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2172e38aeb0e/eval.tests.test_quantize_dump.TestDump.test_dump_dict_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2172e38aeb0e/eval.tests.test_training.TestSupervisedTraining.test_supervised_verbose0_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2172e38aeb0e/eval.tests.test_word_vectors.TestPrintNgrams.test_print_ngrams_for_word",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2172e38aeb0e/eval.tests.test_word_vectors.TestPrintNgrams.test_print_ngrams_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_basic_f1_metric_runs_trials_and_creates_model",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_best_score_improves_or_stays_constant",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_completes_within_specified_duration_plus_margin",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_creates_final_model_with_best_hyperparameters",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_empty_validation_file_produces_nan_scores",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_invalid_label_in_metric_fails_at_runtime",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_modelsize_constraint_creates_quantized_ftz_model",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_precision_at_recall_metric_optimizes_correctly",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_recall_at_precision_metric_works",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_trial_count_increases_during_optimization",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_very_small_modelsize_constraint_fails_or_times_out",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_with_different_modelsize_units",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_with_f1_label_metric_optimizes_per_label",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_with_label_precision_at_recall_metric",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_with_multiple_metrics_produces_different_models",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_with_predictions_parameter_affects_evaluation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_autotune.test_autotune_with_wordngrams_flag_warns_not_optimized",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_bucket_size_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_dimension_zero_trains_without_crash",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_learning_rate_zero_trains_without_crash",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_missing_input_file_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_negative_thread_count_parameter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_skipgram_with_tiny_corpus",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_training_with_very_long_line",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_very_large_dimension_parameter",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_errors_edge_cases.test_word_ngrams_parameter_validation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_model_io.test_cross_process_loading_same_model",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_model_io.test_multiple_save_load_cycles",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_model_io.test_skipgram_and_cbow_produce_different_models",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_model_io.test_train_predict_consistency_after_multiple_loads",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_predict_eval.test_predict_prob_k_parameter",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_quantize_dump.test_quantize_only_works_on_supervised_models",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_training.test_supervised_with_learning_rate_variations",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_training.test_supervised_with_word_ngrams",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8ebac061b133/eval.tests.test_vectors_queries.test_analogies_invalid_k",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777558221,
+          "user": "kilian"
+        }
+      ]
+    }
+  ]
+}

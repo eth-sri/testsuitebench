@@ -1,0 +1,616 @@
+{
+  "instance_id": "mibk__dupl.1bf052b",
+  "skipped_tests": [
+    {
+      "name": "0ec717fcbb61/eval.tests.test_dupl_externalized.test_ext_cli_files_flag_reads_paths_from_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestBasicCloneDetection.test_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestCombinedScenarios.test_vendor_and_non_vendor_mix",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestDirectoryStructures.test_deeply_nested_directories",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestDirectoryStructures.test_multiple_subdirectories",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestEdgeCases.test_invalid_go_syntax",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestEdgeCases.test_mixed_valid_invalid_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestExitCodes.test_success_exit_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestFileInput.test_directory_argument",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestFileInput.test_no_arguments_current_dir",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestFileInput.test_stdin_files_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestFlagCombinations.test_html_and_plumbing_conflict",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestFlagCombinations.test_multiple_flags_together",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestHTMLOutput.test_html_basic_structure",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestOutputDetails.test_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestPathHandling.test_non_go_file_direct_specification",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestPathHandling.test_only_go_files_in_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestPathHandling.test_recursive_directory_search",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestRealWorldScenario.test_on_repository_code",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestSpecialCharacters.test_filename_with_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestSpecialCharacters.test_unicode_in_go_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestStdinInput.test_empty_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestStdinInput.test_multiple_files_via_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestStdinInput.test_single_file_via_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestThreshold.test_custom_threshold_low",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestThreshold.test_default_threshold",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestThreshold.test_threshold_long_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestVendorDirectory.test_vendor_ignored_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4693b2b2c5ce/tests.test_dupl.TestVendorDirectory.test_vendor_included_with_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5f5f07085e57/eval.tests.test_help_usage.test_h_and_double_dash_help_outputs_match_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5f5f07085e57/eval.tests.test_help_usage.test_help_precedence_over_other_flags_outputs_same_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6388a2824327/eval.tests.test_dupl.test_plumbing_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6388a2824327/eval.tests.test_dupl.test_plumbing_output_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "6388a2824327/eval.tests.test_dupl.test_vendor_directory_excluded_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "937e2c4f7e3c/eval.tests.test_args.test_empty_args_defaults_to_current_dir_runs",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "937e2c4f7e3c/eval.tests.test_args.test_files_flag_reads_paths_from_stdin_one_per_line",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "937e2c4f7e3c/eval.tests.test_args.test_paths_starting_with_dash_require_double_dash",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "937e2c4f7e3c/eval.tests.test_args.test_threshold_accepts_multiple_value_forms",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "937e2c4f7e3c/eval.tests.test_args.test_value_that_looks_like_flag_is_accepted_as_threshold_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "937e2c4f7e3c/eval.tests.test_args.test_vendor_flag_accepts_boolean_values_with_equals",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagBehavior.test_files_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagBehavior.test_html_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagBehavior.test_plumbing_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagBehavior.test_threshold_flag_long_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagBehavior.test_threshold_flag_short_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagBehavior.test_vendor_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagBehavior.test_verbose_flag_long_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagBehavior.test_verbose_flag_short_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_flags_after_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_flags_before_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_multiple_flags_combined",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestNoSubcommandArchitecture.test_no_args_executes_default_behavior",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestOutputFormats.test_default_text_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestOutputFormats.test_plumbing_output_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestPathArguments.test_go_file_as_argument",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestPathArguments.test_multiple_paths",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestPathArguments.test_single_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestStdinInput.test_files_flag_with_empty_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestStdinInput.test_files_flag_with_multiple_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestStdinInput.test_files_flag_with_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestThresholdValues.test_threshold_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestThresholdValues.test_threshold_large_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9cbe700834a2/eval.tests.test_subcommand_dispatch.TestThresholdValues.test_threshold_small_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "9dea7bde779b/tests.test_basic.test_version_check_implicit",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387545,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "9dea7bde779b/tests.test_integration.test_threshold_sequence_consistency",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387545,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "9dea7bde779b/tests.test_large_scale.test_many_clone_groups_output_ordering",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387545,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "9dea7bde779b/tests.test_main_gaps.test_broken_pipe_sigpipe_text_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387545,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "9dea7bde779b/tests.test_output_formats.test_html_output_ordering",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387545,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "9dea7bde779b/tests.test_output_formats.test_threshold_alias_flag_t",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387545,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "9dea7bde779b/tests.test_output_formats.test_verbose_alias_flag_v",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387545,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "9dea7bde779b/tests.test_threshold.test_negative_threshold_behaves_like_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387545,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f25ebcd2692e/tests.test_dupl.test_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f25ebcd2692e/tests.test_dupl.test_non_go_file_explicit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f25ebcd2692e/tests.test_dupl.test_vendor_directory_excluded_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+                                                                               ▐
+                                 broot 1.54.0                                  ▐
+                                                                               ▐
+broot lets you explore directory trees and launch commands.                    ▐
+It's best used when launched as br.                                            ▐
+See https://dystroy.org/broot for a complete guide.                            ▐
+                                                                               ▐
+The esc key gets you back to the previous state.                               ▐
+The ↑ and ↓ arrow keys can be used to change selection.                        ▐
+The mouse can be used to select (on click) or open (on double-click).          ▐
+                                                                               ▐
+Search Modes                                                                   ▐
+                                                                               ▐
+Type some letters to search the tree and select the most relevant file.        ▐
+For example, flam matches src/flag/mod.rs.                                     ▐
+Various types of search can be used:                                           ▐
+┌──────┬───────────────────────────────────┬──────────────────────────────────┐▐
+│prefix│              search               │example                           │▐
+├──────┼───────────────────────────────────┼──────────────────────────────────┤▐
+│    f/│fuzzy search on file name          │f/conh matches DefaultConf.hjson  │▐
+│     /│regex search on file name          │/rs$ matches build.rs             │▐
+│    e/│exact string search on file name   │e/feat matches help_features.rs   │▐
+ Hit esc to get back, or a space to start a verb
+                                                                             y

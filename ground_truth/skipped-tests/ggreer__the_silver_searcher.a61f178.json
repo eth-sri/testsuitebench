@@ -1,0 +1,1505 @@
+{
+  "instance_id": "ggreer__the_silver_searcher.a61f178",
+  "skipped_tests": [
+    {
+      "name": "1802d8be2734/eval.tests.test_ag_externalized.test_ext_negated_options_forms_are_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "214095156861/eval.tests.test_ag_io.test_color_disabled_with_nocolor_has_no_ansi",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_additional_coverage.test_search_tar_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_additional_coverage.test_search_unicode_content",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_additional_coverage.test_search_with_very_long_line",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_case_sensitivity.test_case_sensitive_search",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_error_handling.test_conflicting_case_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_error_handling.test_invalid_regex_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_error_handling.test_search_permission_denied_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_error_handling.test_search_with_null_bytes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_error_handling.test_search_with_quotes_in_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_output_format.test_no_color_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_search_basic.test_search_regex_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_special_cases.test_empty_pattern_with_files_with_matches",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_special_cases.test_multiline_match",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2a1245c74057/eval.tests.test_special_cases.test_silent_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "360371edb47b/eval.tests.test_upstream_passthrough.test_passthrough_000",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestArgumentValidation.test_context_with_valid_number",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestArgumentValidation.test_depth_with_valid_number",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestArgumentValidation.test_max_count_with_valid_number",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestArgumentValidation.test_width_with_valid_number",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestComplexFlagCombinations.test_context_with_output_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestComplexFlagCombinations.test_file_type_with_other_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestComplexFlagCombinations.test_multiple_search_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestComplexFlagCombinations.test_output_format_with_search_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestEdgeCases.test_empty_pattern_with_literal_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestEdgeCases.test_pattern_with_null_bytes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestEdgeCases.test_very_long_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestFileTypeFiltering.test_file_type_flag_with_search",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestFileTypeFiltering.test_multiple_file_type_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestFilenamePatternMode.test_g_flag_searches_filenames_not_content",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestFilenamePatternMode.test_g_flag_with_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_case_insensitive_flag_after_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_case_insensitive_flag_before_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_help_flag_after_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestFlagOrdering.test_version_standalone",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestGlobalFlagBehavior.test_color_flag_with_search",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestGlobalFlagBehavior.test_count_flag_changes_output_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestGlobalFlagBehavior.test_literal_flag_disables_regex",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestGlobalFlagBehavior.test_nocolor_flag_with_search",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestHelpConsistency.test_help_short_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestNoSubcommands.test_arbitrary_word_treated_as_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestNoSubcommands.test_no_add_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestNoSubcommands.test_no_init_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestNoSubcommands.test_no_list_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestNoSubcommands.test_no_remove_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestOperationalModes.test_filename_pattern_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestPrecedenceAndOverrides.test_case_insensitive_overrides_sensitive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestPrecedenceAndOverrides.test_case_sensitive_overrides_insensitive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestPrecedenceAndOverrides.test_multiple_output_format_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestSearchModePatternParsing.test_double_dash_separates_options_from_arguments",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestSearchModePatternParsing.test_pattern_starting_with_dash",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e99641c7069/eval.tests.test_subcommand_dispatch.TestSearchModePatternParsing.test_single_dash_treated_as_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_basic_invocation.TestBasicInvocation.test_exit_code_match_found",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_color_codes_custom",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_compressed_xz_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_debug_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_file_with_nulls",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_filename_with_special_chars",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_pager_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_parallel_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_print_all_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_debug_and_special.TestDebugAndSpecial.test_very_deep_directory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_concurrent_file_modification",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_deeply_nested_directories",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_dos_line_endings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_invalid_utf8",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_mac_line_endings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_mixed_line_endings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_null_bytes_in_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_permission_denied",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_spaces_in_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_special_characters_in_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_symlink_loop",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_tabs_in_content",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_edge_cases.TestEdgeCases.test_very_long_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_file_types.TestFileTypes.test_all_text_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_file_types.TestFileTypes.test_all_types",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_file_types.TestFileTypes.test_unrestricted_search",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_ignore_filtering.TestIgnoreFiltering.test_directory_ignore_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_ignore_filtering.TestIgnoreFiltering.test_nested_ignore_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_ignore_filtering.TestIgnoreFiltering.test_path_to_ignore_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_ignore_filtering.TestIgnoreFiltering.test_skip_vcs_ignores",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_input_handling.TestInputHandling.test_binary_file_with_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_input_handling.TestInputHandling.test_single_file_search",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_ackmate_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_break_between_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_color_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_hide_filenames",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_no_break",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_no_heading",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_print_long_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_silent_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_output_formatting.TestOutputFormatting.test_width_truncation",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_pattern_matching.TestPatternMatching.test_empty_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_pattern_matching.TestPatternMatching.test_multiline_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_pattern_matching.TestPatternMatching.test_no_multiline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_pattern_matching.TestPatternMatching.test_smart_case_lowercase",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_affinity_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_affinity_enabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_depth_limit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_depth_unlimited",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_follow_symlinks",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_max_count",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_mmap_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_mmap_enabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_no_recurse",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_one_device",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_search_zip",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "780e714c0c7c/eval.tests.test_search_control.TestSearchControl.test_workers_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_edge_cases.test_long_pattern_doesnt_crash",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_edge_cases.test_search_binary_files_with_a_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_errors.test_depth_negative",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_errors.test_empty_pattern_with_literal_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_errors.test_regex_catastrophic_backtracking",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_errors.test_regex_quantifier_after_quantifier",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_errors.test_width_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_file_utils.test_is_named_pipe_function",
+      "reasons": [
+        {
+          "id": "slow_or_hang",
+          "info": "phases=['call', 'setup'] run_tests rc=-1",
+          "kind": "hung",
+          "run": "infer_no_int_no_dep__gpt_5_5_responses_high__gpt-5-5-genai-responses",
+          "timestamp": 1778343057,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_file_utils.test_named_pipe_stream_search",
+      "reasons": [
+        {
+          "id": "slow_or_hang",
+          "info": "phases=['call', 'setup'] run_tests rc=-1",
+          "kind": "hung",
+          "run": "infer_no_int_no_dep__gpt_5_5_responses_high__gpt-5-5-genai-responses",
+          "timestamp": 1778343057,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_harvest.test_big_file_handling",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_harvest.test_is_binary_file_detection",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_harvest.test_negated_options",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_harvest.test_only_matching_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_search.test_file_without_read_permissions",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_util.test_is_directory_symlink_stat_failure",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "7c5468344bba/tests.test_util.test_utf8_bom_detection_incomplete",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "8f9257974618/eval.tests.test_argparse_validation.test_after_before_context_non_numeric_consumes_as_pattern_not_error",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "8f9257974618/eval.tests.test_argparse_validation.test_after_before_context_optional_numeric_arg_can_be_omitted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "8f9257974618/eval.tests.test_argparse_validation.test_combined_short_flags_equivalent",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "8f9257974618/eval.tests.test_argparse_validation.test_double_dash_stops_option_parsing_unknown_flag_as_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "8f9257974618/eval.tests.test_argparse_validation.test_flag_aliases_ignore_case_same_as_long",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "8f9257974618/eval.tests.test_argparse_validation.test_single_dash_as_path_is_treated_as_stream_and_parses",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "8f9257974618/eval.tests.test_argparse_validation.test_value_with_equals_for_long_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "8f9257974618/eval.tests.test_argparse_validation.test_width_accepts_integer_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_additional_coverage.TestCaseSensitivityEdgeCases.test_smart_case_with_mixed_pattern",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_additional_coverage.TestColorCodes.test_color_line_number",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_additional_coverage.TestColorCodes.test_color_match",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_additional_coverage.TestColorCodes.test_color_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_additional_coverage.TestFilenameFlag.test_nofilename_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_additional_coverage.TestMultibyteCharacters.test_multibyte_in_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestBinaryFiles.test_binary_file_skipped_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestBinaryFiles.test_search_binary_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestDebugFlag.test_debug_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestEmptyPattern.test_empty_pattern_stdin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestLongLines.test_long_line",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestLongLines.test_print_long_lines_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestOneDevice.test_one_device_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestSearchZip.test_search_zip_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestSpecialCharacters.test_special_regex_chars",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestSymlinks.test_follow_symlinks_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestSymlinks.test_symlinks_not_followed_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_edge_cases.TestWidthTruncation.test_width_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_exact_output.TestComplexSearchScenarios.test_mixed_file_types",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_exact_output.TestExactOutputFormat.test_no_filename_for_single_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_exact_output.TestLineNumberFormats.test_line_numbers_with_context",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_exact_output.TestStdinBehavior.test_stdin_no_line_numbers_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_exact_output.TestStdinBehavior.test_stdin_with_numbers_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_exit_codes.TestExitCodes.test_exit_code_match_found",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_file_types.TestAllTypesFlag.test_all_types_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_ignore_patterns.TestIgnoreOption.test_ignore_dir_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_ignore_patterns.TestSkipVcsIgnores.test_skip_vcs_ignores_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_ignore_patterns.TestUnrestricted.test_unrestricted_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestAckmateFormat.test_ackmate_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestBreakOption.test_break_enabled_by_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestBreakOption.test_nobreak_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestColorOption.test_color_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestColorOption.test_nocolor_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestGroupOption.test_group_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestGroupOption.test_nogroup_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestHeadingOption.test_noheading_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestPrintAllFiles.test_print_all_files_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestSilentOption.test_silent_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestStatsOption.test_stats_only_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_output_options.TestVimgrepOption.test_vimgrep_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_search_options.TestDepth.test_depth_limit",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "b18a9a40cdd5/tests.test_search_options.TestWordRegexp.test_word_regexp_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fc206146b777/eval.tests.test_help_usage.test_h_and_help_outputs_match_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fc206146b777/eval.tests.test_help_usage.test_help_after_double_dash_is_not_treated_as_help",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fc206146b777/eval.tests.test_help_usage.test_help_exits_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fc206146b777/eval.tests.test_help_usage.test_help_goes_to_stdout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fc206146b777/eval.tests.test_help_usage.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "fc206146b777/eval.tests.test_help_usage.test_help_stderr_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2637 @@
+{
+  "instance_id": "guumaster__hostctl.d6d9699",
+  "skipped_tests": [
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_command_groups_expose_subcommands",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_global_host_file_flag_accepts_after_subcommand",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_global_host_file_flag_accepts_before_subcommand",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_global_output_flag_accepts_after_subcommand",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_global_output_flag_accepts_before_subcommand",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_global_raw_flag_accepts_after_subcommand",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_global_raw_flag_accepts_before_subcommand",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_group_subcommands_help_routable",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_list_disabled_alias_routing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_list_enabled_alias_routing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_subcommand_help_differs_from_main_help",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "0045f0d1e718/eval.tests.test_subcommand_dispatch.test_top_level_command_help_is_routable",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389179,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_backup_restore.test_backup_with_quiet_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_default_profile.test_default_profile_in_status",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_default_profile.test_list_specific_default_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_edge_cases.test_empty_hosts_file_operations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_edge_cases.test_many_profiles",
+      "reasons": [
+        {
+          "id": "our_gt_gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_enable_disable.test_disable_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_enable_disable.test_enable_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_error_handling.test_nonexistent_hosts_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_error_handling.test_remove_nonexistent_domain",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_global_flags.test_global_flags_order_independence",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_global_flags.test_quiet_flag_reduces_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_info_command.test_info_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_list_commands.test_list_empty_hosts_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_list_commands.test_list_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_remove_commands.test_remove_command_basic",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_remove_commands.test_remove_multiple_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_remove_commands.test_remove_single_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_remove_commands.test_remove_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_status_command.test_status_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_status_command.test_status_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "066b68295b09/eval.tests.test_toggle_command.test_toggle_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddCommand.test_add_empty_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddCommand.test_add_invalid_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddCommand.test_add_ipv6",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddCommand.test_add_new_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddCommand.test_add_to_existing_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddCommand.test_add_without_from_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddDomainsSubcommand.test_add_domains_existing_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddDomainsSubcommand.test_add_domains_multiple",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddDomainsSubcommand.test_add_domains_new_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_add.TestAddWithQuietFlag.test_add_quiet",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestBackupCommand.test_backup_creates_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestBackupCommand.test_backup_default_path",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestBackupCommand.test_backup_multiple_times",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestBackupCommand.test_backup_preserves_content",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestBackupRestoreWorkflow.test_backup_modify_restore_workflow",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestRestoreCommand.test_restore_from_backup",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestRestoreCommand.test_restore_invalid_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestRestoreCommand.test_restore_overwrites_all_content",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_backup_restore.TestRestoreCommand.test_restore_without_from_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_basic_commands.TestGlobalFlags.test_quiet_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_basic_commands.TestGlobalFlags.test_quiet_short_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_basic_commands.TestInvalidCommands.test_invalid_subcommand_list",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestDuplicateEntries.test_duplicate_domains_same_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestDuplicateEntries.test_same_domain_different_ips",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestEmptyAndMalformed.test_empty_profile_name",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestEmptyAndMalformed.test_file_with_blank_lines",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestEmptyAndMalformed.test_file_with_only_comments",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestEmptyAndMalformed.test_malformed_ip_address",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestFilePermissions.test_readonly_hosts_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestIPv6Support.test_ipv6_full_notation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestIPv6Support.test_ipv6_short_notation",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestIPv6Support.test_mixed_ipv4_ipv6",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestLargeFiles.test_many_entries_single_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestLargeFiles.test_many_profiles",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestSpecialCharacters.test_profile_name_with_spaces",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestSpecialCharacters.test_profile_name_with_special_chars",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestSpecialCharacters.test_unicode_domain_names",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_edge_cases.TestSpecialCharacters.test_very_long_domain_name",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestDisableCommand.test_disable_all",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestDisableCommand.test_disable_already_disabled_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestDisableCommand.test_disable_enabled_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestDisableCommand.test_disable_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestDisableCommand.test_disable_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestEnableCommand.test_enable_all",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestEnableCommand.test_enable_already_enabled_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestEnableCommand.test_enable_disabled_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestEnableCommand.test_enable_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestEnableCommand.test_enable_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestToggleCommand.test_toggle_disabled_to_enabled",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestToggleCommand.test_toggle_enabled_to_disabled",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestToggleCommand.test_toggle_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_enable_disable.TestToggleCommand.test_toggle_twice_returns_to_original",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_integration.TestCompleteWorkflows.test_workflow_add_list_status",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_integration.TestCompleteWorkflows.test_workflow_add_replace_remove",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_integration.TestCompleteWorkflows.test_workflow_enable_disable_toggle",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_integration.TestCompleteWorkflows.test_workflow_multiple_profiles",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_integration.TestErrorRecovery.test_failed_operation_preserves_state",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_integration.TestErrorRecovery.test_multiple_operations_consistency",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_integration.TestOutputFormatConsistency.test_json_output_is_valid",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_integration.TestOutputFormatConsistency.test_quiet_mode_suppresses_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListCommand.test_list_default_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListCommand.test_list_empty_hosts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListCommand.test_list_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListCommand.test_list_specific_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListCommand.test_list_with_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListOutputFormats.test_list_json_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListOutputFormats.test_list_markdown_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListOutputFormats.test_list_raw_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListSubcommands.test_list_disabled",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_list.TestListSubcommands.test_list_enabled",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestRemoveCommand.test_remove_all_profiles",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestRemoveCommand.test_remove_keeps_other_profiles",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestRemoveCommand.test_remove_multiple_profiles",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestRemoveCommand.test_remove_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestRemoveCommand.test_remove_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestRemoveDomainsSubcommand.test_remove_domains_multiple",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestRemoveDomainsSubcommand.test_remove_domains_single",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestReplaceCommand.test_replace_creates_new_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestReplaceCommand.test_replace_existing_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestReplaceCommand.test_replace_invalid_file",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestReplaceCommand.test_replace_vs_add_difference",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_remove_replace.TestReplaceCommand.test_replace_without_from_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusCommand.test_status_default_only",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusCommand.test_status_empty_hosts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusCommand.test_status_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusCommand.test_status_specific_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusCommand.test_status_with_disabled_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusCommand.test_status_with_enabled_profile",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusOutputFormats.test_status_json_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusOutputFormats.test_status_markdown_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusOutputFormats.test_status_raw_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusOutputFormats.test_status_raw_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "2d98faf2b67e/tests.test_status.TestStatusOutputFormats.test_status_table_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_add_domains_with_empty_profile_name",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_all_output_formats_comprehensive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_binary_content_in_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_column_combinations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_combinations_of_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_empty_domain_names",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_malformed_ip_addresses",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_multiple_end_markers",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_nested_profile_markers",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_no_color_consistency",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_profile_header_variations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_profile_name_with_spaces_error",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_profile_without_entries",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_quiet_consistency",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_toggle_between_all_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_absolute_final_push.test_unicode_in_various_places",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_coverage.test_add_with_file_and_domains_conflict",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_coverage.test_add_without_from_flag_error",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_coverage.test_disable_already_disabled_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_coverage.test_enable_already_enabled_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_coverage.test_hosts_file_banner_preserved",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_coverage.test_list_specific_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_coverage.test_list_with_nonexistent_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_coverage.test_profile_with_only_whitespace_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_features.test_column_filtering_various_columns",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_additional_features.test_list_with_multiple_filters",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_add_to_profile_named_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_disable_without_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_enable_disable_race",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_enable_without_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_list_profile_named_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_list_with_no_profiles_in_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_profile_with_spaces_in_name",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_remove_without_profiles_or_all",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_status_profile_named_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_status_with_no_profiles_in_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_completion_and_edge.test_toggle_without_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_add_and_remove_same_profile_cycle",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_add_profile_with_from_file_and_ip",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_concurrent_profile_modifications",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_disable_and_list_immediately",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_hosts_file_with_invalid_profile_markers",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_hosts_file_with_windows_line_endings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_list_all_output_formats_on_complex_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_list_with_color_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_list_with_invalid_column_name",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_markdown_output_with_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_raw_output_with_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_replace_with_empty_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_status_all_output_formats_on_complex_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_comprehensive_final.test_status_with_color_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_boost.test_add_from_url_fails_gracefully",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_boost.test_disable_already_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_boost.test_enable_already_enabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_boost.test_hosts_file_with_mixed_line_endings",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_boost.test_list_with_various_output_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_boost.test_status_with_various_output_formats",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_boost.test_toggle_multiple_times",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_gaps.test_column_filter_with_invalid_column",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_gaps.test_info_with_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_coverage_gaps.test_remove_domains_nonexistent",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_binary_data_in_hosts_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_empty_hosts_file_operations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_hosts_file_with_only_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_hosts_file_with_only_whitespace",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_invalid_ip_address",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_malformed_hosts_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_profile_without_end_marker",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_unicode_in_domain",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_very_large_hosts_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_edge_cases.test_very_long_domain_name",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_enable_disable_toggle.test_disable_with_only_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_enable_disable_toggle.test_disable_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_enable_disable_toggle.test_enable_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_enable_disable_toggle.test_toggle_twice_returns_to_original",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_enable_disable_toggle.test_toggle_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_add_same_domain_twice",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_column_specification",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_disable_all_with_no_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_duplicate_profile_names",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_empty_hosts_file_operations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_enable_all_with_no_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_hosts_file_only_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_hosts_file_with_unicode_domains",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_malformed_profile_header",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_profile_without_end_marker",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_error_paths.test_remove_domains_from_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_comprehensive_push.test_all_commands_with_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_comprehensive_push.test_domain_edge_cases",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_comprehensive_push.test_hosts_file_with_bom",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_comprehensive_push.test_list_disabled_when_all_enabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_comprehensive_push.test_list_enabled_when_all_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_comprehensive_push.test_multiple_formats_same_session",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_comprehensive_push.test_operations_on_empty_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_comprehensive_push.test_operations_preserve_blank_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_coverage_boost.test_quiet_flag_on_various_commands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_coverage_push.test_column_selection_variations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_coverage_push.test_hosts_file_with_multiple_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_coverage_push.test_hosts_file_with_tabs",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_coverage_push.test_raw_output_structure",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_add_from_http_url",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_add_from_https_url",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_add_without_domains",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_backup_nonexistent_hosts_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_hosts_file_permissions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_list_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_list_with_all_columns",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_remove_domains_without_specifying",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_replace_from_url",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push.test_status_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push_70.test_quiet_mode_reduces_verbosity",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push_70.test_remove_domains_with_no_domains_specified",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push_70.test_status_with_no_managed_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_final_push_70.test_status_with_specific_nonexistent_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_host_file_flag.test_custom_host_file_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_host_file_flag.test_host_file_created_if_missing",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_host_file_flag.test_host_file_in_subdirectory",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_host_file_flag.test_host_file_with_list",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_host_file_flag.test_relative_host_file_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_more_coverage.test_list_enabled_and_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_more_coverage.test_list_with_profile_filter",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_more_coverage.test_status_with_profile_filter",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_output_formats.test_column_filter_multiple",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_output_formats.test_column_filter_short_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_output_formats.test_column_filter_single",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_output_formats.test_no_color_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_output_formats.test_quiet_flag_with_operations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_output_formats.test_raw_flag_shorthand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_output_formats.test_raw_output_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_and_final.test_malformed_profile_headers_variations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_and_final.test_operations_on_same_profile_multiple_times",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_and_final.test_profile_operations_preserve_comments",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_edge_cases.test_hosts_file_starting_with_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_edge_cases.test_hosts_file_with_empty_lines",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_edge_cases.test_hosts_file_with_trailing_spaces",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_edge_cases.test_ip_address_edge_cases",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_edge_cases.test_profile_case_sensitivity",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_parser_edge_cases.test_profile_with_no_entries",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_realistic_workflows.test_column_filtering_workflow",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_realistic_workflows.test_quiet_mode_automation",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_replace_remove.test_remove_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_replace_remove.test_replace_with_quiet",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_list_disabled_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_list_disabled_shows_correct_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_list_empty_hosts_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_list_enabled_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_list_enabled_shows_correct_profiles",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_list_specific_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_status_empty_hosts_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_status_quiet_minimizes_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_status_quiet_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_status_specific_profile",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "3f2b4bcfcec2/eval.tests.test_status_list.test_status_with_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84a804e946be/eval.tests.test_config_env.test_no_color_flag_removes_ansi_sequences",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "84a804e946be/eval.tests.test_config_env.test_quiet_suppresses_using_hosts_file_message",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcb1a5eb37b4/eval.tests.test_help_formatting.test_no_color_flag_does_not_introduce_ansi_sequences",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcb1a5eb37b4/eval.tests.test_help_main.test_dash_h_matches_dash_dash_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcb1a5eb37b4/eval.tests.test_help_main.test_help_ends_with_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcb1a5eb37b4/eval.tests.test_help_main.test_help_exit_code_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcb1a5eb37b4/eval.tests.test_help_main.test_help_goes_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "bcb1a5eb37b4/eval.tests.test_help_subcommands.test_subcommand_help_exit_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c838c0f38211/tests.test_subcommand_dispatch.TestGlobalFlags.test_global_flag_after_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c838c0f38211/tests.test_subcommand_dispatch.TestGlobalFlags.test_global_flag_before_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c838c0f38211/tests.test_subcommand_dispatch.TestGlobalFlags.test_quiet_flag_suppresses_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c838c0f38211/tests.test_subcommand_dispatch.TestNestedSubcommands.test_list_disabled_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c838c0f38211/tests.test_subcommand_dispatch.TestNestedSubcommands.test_list_enabled_exists",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c838c0f38211/tests.test_subcommand_dispatch.TestVersionFlag.test_version_flag_long",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "c838c0f38211/tests.test_subcommand_dispatch.TestVersionFlag.test_version_flag_short",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_add_replace.test_add_domains_no_color_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_add_replace.test_add_duplicate_domains_merged",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_edge_cases.test_comment_preservation_in_default_section",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_gap_filling.test_no_color_flag_strips_ansi",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_gap_filling.test_quiet_flag_suppresses_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_gap_filling.test_raw_flag_produces_raw_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_info_url.test_add_from_url_https_scheme_error",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_remove.test_remove_domains_with_no_domain_arguments_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_state_mgmt.test_disable_preserves_default_section",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_state_mgmt.test_enable_preserves_default_section",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_state_mgmt.test_enable_preserves_hostnames_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_state_mgmt.test_toggle_preserves_default_section",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_state_mgmt.test_toggle_roundtrip_restores_original_state",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_wait_flag.test_add_wait_profile_fully_removed_not_just_disabled",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_wait_flag.test_disable_all_wait_reenables_all",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "d795615fe94d/tests.test_wait_flag.test_wait_interrupted_by_invalid_operation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387540,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "f4ef2edbac33/eval.tests.test_backup_restore.test_backup_creates_dated_copy_in_specified_path",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f4ef2edbac33/eval.tests.test_backup_restore.test_restore_overwrites_hosts_file_with_backup_data",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f4ef2edbac33/eval.tests.test_out_formats.test_raw_flag_equals_out_raw_header_and_tab_separated",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "instance_id": "ecumene__rust-sloth.051c559",
+  "skipped_tests": [
+    {
+      "name": "1d7e34d37f1f/eval.tests.test_image_rendering.test_image_contains_ansi_csi_sequences",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1d7e34d37f1f/eval.tests.test_image_rendering.test_image_newline_count_for_h10",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "1d7e34d37f1f/eval.tests.test_image_rendering.test_rotation_flags_change_output",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "4e26fc9205c7/eval.tests.test_color_modes.test_no_color_produces_plain_chars",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e26fc9205c7/eval.tests.test_error_handling.test_corrupted_obj_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "4e26fc9205c7/eval.tests.test_error_handling.test_zero_width",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5fa0c2f7c077/eval.tests.test_config_env_handling.test_does_not_load_xdg_config_home_as_config_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5fa0c2f7c077/eval.tests.test_config_env_handling.test_ignores_unknown_env_vars_does_not_crash",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_all_flags_combined",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_complex_obj_with_rotations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_different_obj_models",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_extremely_small_width",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_extremely_small_width_and_height",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_multiple_stl_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_obj_and_stl_mixed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_rotation_combined_with_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_stl_with_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_stl_with_rotations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_very_large_width",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_zero_height",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_edge_cases.test_zero_width",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_image_mode.test_image_mode_different_models",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_image_mode.test_image_mode_no_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_image_mode.test_image_mode_small_size",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_image_mode.test_image_mode_with_rotations",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_input_handling.test_empty_obj_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_input_handling.test_malformed_obj_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_input_handling.test_multiple_obj_files",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_output_formats.test_no_color_flag_image_level",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_output_formats.test_no_color_flag_top_level",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_output_formats.test_no_color_output",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_all_axes",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_decimal_precision",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_large_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_very_small_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_x_long_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_x_yaw",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_y_long_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_y_pitch",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_z_long_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_z_roll",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "718b6511c1b3/eval.tests.test_rotations.test_rotation_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "739aa5214d1e/eval.tests.test_subcommand_dispatch.test_global_flags_can_appear_before_or_after_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "739aa5214d1e/eval.tests.test_subcommand_dispatch.test_subcommand_has_help_route",
+      "reasons": [
+        {
+          "id": "outcome_dependent_presence",
+          "timestamp": 1777389178,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "a892469c7f5b/eval.tests.test_argparse_validation.test_image_accepts_width_value_forms_and_flag_order",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "a892469c7f5b/eval.tests.test_argparse_validation.test_root_rotation_flags_accept_float_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestEdgeCases.test_image_with_rotation_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestEdgeCases.test_zero_width",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestFlagPositioning.test_flag_after_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestGlobalFlags.test_global_flag_b_after_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestGlobalFlags.test_global_flag_b_before_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestGlobalFlags.test_global_rotation_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestSubcommandOrdering.test_filename_before_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestSubcommandOrdering.test_global_flag_before_filename",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestSubcommandOrdering.test_subcommand_flags_after_subcommand",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestSubcommandSpecificBehavior.test_image_subcommand_b_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestSubcommandSpecificBehavior.test_image_with_webify_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestSubcommandSpecificBehavior.test_image_with_width_and_height",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "d97b17dc00b0/eval.tests.test_subcommand_dispatch.TestSubcommandSpecificBehavior.test_image_with_width_succeeds",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dbf551c8a629/eval.tests.test_help_image.test_image_help_exit_code_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dbf551c8a629/eval.tests.test_help_image.test_image_help_prints_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dbf551c8a629/eval.tests.test_help_image.test_image_help_trailing_newline_present",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dbf551c8a629/eval.tests.test_help_main.test_main_dash_h_matches_double_dash_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dbf551c8a629/eval.tests.test_help_main.test_main_help_exit_code_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dbf551c8a629/eval.tests.test_help_main.test_main_help_prints_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "dbf551c8a629/eval.tests.test_help_main.test_main_help_trailing_newline_present",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_file_formats.test_empty_stl_file",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_file_formats.test_invalid_extension_error",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_file_formats.test_missing_file_error",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_file_formats.test_no_extension_file",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_image_rotation.test_same_rotation_produces_identical_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_image_rotation.test_zero_rotation_matches_no_rotation",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_image_webify.test_webify_deterministic_output",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_materials_colors.test_deterministic_rendering_same_model_same_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "df8f7c36037c/tests.test_tui_basic.test_tui_missing_file_error",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387539,
+          "user": "kilian"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2861 @@
+{
+  "instance_id": "orf__gping.26eb5b9",
+  "skipped_tests": [
+    {
+      "name": "0b4d6e865cea/eval.tests.test_color_validation.test_all_named_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_color_validation.test_color_case_sensitivity",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_color_validation.test_empty_color_string",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_color_validation.test_fewer_colors_than_hosts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_color_validation.test_hex_colors_valid",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_color_validation.test_more_colors_than_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_color_validation.test_multiple_valid_colors",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution.test_cmd_mode_multiple_commands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution.test_cmd_mode_nonexistent_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution.test_cmd_mode_with_buffer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution.test_cmd_mode_with_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution.test_cmd_mode_with_date",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution.test_cmd_mode_with_echo",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution.test_cmd_mode_with_sleep",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution.test_cmd_mode_with_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_all_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_cat_file",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_date",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_expr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_false_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_hostname",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_multiple_quick",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_quick_commands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_sleep_brief",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_test_true",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_uname",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_whoami",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_with_args",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_with_buffer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_with_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_with_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_with_shell_builtin",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_command_execution_modes.test_cmd_with_short_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_aws_all_regions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_duplicate_colors",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_emoji_in_hostname",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_gcp_regions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_international_domain",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_localhost_variations",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_many_commands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_many_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_mixed_hosts_and_cloud",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_mixed_options_order",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_multiple_clear_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_multiple_simple_graphics_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_option_after_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_unicode_in_hostname",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_very_long_color_list",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_zero_buffer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_edge_cases.test_zero_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_error_paths.test_command_mode_with_exit_code_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_error_paths.test_command_mode_with_failing_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_hostname_resolution.test_cloud_shorthand_aws_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_hostname_resolution.test_cloud_shorthand_gcp_format",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_hostname_resolution.test_ipv4_address_resolution",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_hostname_resolution.test_ipv4_flag_with_localhost",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_hostname_resolution.test_ipv6_flag_with_localhost",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_hostname_resolution.test_localhost_resolution",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_hostname_resolution.test_multiple_hosts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_hostname_resolution.test_punycode_domain",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_interface_and_ping_args.test_interface_long_option_with_host",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_interface_and_ping_args.test_interface_option_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_interface_and_ping_args.test_ipv4_with_interface",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_interface_and_ping_args.test_ipv6_with_interface",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_interface_and_ping_args.test_ping_args_multiple_with_host",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_interface_and_ping_args.test_ping_args_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_minimal_execution.test_cmd_mode_brief_execution",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_minimal_execution.test_cmd_multiple_commands_brief",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_minimal_execution.test_multiple_hosts_brief_execution",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_minimal_execution.test_ping_mode_brief_execution",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_minimal_execution.test_with_all_options_brief",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_all_margins_with_host",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_buffer_long_option_with_host",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_buffer_option_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_clear_flag_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_color_hex_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_color_long_with_host",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_color_multiple_with_hosts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_color_short_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_combined_options_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_horizontal_margin_with_host",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_named_colors_with_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_simple_graphics_long_with_host",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_simple_graphics_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_vertical_margin_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_watch_interval_long_with_host",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_options_with_hosts.test_watch_interval_short_with_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_all_color_names_systematically",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_buffer_with_cmd",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_cmd_with_absolute_path",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_cmd_with_env_variable",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_cmd_with_long_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_color_gray_variants",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_color_light_variants",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_hex_colors_range",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_interface_loopback",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_ipv4_only_host_with_ipv4_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_ipv6_address_with_ipv6_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_ipv6_localhost_with_brackets",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_loopback_ipv6",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_max_u64_buffer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_mixed_ipv4_ipv6",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_multiple_ipv6_addresses",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_ping_args_count",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_ping_args_timeout",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_special_edge_cases.test_scientific_notation_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_all_options_combined",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_cmd_mode_all_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_cmd_with_complex_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_cmd_with_pipe",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_cmd_with_redirection",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_fractional_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_ipv4_localhost",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_ipv4_with_multiple_hosts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_ipv6_with_ipv6_address",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_large_margins",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_maximum_buffer_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_minimum_buffer_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_multiple_hosts_with_colors",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        },
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_numeric_ip_addresses",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_very_large_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_very_small_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_various_configurations.test_zero_margins",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_with_pty.test_cmd_with_pty_brief",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_with_pty.test_multiple_commands_with_pty",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "0b4d6e865cea/eval.tests.test_with_pty.test_ping_with_pty_brief",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "1094f0a7fbd5/eval.tests.test_argparse_errors.test_valid_color_hex_is_accepted_by_parser_but_runtime_fails_for_missing_ping",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386529,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "1094f0a7fbd5/eval.tests.test_runtime_errors_no_tty.test_ping_mode_errors_when_ping_missing",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386529,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_aws_shorthand_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_basic_tui_starts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_buffer_size_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_clear_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_cmd_mode_multiple_commands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_cmd_mode_with_echo",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_cmd_with_exit_code_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_cmd_with_failing_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_cmd_with_pipe_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_cmd_with_slow_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_color_option_applied",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_help_in_non_interactive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_invalid_hostname",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_ipv4_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_ipv6_flag_with_localhost",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_large_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_localhost_ping",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_margin_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_multiple_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_ping_localhost_ipv6_format",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        },
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386529,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_quit_with_q_key",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_short_buffer_with_fast_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_simple_graphics_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_special_characters_in_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_unreachable_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_version_in_non_interactive",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_very_long_hostname",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_very_small_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "59eeb02d3b8f/tests.test_gping.test_watch_interval_option",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5b0958fad751/eval.tests.test_help_exact_baseline.test_help_and_short_help_outputs_identical",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5b0958fad751/eval.tests.test_help_usage.test_dash_h_matches_dash_dash_help_exactly",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5b0958fad751/eval.tests.test_help_usage.test_help_exit_code_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5b0958fad751/eval.tests.test_help_usage.test_help_goes_to_stdout_not_stderr",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "5b0958fad751/eval.tests.test_help_usage.test_help_has_trailing_newline",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_cmd_mode.test_custom_watch_interval",
+      "reasons": [
+        {
+          "id": "gold_fail",
+          "timestamp": 1777386529,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_cmd_mode_empty_command",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_extremely_long_command",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_hostname_trailing_dot",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_hostname_unicode_punycode_conversion",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_hostname_with_null_byte",
+      "reasons": [
+        {
+          "id": "dummy_pass",
+          "timestamp": 1777387546,
+          "user": "kilian"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_invalid_ip_address",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_ipv4_nonexistent_hostname",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_ipv6_nonexistent_hostname",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_many_hosts_fails_on_first",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_multiple_invalid_hosts_fails_on_first",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_errors.test_nonexistent_domain",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_color_hex_with_lowercase",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_color_hex_with_uppercase",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_color_specification_fewer_than_hosts",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_horizontal_margin_equals_terminal_width",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_hostname_underscore_character",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_hostname_with_trailing_dot",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_idna_encoding_non_ascii_hostname",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_multiple_hosts_more_than_default_colors",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_simple_graphics_with_multiple_hosts",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_final_coverage.test_vertical_margin_equals_terminal_height",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_harvest_pinger.TestIntegration.test_integration_any",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_harvest_pinger.TestIntegration.test_integration_ipv4",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_harvest_pinger.TestIntegration.test_integration_ipv6",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_harvest_pinger.TestParser.test_parser_windows",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_pinger_coverage.test_target_hostname_resolution",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_aws_multiple_region_formats",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_aws_region_shortcut_expansion",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_gcp_empty_region_shortcut",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_gcp_multiple_region_formats",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_gcp_region_shortcut_expansion",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_hostname_resolves_to_ipv6_with_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_hostname_without_flags_resolves_any_version",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_invalid_ipv4_address_format",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_ipv6_flag_with_numeric_ip",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_ipv6_localhost_numeric",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_mixed_shortcuts_and_regular_hosts",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_multiple_cloud_shortcuts_simultaneously",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "98aa118a0d99/tests.test_shortcuts.test_shortcut_expansion_preserves_original_order",
+      "reasons": [
+        {
+          "id": "internet_required"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_all_margin_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_buffer_long_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_buffer_valid",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_buffer_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_clear_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_cmd_flag_with_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_cmd_flag_with_multiple_commands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_combined_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_horizontal_margin_valid",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_interface_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_interface_long_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_ipv4_flag_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_ipv6_flag_accepted",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_large_buffer_value",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_large_watch_interval",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_multiple_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_ping_args_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_simple_graphics_flag",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_simple_graphics_long_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_single_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_vertical_margin_valid",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_watch_interval_fractional",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_watch_interval_integer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_watch_interval_long_form",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_argument_parsing.test_watch_interval_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_aws_region_ap_southeast_1",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_aws_region_ca_central_1",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_aws_region_eu_west_1",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_aws_region_us_east_1",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_cloud_region_with_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_gcp_default",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_gcp_region_us_central1",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_gcp_region_with_name",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_invalid_cloud_provider",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_mixed_cloud_and_regular_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_cloud_regions.test_multiple_cloud_regions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_comma_separated",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_hex_code_valid",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_hex_code_valid_lowercase",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_hex_code_valid_mixed",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_invalid_hex_short",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_mixed_names_and_hex",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_multiple_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_black",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_blue",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_cyan",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_dark_gray",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_gray",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_green",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_light_blue",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_light_cyan",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_light_green",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_light_magenta",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_light_red",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_light_yellow",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_magenta",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_red",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_white",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_color_parsing.test_color_named_yellow",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_aws_region_with_color",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_buffer_very_large",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_buffer_with_all_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_cmd_mode_with_echo",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_cmd_mode_with_multiple_word_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_cmd_mode_with_nonexistent_command",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_gcp_region_with_buffer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_horizontal_margin_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_interface_with_ipv4",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_interface_with_ipv6",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_ipv4_flag_forces_ipv4",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_ipv6_flag_forces_ipv6",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_margins_large",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_mixed_options_order",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_multiple_color_flags_per_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_multiple_hosts_with_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_ping_args_empty",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_punycode_hostname",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_vertical_margin_zero",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_watch_interval_very_large",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_error_conditions.test_watch_interval_very_small",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_all_color_names",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_all_flags_together",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_all_light_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_clear_with_margins",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_cloud_regions_with_regular_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_cmd_with_all_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_colors_fewer_than_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_colors_more_than_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_dark_gray_and_white",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_interface_with_multiple_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_ipv4_with_interface",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_ipv4_with_simple_graphics",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_ipv6_with_interface",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_ipv6_with_simple_graphics",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_long_form_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_many_commands",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_many_hosts",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_margins_with_cmd",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_mixed_aws_gcp_regions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_multiple_aws_regions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_multiple_gcp_regions",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_ping_args_with_interface",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_ping_args_with_ipv4",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_ping_args_with_ipv6",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_short_form_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_simple_graphics_with_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_flag_combinations.test_watch_interval_with_buffer",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_all_fs",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_all_zeros",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_aws_region",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_cmd_mode",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_gcp_region",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_gray_shades",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_lowercase",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_mixed_case",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_single_host",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_uppercase",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_various_values",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_color_with_options",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_hex_colors_with_names",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_many_hex_colors",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_hex_colors.test_multiple_hex_color_flags",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_all_options",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_aws_region",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_gcp_region",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_ipv4_mode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_multiple_hosts",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_runs_with_cmd_mode",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_runs_with_localhost",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_with_buffer_option",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_with_clear_flag",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_with_color",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_with_interface",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_with_margins",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_with_simple_graphics",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "aa573607d388/eval.tests.test_tui_execution.test_tui_with_watch_interval",
+      "reasons": [
+        {
+          "id": "gold_fail"
+        }
+      ]
+    },
+    {
+      "name": "f760a0c7d824/eval.tests.test_externalized_pinger.test_ext_integration_any_help_version",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f760a0c7d824/eval.tests.test_externalized_pinger.test_ext_parser_alpine_unobservable_in_cli",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f760a0c7d824/eval.tests.test_externalized_pinger.test_ext_parser_android_unobservable_in_cli",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f760a0c7d824/eval.tests.test_externalized_pinger.test_ext_parser_bsd_unobservable_in_cli",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f760a0c7d824/eval.tests.test_externalized_pinger.test_ext_parser_debian_unobservable_in_cli",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f760a0c7d824/eval.tests.test_externalized_pinger.test_ext_parser_macos_unobservable_in_cli",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    },
+    {
+      "name": "f760a0c7d824/eval.tests.test_externalized_pinger.test_ext_parser_ubuntu_unobservable_in_cli",
+      "reasons": [
+        {
+          "id": "dummy_pass"
+        }
+      ]
+    }
+  ]
+}

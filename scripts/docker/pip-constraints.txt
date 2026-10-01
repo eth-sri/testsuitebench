@@ -1,0 +1,5 @@
+# eval/run.sh scripts are model-authored and pin nothing, so constrain what they
+# resolve to from the environment, which pip honours globally. Installed at the
+# same path in the codex cleanroom and the patched task image so a runtime
+# `pip install -U pytest` resolves identically during solve and during eval.
+pytest<9.1

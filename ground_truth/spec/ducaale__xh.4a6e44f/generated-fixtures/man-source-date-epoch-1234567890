@@ -1,0 +1,458 @@
+.TH XH 1 2009-02-13 0.25.3 "User Commands"
+
+.SH NAME
+xh \- Friendly and fast tool for sending HTTP requests
+
+.SH SYNOPSIS
+.B xh
+[\fIOPTIONS\fR]
+[\fIMETHOD\fR]
+\fIURL\fR
+[\-\-\]
+[\fIREQUEST_ITEM\fR ...]
+
+.SH DESCRIPTION
+
+\fBxh\fR is an HTTP client with a friendly command line interface. It strives to
+have readable output and easy-to-use options.
+
+xh is mostly compatible with HTTPie: see \fBhttp\fR(1).
+
+The \fB--curl\fR option can be used to print a \fBcurl\fR(1) translation of the
+command instead of sending a request.
+
+.SH POSITIONAL ARGUMENTS
+.TP 4
+[\fIMETHOD\fR]\fI
+The HTTP method to use for the request.
+
+This defaults to GET, or to POST if the request contains a body.
+.TP
+\fIURL\fR
+The URL to request.
+
+The URL scheme defaults to "http://" normally, or "https://" if
+the program is invoked as "xhs".
+
+A leading colon works as shorthand for localhost. ":8000" is equivalent
+to "localhost:8000", and ":/path" is equivalent to "localhost/path".
+.TP
+[\fIREQUEST_ITEM\fR ...]
+Optional key\-value pairs to be included in the request.
+
+The separator is used to determine the type:
+.RS 8
+.TP 4
+key==value
+Add a query string to the URL.
+.TP 4
+key=value
+Add a JSON property (\-\-json) or form field (\-\-form) to the request body.
+.TP 4
+key:=value
+Add a field with a literal JSON value to the request body.
+
+Example: "numbers:=[1,2,3] enabled:=true"
+.TP 4
+key@filename
+Upload a file (requires \-\-form or \-\-multipart).
+
+To set the filename and mimetype, ";type=" and ";filename=" can be used respectively.
+
+Example: "pfp@ra.jpg;type=image/jpeg;filename=profile.jpg"
+.TP 4
+@filename
+Use a file as the request body.
+.TP 4
+header:value
+Add a header, e.g. "user\-agent:foobar"
+.TP 4
+header:
+Unset a header, e.g. "connection:"
+.TP 4
+header;
+Add a header with an empty value.
+.RE
+
+.RS
+An "@" prefix can be used to read a value from a file. For example: "x\-api\-key:@api\-key.txt".
+
+A backslash can be used to escape special characters, e.g. "weird\\:key=value".
+
+To construct a complex JSON object, the REQUEST_ITEM's key can be set to a JSON path instead of a field name. For more information on this syntax, refer to https://httpie.io/docs/cli/nested\-json.
+.RE
+
+.SH OPTIONS
+Each --OPTION can be reset with a --no-OPTION argument.
+.TP 4
+\fB\-j\fR, \fB\-\-json\fR
+(default) Serialize data items from the command line as a JSON object.
+
+Overrides both \-\-form and \-\-multipart.
+.TP 4
+\fB\-f\fR, \fB\-\-form\fR
+Serialize data items from the command line as form fields.
+
+Overrides both \-\-json and \-\-multipart.
+.TP 4
+\fB\-\-multipart\fR
+Like \-\-form, but force a multipart/form\-data request even without files.
+
+Overrides both \-\-json and \-\-form.
+.TP 4
+\fB\-\-raw\fR=\fIRAW\fR
+Pass raw request data without extra processing.
+.TP 4
+\fB\-\-pretty\fR=\fISTYLE\fR
+Controls output processing. Possible values are:
+
+    all      (default) Enable both coloring and formatting
+    colors   Apply syntax highlighting to output
+    format   Pretty\-print json and sort headers
+    none     Disable both coloring and formatting
+
+Defaults to "format" if the NO_COLOR env is set and to "none" if stdout is not tty.
+.TP 4
+\fB\-\-format\-options\fR=\fIFORMAT_OPTIONS\fR
+Set output formatting options. Supported option are:
+
+    json.indent:<NUM>
+    json.format:<true|false>
+    headers.sort:<true|false>
+
+Example: \-\-format\-options=json.indent:2,headers.sort:false.
+.TP 4
+\fB\-s\fR, \fB\-\-style\fR=\fITHEME\fR
+Output coloring style.
+
+[possible values: auto, solarized, monokai, fruity]
+.TP 4
+\fB\-\-response\-charset\fR=\fIENCODING\fR
+Override the response encoding for terminal display purposes.
+
+Example: \-\-response\-charset=latin1.
+.TP 4
+\fB\-\-response\-mime\fR=\fIMIME_TYPE\fR
+Override the response mime type for coloring and formatting for the terminal.
+
+Example: \-\-response\-mime=application/json.
+.TP 4
+\fB\-p\fR, \fB\-\-print\fR=\fIFORMAT\fR
+String specifying what the output should contain
+
+    'H' request headers
+    'B' request body
+    'h' response headers
+    'b' response body
+    'm' response metadata
+
+Example: \-\-print=Hb.
+.TP 4
+\fB\-h\fR, \fB\-\-headers\fR
+Print only the response headers. Shortcut for \-\-print=h.
+.TP 4
+\fB\-b\fR, \fB\-\-body\fR
+Print only the response body. Shortcut for \-\-print=b.
+.TP 4
+\fB\-m\fR, \fB\-\-meta\fR
+Print only the response metadata. Shortcut for \-\-print=m.
+.TP 4
+\fB\-v\fR, \fB\-\-verbose\fR
+Print the whole request as well as the response.
+
+Additionally, this enables \-\-all for printing intermediary requests/responses while following redirects.
+
+Using verbose twice i.e. \-vv will print the response metadata as well.
+
+Equivalent to \-\-print=HhBb \-\-all.
+.TP 4
+\fB\-\-debug\fR
+Print full error stack traces and debug log messages.
+
+Logging can be configured in more detail using the `$RUST_LOG` environment variable. Set `RUST_LOG=trace` to show even more messages. See https://docs.rs/env_logger/0.11.3/env_logger/#enabling\-logging.
+.TP 4
+\fB\-\-all\fR
+Show any intermediary requests/responses while following redirects with \-\-follow.
+.TP 4
+\fB\-P\fR, \fB\-\-history\-print\fR=\fIFORMAT\fR
+The same as \-\-print but applies only to intermediary requests/responses.
+.TP 4
+\fB\-q\fR, \fB\-\-quiet\fR
+Do not print to stdout or stderr.
+
+Using quiet twice i.e. \-qq will suppress warnings as well.
+.TP 4
+\fB\-S\fR, \fB\-\-stream\fR
+Always stream the response body.
+.TP 4
+\fB\-x\fR, \fB\-\-compress\fR
+Content compressed (encoded) with Deflate algorithm.
+
+The Content\-Encoding header is set to deflate.
+
+Compression is skipped if it appears that compression ratio is negative. Compression can be forced by repeating this option.
+
+Note: Compression cannot be used if the Content\-Encoding request header is present.
+.TP 4
+\fB\-o\fR, \fB\-\-output\fR=\fIFILE\fR
+Save output to FILE instead of stdout.
+.TP 4
+\fB\-d\fR, \fB\-\-download\fR
+Download the body to a file instead of printing it.
+
+The Accept\-Encoding header is set to identify and any redirects will be followed.
+.TP 4
+\fB\-c\fR, \fB\-\-continue\fR
+Resume an interrupted download. Requires \-\-download and \-\-output.
+.TP 4
+\fB\-\-session\fR=\fIFILE\fR
+Create, or reuse and update a session.
+
+Within a session, custom headers, auth credentials, as well as any cookies sent by the server persist between requests.
+.TP 4
+\fB\-\-session\-read\-only\fR=\fIFILE\fR
+Create or read a session without updating it from the request/response exchange.
+.TP 4
+\fB\-A\fR, \fB\-\-auth\-type\fR=\fIAUTH_TYPE\fR
+Specify the auth mechanism.
+
+[possible values: basic, bearer, digest]
+.TP 4
+\fB\-a\fR, \fB\-\-auth\fR=\fIUSER\fR[\fI:PASS\fR] | \fITOKEN\fR
+Authenticate as USER with PASS (\-A basic|digest) or with TOKEN (\-A bearer).
+
+PASS will be prompted if missing. Use a trailing colon (i.e. "USER:") to authenticate with just a username.
+
+TOKEN is expected if \-\-auth\-type=bearer.
+.TP 4
+\fB\-\-ignore\-netrc\fR
+Do not use credentials from .netrc.
+.TP 4
+\fB\-\-offline\fR
+Construct HTTP requests without sending them anywhere.
+.TP 4
+\fB\-\-check\-status\fR
+(default) Exit with an error status code if the server replies with an error.
+
+The exit code will be 4 on 4xx (Client Error), 5 on 5xx (Server Error), or 3 on 3xx (Redirect) if \-\-follow isn't set.
+
+If stdout is redirected then a warning is written to stderr.
+.TP 4
+\fB\-F\fR, \fB\-\-follow\fR
+Do follow redirects.
+.TP 4
+\fB\-\-max\-redirects\fR=\fINUM\fR
+Number of redirects to follow. Only respected if \-\-follow is used.
+.TP 4
+\fB\-\-timeout\fR=\fISEC\fR
+Connection timeout of the request.
+
+The default value is "0", i.e., there is no timeout limit.
+.TP 4
+\fB\-\-proxy\fR=\fIPROTOCOL:URL\fR
+Use a proxy for a protocol. For example: \-\-proxy https:http://proxy.host:8080.
+
+PROTOCOL can be "http", "https" or "all".
+
+If your proxy requires credentials, put them in the URL, like so: \-\-proxy http:socks5://user:password@proxy.host:8000.
+
+You can specify proxies for multiple protocols by repeating this option.
+
+The environment variables "http_proxy" and "https_proxy" can also be used, but are completely ignored if \-\-proxy is passed.
+.TP 4
+\fB\-\-verify\fR=\fIVERIFY\fR
+If "no", skip SSL verification. If a file path, use it as a CA bundle.
+
+Specifying a CA bundle will disable the system's built\-in root certificates.
+
+"false" instead of "no" also works. The default is "yes" ("true").
+.TP 4
+\fB\-\-cert\fR=\fIFILE\fR
+Use a client side certificate for SSL.
+.TP 4
+\fB\-\-cert\-key\fR=\fIFILE\fR
+A private key file to use with \-\-cert.
+
+Only necessary if the private key is not contained in the cert file.
+.TP 4
+\fB\-\-ssl\fR=\fIVERSION\fR
+Force a particular TLS version.
+
+"auto" gives the default behavior of negotiating a version with the server.
+
+[possible values: auto, tls1, tls1.1, tls1.2, tls1.3]
+.TP 4
+\fB\-\-https\fR
+Make HTTPS requests if not specified in the URL.
+.TP 4
+\fB\-\-http\-version\fR=\fIVERSION\fR
+HTTP version to use.
+
+[possible values: 1.0, 1.1, 2, 2\-prior\-knowledge, 3\-prior\-knowledge]
+.TP 4
+\fB\-\-resolve\fR=\fIHOST:ADDRESS\fR
+Override DNS resolution for specific domain to a custom IP.
+
+You can override multiple domains by repeating this option.
+
+Example: \-\-resolve=example.com:127.0.0.1.
+.TP 4
+\fB\-\-interface\fR=\fINAME\fR
+Bind to a network interface or local IP address.
+
+Example: \-\-interface=eth0 \-\-interface=192.168.0.2.
+.TP 4
+\fB\-4\fR, \fB\-\-ipv4\fR
+Resolve hostname to ipv4 addresses only.
+.TP 4
+\fB\-6\fR, \fB\-\-ipv6\fR
+Resolve hostname to ipv6 addresses only.
+.TP 4
+\fB\-\-unix\-socket\fR=\fIFILE\fR
+Connect using a Unix domain socket.
+
+Example: xh :/index.html \-\-unix\-socket=/var/run/temp.sock.
+.TP 4
+\fB\-I\fR, \fB\-\-ignore\-stdin\fR
+Do not attempt to read stdin.
+
+This disables the default behaviour of reading the request body from stdin when a redirected input is detected.
+
+It is recommended to pass this flag when using xh for scripting purposes. For more information, refer to https://httpie.io/docs/cli/best\-practices.
+.TP 4
+\fB\-\-curl\fR
+Print a translation to a curl command.
+
+For translating the other way, try https://curl2httpie.online/.
+.TP 4
+\fB\-\-curl\-long\fR
+Use the long versions of curl's flags.
+.TP 4
+\fB\-\-generate\fR=\fIKIND\fR
+Generate shell completions or man pages. Possible values are:
+
+    complete\-bash         Generate completions for bash
+    complete\-elvish       Generate completions for elvish
+    complete\-fish         Generage completions for fish
+    complete\-nushell      Generate completions for nushell
+    complete\-powershell   Generate completions for powershell
+    complete\-zsh          Generate completions for zsh
+    man                   Generate manual page in roff format
+
+Example: xh \-\-generate=complete\-bash > xh.bash.
+.TP 4
+\fB\-\-help\fR
+Print help.
+.TP 4
+\fB\-V\fR, \fB\-\-version\fR
+Print version.
+
+.SH EXIT STATUS
+.TP 4
+.B 0
+Successful program execution.
+.TP
+.B 1
+Usage, syntax or network error.
+.TP
+.B 2
+Request timeout.
+.TP
+.B 3
+Unexpected HTTP 3xx Redirection.
+.TP
+.B 4
+HTTP 4xx Client Error.
+.TP
+.B 5
+HTTP 5xx Server Error.
+.TP
+.B 6
+Too many redirects.
+
+.SH ENVIRONMENT
+.TP 4
+.B XH_CONFIG_DIR
+Specifies where to look for config.json and named session data.
+The default is ~/.config/xh for Linux/macOS and %APPDATA%\\xh for Windows.
+.TP
+.B XH_HTTPIE_COMPAT_MODE
+Enables the HTTPie Compatibility Mode. The only current difference is that
+\-\-check-status is not enabled by default. An alternative to setting this
+environment variable is to rename the binary to either http or https.
+.TP
+.BR REQUESTS_CA_BUNDLE ", " CURL_CA_BUNDLE
+Sets a custom CA bundle path.
+.TP
+.BR http_proxy "=[protocol://]<host>[:port]"
+Sets the proxy server to use for HTTP.
+.TP
+.BR HTTPS_PROXY "=[protocol://]<host>[:port]"
+Sets the proxy server to use for HTTPS.
+.TP
+.B NO_PROXY
+List of comma-separated hosts for which to ignore the other proxy environment
+variables. "*" matches all host names.
+.TP
+.B NETRC
+Location of the .netrc file.
+.TP
+.B NO_COLOR
+Disables output coloring. See <https://no-color.org>
+.TP
+.B RUST_LOG
+Configure low-level debug messages. See <https://docs.rs/env_logger/0.11.3/env_logger/#enabling-logging>
+
+.SH FILES
+.TP 4
+.I ~/.config/xh/config.json
+xh configuration file. The only configurable option is "default_options"
+which is a list of default shell arguments that gets passed to xh.
+Example:
+
+.RS
+{ "default_options": ["--native-tls", "--style=solarized"] }
+.RE
+.TP
+.IR ~/.netrc ", " ~/_netrc
+Auto-login information file.
+.TP
+.I ~/.config/xh/sessions
+Session data directory grouped by domain and port number.
+
+.SH EXAMPLES
+.TP 4
+\fBxh\fR \fIhttpbin.org/json\fR
+Send a GET request.
+.TP
+\fBxh\fR \fIhttpbin.org/post name=ahmed \fIage:=24\fR
+Send a POST request with body {"name": "ahmed", "age": 24}.
+.TP
+\fBxh\fR get \fIhttpbin.org/json id==5 sort==true\fR
+Send a GET request to http://httpbin.org/json?id=5&sort=true.
+.TP
+\fBxh\fR get \fIhttpbin.org/json x-api-key:12345\fR
+Send a GET request and include a header named X-Api-Key with value 12345.
+.TP
+echo "[1, 2, 3]" | \fBxh\fR post \fIhttpbin.org/post
+Send a POST request with body read from stdin.
+.TP
+\fBxh\fR put \fIhttpbin.org/put id:=49 age:=25\fR | less
+Send a PUT request and pipe the result to less.
+.TP
+\fBxh\fR -d \fIhttpbin.org/json\fR -o \fIres.json\fR
+Download and save to res.json.
+.TP
+\fBxh\fR \fIhttpbin.org/get user-agent:foobar\fR
+Make a request with a custom user agent.
+.TP
+\fBxhs\fR \fIexample.com\fR
+Make an HTTPS request to https://example.com.
+
+.SH REPORTING BUGS
+xh's Github issues <https://github.com/ducaale/xh/issues>
+
+.SH SEE ALSO
+\fBcurl\fR(1), \fBhttp\fR(1)
+
+HTTPie's online documentation <https://httpie.io/docs/cli>

@@ -1,0 +1,32 @@
+{
+  "instance_id": "ekzhang__bore.8e059cd",
+  "skipped_mutants": [
+    {
+      "id": "repo_15",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "183567ae769e/eval.tests.test_bore.TestCLI.test_version_flag"
+    },
+    {
+      "id": "repo_17",
+      "reasons": [
+        {
+          "id": "our_gt_target_not_killed"
+        }
+      ],
+      "target_test": "8f4b78a7e9eb/tests.test_client.test_dns_lookup_failure"
+    },
+    {
+      "id": "repo_6",
+      "reasons": [
+        {
+          "id": "our_gt_broad_mutant_kill"
+        }
+      ],
+      "target_test": "d95dad695c95/eval.tests.test_02_local_command_validation.TestLocalCommandOptionalArgs.test_local_with_local_host_flag"
+    }
+  ]
+}
