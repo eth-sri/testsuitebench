@@ -21,9 +21,10 @@ branch_workers=2
 cpu_budget=0
 cleanroom_base_image=
 force=false
+prune_failing_tests=false
 
 usage() {
-    printf "%s\n" "Usage: $0 --task TASK --tests-dir DIR --skipped-tests PATH --mutants-dir DIR --spec-dir DIR --work-dir DIR [options]" "" "Co-validate reference tests and mutants. Add ground-truth-failing test functions" "to the shared skip list, then improve mutant focus within a best-effort repair budget." "" "  --model MODEL / --reasoning EFFORT" "      Agent route for repair attempt 1 (default: ${model} / ${reasoning})." "  --cleanroom-base-image IMAGE" "      Codex-enabled task cleanroom used for repair and rebuild (default: auto-build task_cleanroom_codex)." "  --skipped-tests PATH" "      Run-scoped list updated when ground truth exposes another failing test function." "  --ground-truth-implementation-dir DIR" "      Retained reference sources; a build/ directory there is source, so repaired mutants keep it (default: ${ground_truth_implementation_dir})." "  --retry-model MODEL / --retry-reasoning EFFORT" "      Agent route from repair attempt 2 (default: ${retry_model} / ${retry_reasoning})."
+    printf "%s\n" "Usage: $0 --task TASK --tests-dir DIR --skipped-tests PATH --mutants-dir DIR --spec-dir DIR --work-dir DIR [options]" "" "Co-validate reference tests and mutants. The reference suite is fixed by default;" "with --prune-failing-tests, add ground-truth-failing test functions to the shared skip list. Then improve mutant focus within a best-effort repair budget." "" "  --model MODEL / --reasoning EFFORT" "      Agent route for repair attempt 1 (default: ${model} / ${reasoning})." "  --cleanroom-base-image IMAGE" "      Codex-enabled task cleanroom used for repair and rebuild (default: auto-build task_cleanroom_codex)." "  --skipped-tests PATH" "      Run-scoped skip list; only updated with --prune-failing-tests." "  --prune-failing-tests" "      Skip test functions that fail on ground truth or kill over 50% of mutants (default: off, suite is kept as is)." "  --ground-truth-implementation-dir DIR" "      Retained reference sources; a build/ directory there is source, so repaired mutants keep it (default: ${ground_truth_implementation_dir})." "  --retry-model MODEL / --retry-reasoning EFFORT" "      Agent route from repair attempt 2 (default: ${retry_model} / ${retry_reasoning})."
 }
 
 require_value() {
@@ -56,6 +57,7 @@ while [ "$#" -gt 0 ]; do
         --cpu-budget) require_value "$@"; cpu_budget=$2; shift 2 ;;
         --cleanroom-base-image) require_value "$@"; cleanroom_base_image=$2; shift 2 ;;
         --force) force=true; shift ;;
+        --prune-failing-tests) prune_failing_tests=true; shift ;;
         -h|--help) usage; exit 0 ;;
         *) echo "Unknown option: $1" >&2; usage >&2; exit 1 ;;
     esac
@@ -118,5 +120,8 @@ cmd=(
 )
 if [ "${force}" = true ]; then
     cmd+=(--force)
+fi
+if [ "${prune_failing_tests}" = true ]; then
+    cmd+=(--prune-failing-tests)
 fi
 "${cmd[@]}"

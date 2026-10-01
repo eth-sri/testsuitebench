@@ -19,6 +19,22 @@ To run selected tasks, call the runner directly:
 bash scripts/construction/run_iterative_all_safe.sh --iter-root output/construction --task abishekvashok__cmatrix.5c082c6
 ```
 
+### Models and reasoning effort
+
+Every construction agent step (spec improvement, test linking, mutant generation and repair, solving, failure classification, polishing, test generation) defaults to `gpt-5.6-sol` with `high` reasoning. The defaults are registered at the top of `scripts/construction/run_iterative_all.sh`. To switch them, pass options to the runner:
+
+```bash
+# Every step
+bash scripts/construction/run_iterative_all_safe.sh --iter-root output/construction --task <task> \
+    --model-name gpt-5.6-luna --reasoning-effort xhigh
+```
+
+`--model-name` and `--reasoning-effort` override all steps at once. To change only some steps, edit the matching `programbench_agent_route_register STEP MODEL EFFORT` line (an optional fourth and fifth argument sets the retry model and effort for `ensure_mutants_killed`). The step names are listed under "Agent route steps" in `--help`.
+
+### Reference-suite pruning
+
+The reference suite is treated as fixed: tests that fail on the ground-truth implementation are kept and are not counted as mutant kills. To let mutant validation add such tests (and tests that kill over 50% of mutants) to the skip list, pass `--prune-failing-tests`.
+
 See `bash scripts/construction/run_iterative_all_safe.sh --help` for all options. The stages are described in [iteration-pipeline.md](iteration-pipeline.md).
 
 ### Local inputs

@@ -26,6 +26,7 @@ converge_min_metric=20
 converge_max_error=80
 iterate_options=()
 include_existing=false
+prune_failing_tests=false
 force_prepare_tests=false
 list_only=false
 run_id=
@@ -33,20 +34,20 @@ selected_tasks=()
 
 . scripts/construction/agent_routes.sh
 programbench_agent_routes_reset
-programbench_agent_route_register improve_spec gpt-5.6-luna xhigh
-programbench_agent_route_register link_reference_tests gpt-5.6-luna xhigh
+programbench_agent_route_register improve_spec gpt-5.6-sol high
+programbench_agent_route_register link_reference_tests gpt-5.6-sol high
 programbench_agent_route_register generate_mutants gpt-5.6-sol high
 programbench_agent_route_register ensure_mutants_killed gpt-5.6-sol high gpt-5.6-sol high
-programbench_agent_route_register solve_codex gpt-5.6-luna xhigh
-programbench_agent_route_register classify_failures gpt-5.6-luna xhigh
-programbench_agent_route_register polish_iteration gpt-5.6-luna xhigh
-programbench_agent_route_register generate_tests gpt-5.6-luna xhigh
-programbench_agent_route_register classify_mutants gpt-5.6-luna xhigh
-programbench_agent_route_register polish_generated_test_spec gpt-5.6-luna xhigh
+programbench_agent_route_register solve_codex gpt-5.6-sol high
+programbench_agent_route_register classify_failures gpt-5.6-sol high
+programbench_agent_route_register polish_iteration gpt-5.6-sol high
+programbench_agent_route_register generate_tests gpt-5.6-sol high
+programbench_agent_route_register classify_mutants gpt-5.6-sol high
+programbench_agent_route_register polish_generated_test_spec gpt-5.6-sol high
 
 usage() {
     cat <<EOF
-Usage: $0 [--task TASK]... [--iter-root DIR] [--run-id ID] [--prepared-tests-root DIR] [--jobs N] [--cpu-budget N] [--mutant-build-jobs N] [--mutant-eval-workers N] [--link-branch-workers N] [--max-repair-attempts N] [--model-name MODEL] [--reasoning-effort EFFORT] [--iterations N] [--dynamic] [--converge-threshold PCT] [--converge-min-metric PCT] [--converge-max-error PCT] [--reference-trials N] [--iterate-option OPT]... [--include-existing] [--force-prepare-tests] [--list-only]
+Usage: $0 [--task TASK]... [--iter-root DIR] [--run-id ID] [--prepared-tests-root DIR] [--jobs N] [--cpu-budget N] [--mutant-build-jobs N] [--mutant-eval-workers N] [--link-branch-workers N] [--max-repair-attempts N] [--model-name MODEL] [--reasoning-effort EFFORT] [--iterations N] [--dynamic] [--converge-threshold PCT] [--converge-min-metric PCT] [--converge-max-error PCT] [--reference-trials N] [--iterate-option OPT]... [--include-existing] [--prune-failing-tests] [--force-prepare-tests] [--list-only]
 
 Run the complete iterative pipeline for every task in ground_truth/valid_task.txt,
 or only the task instances selected with repeatable --task options. Missing
@@ -108,6 +109,8 @@ Options:
   --iterate-option OPT  Forward OPT verbatim to scripts/construction/iterate_spec.sh; repeat as
                         needed (e.g. --iterate-option --skip-solve)
   --include-existing    Restart tasks that already have a directory below ITER_ROOT
+  --prune-failing-tests Let mutant validation add reference-failing tests to the skip list
+                        (default: off; the reference suite is fixed and failures are tolerated)
   --force-prepare-tests Rebuild reusable skipped-test preparation output
   --list-only           Prepare task lists and print the counts without running tasks
   -h, --help            Show this help
@@ -284,6 +287,10 @@ while [ "$#" -gt 0 ]; do
             include_existing=true
             shift
             ;;
+        --prune-failing-tests)
+            prune_failing_tests=true
+            shift
+            ;;
         --force-prepare-tests)
             force_prepare_tests=true
             shift
@@ -360,6 +367,9 @@ fi
 
 iteration_options=("${iterate_options[@]}")
 init_options=()
+if [ "${prune_failing_tests}" = true ]; then
+    init_options+=(--prune-failing-tests)
+fi
 if [ "${include_existing}" = true ]; then
     iteration_options+=(--force)
     init_options+=(--force)

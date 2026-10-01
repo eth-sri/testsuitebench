@@ -23,6 +23,7 @@ final_mutants_per_spec=2
 global_model_override=
 global_reasoning_override=
 force=false
+prune_failing_tests=false
 
 . scripts/construction/agent_routes.sh
 programbench_agent_routes_reset
@@ -63,6 +64,7 @@ Options:
   --step-reasoning STEP=EFFORT
   --retry-step-model STEP=MODEL
   --retry-step-reasoning STEP=EFFORT
+  --prune-failing-tests   Let mutant validation add failing reference tests to the skip list (default: off)
   --force
 EOF
 }
@@ -124,6 +126,7 @@ while [ "$#" -gt 0 ]; do
         --retry-step-model) require_value "$@"; programbench_agent_route_override retry-model "$2"; shift 2 ;;
         --retry-step-reasoning) require_value "$@"; programbench_agent_route_override retry-reasoning "$2"; shift 2 ;;
         --force) force=true; shift ;;
+        --prune-failing-tests) prune_failing_tests=true; shift ;;
         -h|--help) usage; exit 0 ;;
         *) echo "Unknown option: $1" >&2; usage >&2; exit 1 ;;
     esac
@@ -325,6 +328,8 @@ if [ "${force}" = false ] \
     printf 'stage=ensure-mutants-killed status=checkpoint-skip\n'
 else
     printf 'stage=ensure-mutants-killed\n'
+    ensure_options=()
+    if [ "${prune_failing_tests}" = true ]; then ensure_options+=(--prune-failing-tests); fi
     bash scripts/construction/ensure_mutants_killed.sh \
         --task "${task}" \
         --tests-dir "${tests_dir}" \
@@ -342,6 +347,7 @@ else
         --reasoning "${PROGRAMBENCH_ROUTE_REASONING[ensure_mutants_killed]}" \
         --retry-model "${PROGRAMBENCH_ROUTE_RETRY_MODEL[ensure_mutants_killed]}" \
         --retry-reasoning "${PROGRAMBENCH_ROUTE_RETRY_REASONING[ensure_mutants_killed]}" \
+        "${ensure_options[@]}" \
         --force
     test -f "${initial_mutant_validation}" || {
         echo "Mutant-kill validation report is missing for ${task}" >&2

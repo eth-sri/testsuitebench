@@ -229,6 +229,7 @@ def test_ground_truth_failure_extends_skip_list_without_editing_tests(tmp_path: 
         return _result(repo_1="failure", repo_2="failure", test_name="branch/test_behavior")
 
     report = ensure_mutants_killed(
+        prune_failing_tests=True,
         task=task,
         tests_root=tests_root,
         mutants_root=mutants_root,
@@ -267,6 +268,37 @@ def test_ground_truth_test_killing_exactly_half_of_mutants_is_not_skipped(tmp_pa
     assert document["skipped_tests"] == []
 
 
+def test_ground_truth_failure_is_tolerated_without_pruning_by_default(tmp_path: Path) -> None:
+    task, tests_root, mutants_root, spec_root, skipped = _layout(tmp_path)
+    calls = 0
+
+    def evaluator(_attempt: int) -> TestSuiteEvaluationResult:
+        nonlocal calls
+        calls += 1
+        result = _result(repo_1="failure", repo_2="failure")
+        # The reference fails branch/test_other; the suite must still be used.
+        ground_truth = result.binary_results[0]
+        ground_truth.test_results[1].status = "failure"
+        return result
+
+    report = ensure_mutants_killed(
+        task=task,
+        tests_root=tests_root,
+        mutants_root=mutants_root,
+        spec_root=spec_root,
+        work_dir=tmp_path / "work",
+        skipped_tests=skipped,
+        max_repair_attempts=0,
+        evaluator=evaluator,
+    )
+
+    assert calls == 1
+    assert report["added_skipped_tests"] == []
+    assert not (skipped / f"{task}.json").exists() or not json.loads(
+        (skipped / f"{task}.json").read_text()
+    )["skipped_tests"]
+
+
 def test_ground_truth_tests_killing_more_than_half_are_skipped(tmp_path: Path) -> None:
     task, tests_root, mutants_root, spec_root, skipped = _layout(tmp_path)
     result = TestSuiteEvaluationResult(binary_results=[
@@ -290,6 +322,7 @@ def test_ground_truth_tests_killing_more_than_half_are_skipped(tmp_path: Path) -
     ])
 
     report = ensure_mutants_killed(
+        prune_failing_tests=True,
         task=task,
         tests_root=tests_root,
         mutants_root=mutants_root,
@@ -359,6 +392,7 @@ def test_ground_truth_failure_requires_skip_list(tmp_path: Path) -> None:
     task, tests_root, mutants_root, spec_root, _skipped = _layout(tmp_path)
     with pytest.raises(RuntimeError, match="skip.*list"):
         ensure_mutants_killed(
+        prune_failing_tests=True,
             task=task,
             tests_root=tests_root,
             mutants_root=mutants_root,
@@ -629,6 +663,7 @@ def test_ground_truth_failing_target_test_becomes_best_effort_instead_of_missing
         return _single_test_result("branch/test_behavior", repo_1="failure", repo_2="passed")
 
     report = ensure_mutants_killed(
+        prune_failing_tests=True,
         task=task,
         tests_root=tests_root,
         mutants_root=mutants_root,
@@ -683,6 +718,7 @@ def test_reference_preflight_skips_mutant_sweep_until_ground_truth_passes(
 
     monkeypatch.setattr(validation, "_default_evaluator", evaluate)
     report = validation.ensure_mutants_killed(
+        prune_failing_tests=True,
         task=task, tests_root=tests_root, mutants_root=mutants_root, spec_root=spec_root,
         work_dir=tmp_path / "work", skipped_tests=skipped, max_repair_attempts=0,
     )

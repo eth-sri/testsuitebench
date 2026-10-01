@@ -131,7 +131,7 @@ def _log_iteration_summary(
 def mutant_kill_repair_prompt(*, task: str, attempt: int, affected_ids: list[str]) -> str:
     ids = ", ".join(affected_ids)
     return f"""\
-You are repairing ProgramBench mutants for `{task}` after fixed-reference-suite mutation evaluation (attempt {attempt}).
+You are repairing mutants for `{task}` after fixed-reference-suite mutation evaluation (attempt {attempt}).
 
 ## Workspace
 
@@ -234,8 +234,20 @@ def _default_evaluator(
     return TestSuiteEvaluationResult.model_validate_json(eval_json.read_text())
 
 
-def _reference_ok(result: TestSuiteEvaluationResult) -> bool:
-    return result.ground_truth_passed and result.error_code is None and result.validity_rate == 1.0
+def _reference_ok(result: TestSuiteEvaluationResult, *, prune_failing_tests: bool = False) -> bool:
+    """Whether the reference suite is usable as evidence.
+
+    Pruning requires a 100% passing suite. Otherwise the suite is fixed, so
+    tests failing on ground truth are tolerated (and never count as kills);
+    only evaluation or infrastructure failures make it unusable.
+    """
+    if prune_failing_tests:
+        return result.ground_truth_passed and result.error_code is None and result.validity_rate == 1.0
+    return (
+        result.error_code is None
+        and not _ground_truth_infrastructure_failures(result)
+        and bool(_ground_truth_test_statuses(result))
+    )
 
 
 def _merge_incremental_evaluation(
@@ -451,9 +463,14 @@ def _write_spec_test_mutant_links(
 def _repair_reference_suite(
     result: TestSuiteEvaluationResult, *, task: str, skipped_tests: Path | None,
     evaluate: Callable[[], TestSuiteEvaluationResult], updates: list[dict[str, Any]],
+    prune_failing_tests: bool = False,
 ) -> TestSuiteEvaluationResult:
-    """Skip ground-truth-failing tests until the reference suite passes fully."""
-    while not _reference_ok(result):
+    """Skip ground-truth-failing tests until the reference suite passes fully.
+
+    Without ``prune_failing_tests`` the suite is left as is; only
+    infrastructure failures are raised.
+    """
+    while not _reference_ok(result, prune_failing_tests=prune_failing_tests):
         infrastructure_failures = _ground_truth_infrastructure_failures(result)
         if infrastructure_failures:
             raise RuntimeError(
@@ -500,6 +517,7 @@ def _decide_candidate_selection(
     skipped_tests: Path | None, workers: int, branch_workers: int, cpu_budget: int,
     raw_candidates: list[dict[str, Any]], plan: dict[str, Any],
     ground_truth_dir: Path | None, evaluator: Evaluator | None,
+    prune_failing_tests: bool = False,
 ) -> dict[str, Any]:
     """Evaluate every generated candidate and pick the portfolio to keep."""
 
@@ -514,14 +532,18 @@ def _decide_candidate_selection(
         # Fix invalid reference suites before scheduling thousands of mutants.
         # The full pass reuses these reference checkpoints once preflight passes.
         reference = _default_evaluator(**options, mutant_ids=set())
-        return reference if not _reference_ok(reference) else _default_evaluator(**options)
+        return (
+            reference if not _reference_ok(reference, prune_failing_tests=prune_failing_tests)
+            else _default_evaluator(**options)
+        )
 
     ground_truth_skip_updates: list[dict[str, Any]] = []
     result = _repair_reference_suite(
         evaluate_candidates(), task=task, skipped_tests=skipped_tests,
         evaluate=evaluate_candidates, updates=ground_truth_skip_updates,
+        prune_failing_tests=prune_failing_tests,
     )
-    while True:
+    while prune_failing_tests:
         dominant = dominant_tests_from_kill_sets(
             _mutant_kill_sets(result),
             mutant_ids={str(item["id"]) for item in raw_candidates},
@@ -557,6 +579,7 @@ def _decide_candidate_selection(
         result = _repair_reference_suite(
             evaluate_candidates(), task=task, skipped_tests=skipped_tests,
             evaluate=evaluate_candidates, updates=ground_truth_skip_updates,
+            prune_failing_tests=prune_failing_tests,
         )
     evaluated_ids = {binary.binary_id for binary in result.candidate_results}
     invalid_candidate_ids = {
@@ -623,6 +646,7 @@ def _select_generated_candidates(
     *, task: str, tests_root: Path, mutants_root: Path, work_dir: Path,
     skipped_tests: Path | None, workers: int, branch_workers: int, cpu_budget: int,
     ground_truth_dir: Path | None = None, evaluator: Evaluator | None = None,
+    prune_failing_tests: bool = False,
 ) -> dict[str, Any] | None:
     task_mutants = mutants_root / task
     manifest_path = task_mutants / "mutants.json"
@@ -652,6 +676,7 @@ def _select_generated_candidates(
             skipped_tests=skipped_tests, workers=workers, branch_workers=branch_workers,
             cpu_budget=cpu_budget, raw_candidates=raw_candidates, plan=plan,
             ground_truth_dir=ground_truth_dir, evaluator=evaluator,
+            prune_failing_tests=prune_failing_tests,
         )
         decision_path.write_text(json.dumps(decision, indent=2) + "\n")
     else:
@@ -679,6 +704,7 @@ def ensure_mutants_killed(
     ground_truth_dir: Path | None = None,
     ground_truth_implementation_dir: Path | None = None,
     repair_image: str = "",
+    prune_failing_tests: bool = False,
     evaluator: Evaluator | None = None, repair_runner: RepairRunner | None = None,
 ) -> dict[str, Any]:
     """Record ground-truth failures in the skip list and repair mutants to 100%."""
@@ -710,7 +736,7 @@ def ensure_mutants_killed(
         task=task, tests_root=tests_root, mutants_root=mutants_root, work_dir=work_dir,
         skipped_tests=skipped_tests, workers=workers, branch_workers=branch_workers,
         cpu_budget=cpu_budget, ground_truth_dir=ground_truth_dir,
-        evaluator=evaluator,
+        evaluator=evaluator, prune_failing_tests=prune_failing_tests,
     )
     initial_scope = _suite_scope(mutants_root, task)
     expected_ids = set(initial_scope)
@@ -833,7 +859,7 @@ def ensure_mutants_killed(
                         # settle it before scheduling the sweep; the full pass reuses the
                         # reference checkpoints this preflight just wrote.
                         fresh_result = _default_evaluator(**options, mutant_ids=set())
-                        if _reference_ok(fresh_result):
+                        if _reference_ok(fresh_result, prune_failing_tests=prune_failing_tests):
                             fresh_result = _default_evaluator(
                                 **options,
                                 mutant_ids=None if pending_changed_ids is None else reevaluated_ids,
@@ -843,7 +869,7 @@ def ensure_mutants_killed(
                             validated_result, fresh_result, reevaluated_ids=reevaluated_ids,
                         )
                         if pending_changed_ids is not None and validated_result is not None
-                        and _reference_ok(fresh_result)
+                        and _reference_ok(fresh_result, prune_failing_tests=prune_failing_tests)
                         else fresh_result
                     )
                     retry_suffix = f".retry_{evaluation_retry}" if evaluation_retry else ""
@@ -876,10 +902,8 @@ def ensure_mutants_killed(
                     or (mid not in killed_ids and mid not in best_effort_satisfied_ids)
                 )
                 ground_truth_ok = bool(
-                    result.ground_truth_passed
-                    and result.error_code is None
-                    and bool(len(result))
-                    and result.validity_rate == 1.0
+                    bool(len(result))
+                    and _reference_ok(result, prune_failing_tests=prune_failing_tests)
                 )
                 statuses = _ground_truth_test_statuses(result)
                 infrastructure_failures = _ground_truth_infrastructure_failures(result)
@@ -908,7 +932,7 @@ def ensure_mutants_killed(
                 }
                 attempts.append(record)
 
-                if ground_truth_ok:
+                if ground_truth_ok and prune_failing_tests:
                     dominant = dominant_tests_from_kill_sets(
                         kill_sets,
                         mutant_ids=expected_ids,
@@ -1285,6 +1309,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--branch-workers", type=int, default=2)
     parser.add_argument("--cpu-budget", type=int, default=0)
     parser.add_argument("--force", action="store_true")
+    parser.add_argument(
+        "--prune-failing-tests", action="store_true",
+        help="Add ground-truth-failing and broadly-killing test functions to the skip list "
+        "(default: keep the reference suite fixed).",
+    )
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     report = ensure_mutants_killed(
@@ -1297,6 +1326,7 @@ def main(argv: list[str] | None = None) -> int:
         branch_workers=args.branch_workers, cpu_budget=args.cpu_budget, force=args.force,
         skipped_tests=args.skipped_tests, ground_truth_dir=args.ground_truth_dir,
         ground_truth_implementation_dir=args.ground_truth_implementation_dir,
+        prune_failing_tests=args.prune_failing_tests,
     )
     print(f"Validity Rate: {report["validity_rate"] * 100:.0f}%")
     print(f"Mutation Score: {report["mutation_score"] * 100:.0f}%")
