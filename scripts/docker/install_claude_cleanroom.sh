@@ -5,7 +5,7 @@ default_task=abishekvashok__cmatrix.5c082c6
 default_base_tag=task_cleanroom
 default_tag_suffix=claude
 # Pinned so two rebuilds months apart produce the same agent.
-claude_version=${PROGRAMBENCH_CLAUDE_VERSION:-2.1.236}
+claude_version=${PROGRAMBENCH_CLAUDE_VERSION:-2.1.280}
 
 task=${default_task}
 base_tag=${default_base_tag}

@@ -4,10 +4,10 @@
 📦 Each task pairs a specification of a real CLI tool (from [ProgramBench](https://github.com/facebookresearch/programbench)) with the ground-truth executable and a set of mutants.
 🎯 A generated test suite is scored on **validity rate** ✅ (the ground truth passes it) and **mutation score** 🧟 (it kills the mutants).
 
+## ⚙️ Setup
+
 > [!IMPORTANT]
 > 🐳 All task images are built for `linux/amd64`. Run construction and evaluation on a Linux x86_64 machine with Docker.
-
-## ⚙️ Setup
 
 ```bash
 uv sync
@@ -19,6 +19,7 @@ The reference tests, mutants, and ground-truth executables are read directly fro
 Optionally, pre-download the datasets into the cache, for example before running offline with `HF_HUB_OFFLINE=1`:
 
 ```bash
+# [!WARNING] This is optional and takes ~100 GB of your storage
 uv run hf download eth-sri/tsb-reference_tests --repo-type dataset
 uv run hf download eth-sri/tsb-mutants --repo-type dataset
 uv run hf download eth-sri/tsb-reference_impl --repo-type dataset
@@ -36,6 +37,7 @@ Log in or export the credentials for the agent you want to run before launching 
 
 ```bash
 codex login                         # Codex
+export OPENAI_API_KEY=...           # Codex (API)
 export CLAUDE_CODE_OAUTH_TOKEN=...  # Claude Code
 export OPENROUTER_API_KEY=...       # OpenRouter-based models
 ```

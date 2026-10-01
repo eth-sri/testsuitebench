@@ -61,7 +61,7 @@ RUN install -d -m 0755 /etc/apt/keyrings \
 # All are pinned. An unpinned installer would mean two rebuilds a month apart
 # produce two different graders, which for a benchmark is a reproducibility hole.
 ARG CODEX_VERSION=0.158.0
-ARG CLAUDE_VERSION=2.1.236
+ARG CLAUDE_VERSION=2.1.280
 ARG GEMINI_VERSION=0.60.0
 ARG QWEN_VERSION=0.24.0
 ARG DEEPSEEK_VERSION=0.1.5-rc.3
