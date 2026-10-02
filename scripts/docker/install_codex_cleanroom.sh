@@ -4,6 +4,8 @@ set -euo pipefail
 default_task=abishekvashok__cmatrix.5c082c6
 default_base_tag=task_cleanroom
 default_tag_suffix=codex
+# Pinned so two rebuilds months apart produce the same agent.
+codex_version=${PROGRAMBENCH_CODEX_VERSION:-0.160.0}
 
 task=${default_task}
 base_tag=${default_base_tag}
@@ -109,12 +111,14 @@ if [ "$print_image" -eq 1 ]; then
 fi
 
 agent=codex
+agent_version=${codex_version}
 if [ "$install_codex" -eq 0 ]; then
     agent=none
+    agent_version=
 fi
 
 if [ "$force" -eq 0 ] && docker image inspect "$target_image" >/dev/null 2>&1; then
-    if programbench_image_is_fresh "$target_image" "$agent"; then
+    if programbench_image_is_fresh "$target_image" "$agent" "$agent_version"; then
         echo "Codex cleanroom already exists: ${target_image}"
         exit 0
     fi
@@ -131,6 +135,7 @@ docker build \
     --build-arg "BASE_IMAGE=${base_image}" \
     --build-arg "AGENT=${agent}" \
     --build-arg "TASK=${task}" \
+    --build-arg "CODEX_VERSION=${codex_version}" \
     -f "$dockerfile" \
     -t "$target_image" \
     .
