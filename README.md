@@ -3,7 +3,10 @@
 🤔 Can coding agents write a test suite strong enough to tell a correct program from a subtly broken one, working only from its specification?
 Each task pairs a specification of a real CLI tool (from [ProgramBench](https://github.com/facebookresearch/programbench)) with the ground-truth executable and a set of mutants.
 
-🎯 A generated test suite is scored on **validity rate** (the ground truth passes it) and **mutation score** (it kills the mutants).
+🎯 A generated test suite is scored on two aspects:
+- **mutation score**: the fraction of mutants killed by the test suite.
+- **validity rate** the fraction of test functions that passed reference implementation.
+
 
 ## ⚙️ Setup
 
@@ -34,6 +37,7 @@ Log in or export the credentials for the agent you want to run before launching 
 codex login                         # Codex
 export OPENAI_API_KEY=...           # Codex (API)
 export CLAUDE_CODE_OAUTH_TOKEN=...  # Claude Code
+export GEMINI_API_KEY=...           # Gemini CLI
 export OPENROUTER_API_KEY=...       # OpenRouter-based models
 ```
 
@@ -41,6 +45,7 @@ export OPENROUTER_API_KEY=...       # OpenRouter-based models
 | --- | --- |
 | Codex | Read from `~/.codex/auth.json` or `OPENAI_API_KEY`. |
 | Claude Code | 1. `CLAUDE_CODE_OAUTH_TOKEN`, a long-lived token from `claude setup-token`.<br>2. `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN`.<br>3. The `claude` login in `~/.claude/.credentials.json`. |
+| Gemini CLI | `GEMINI_API_KEY` or the `gemini` login in `~/.gemini/oauth_creds.json`. |
 | OpenRouter-based models | `OPENROUTER_API_KEY`, exported to the agent as an OpenAI-compatible key. |
 
 
