@@ -439,7 +439,7 @@ def _container_executable(env) -> str | None:
     return getattr(env, "executable", None) or getattr(getattr(env, "config", None), "executable", None)
 
 
-ARCHIVE_EXCLUDED_DIRS = (".tmp", ".pytest-tmp", ".pytest_tmp", ".pytest_cache", "__pycache__")
+ARCHIVE_EXCLUDED_DIRS = (".tmp", "tmp", ".pytest-tmp", ".pytest_tmp", ".pytest_cache", "__pycache__")
 
 
 def _protect_generation_reference(env, *, dict_actions: bool = False) -> None:

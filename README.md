@@ -1,8 +1,9 @@
 # 🧪 TestSuiteBench
 
 🤔 Can coding agents write a test suite strong enough to tell a correct program from a subtly broken one, working only from its specification?
-📦 Each task pairs a specification of a real CLI tool (from [ProgramBench](https://github.com/facebookresearch/programbench)) with the ground-truth executable and a set of mutants.
-🎯 A generated test suite is scored on **validity rate** ✅ (the ground truth passes it) and **mutation score** 🧟 (it kills the mutants).
+Each task pairs a specification of a real CLI tool (from [ProgramBench](https://github.com/facebookresearch/programbench)) with the ground-truth executable and a set of mutants.
+
+🎯 A generated test suite is scored on **validity rate** (the ground truth passes it) and **mutation score** (it kills the mutants).
 
 ## ⚙️ Setup
 
@@ -27,13 +28,7 @@ uv run hf download eth-sri/tsb-reference_impl --repo-type dataset
 
 ### 🔑 Agent credentials
 
-Log in or export the credentials for the agent you want to run before launching it. Each run prints a `[codex] credentials: ...` or `[claude] credentials: ...` line naming the credential in use. Credentials are listed in order of priority, and the first one found is the only one given to the container:
-
-| Agent | Credential, in priority order | Override |
-| --- | --- | --- |
-| Codex | Read from `~/.codex/auth.json` or `OPENAI_API_KEY`. | `PROGRAMBENCH_CODEX_AUTH_FILE` selects another login file. `PROGRAMBENCH_CODEX_AUTH=login` or `api-key` selects the source explicitly. |
-| Claude Code | 1. `CLAUDE_CODE_OAUTH_TOKEN`, a long-lived token from `claude setup-token`.<br>2. `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN`.<br>3. The `claude` login in `~/.claude/.credentials.json`. | `PROGRAMBENCH_CLAUDE_CREDENTIALS_FILE` selects a credentials file and takes precedence over everything above. |
-| OpenRouter-based models (Qwen Code, Muse, ...) | `OPENROUTER_API_KEY`, exported to the agent as an OpenAI-compatible key. | The base URL defaults to `https://openrouter.ai/api/v1`. |
+Log in or export the credentials for the agent you want to run before launching it.
 
 ```bash
 codex login                         # Codex
@@ -41,6 +36,14 @@ export OPENAI_API_KEY=...           # Codex (API)
 export CLAUDE_CODE_OAUTH_TOKEN=...  # Claude Code
 export OPENROUTER_API_KEY=...       # OpenRouter-based models
 ```
+
+| Agent | Credential |
+| --- | --- |
+| Codex | Read from `~/.codex/auth.json` or `OPENAI_API_KEY`. |
+| Claude Code | 1. `CLAUDE_CODE_OAUTH_TOKEN`, a long-lived token from `claude setup-token`.<br>2. `ANTHROPIC_API_KEY` or `ANTHROPIC_AUTH_TOKEN`.<br>3. The `claude` login in `~/.claude/.credentials.json`. |
+| OpenRouter-based models | `OPENROUTER_API_KEY`, exported to the agent as an OpenAI-compatible key. |
+
+
 
 ## 📊 Evaluation
 
