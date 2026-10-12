@@ -1,5 +1,7 @@
 # 🧪 TestSuiteBench
 
+🏆 [Leaderboard](https://testsuitebench.com/) | 📝 [Paper](https://arxiv.org/abs/2610.13065) | 🤗 [Dataset](https://huggingface.co/collections/eth-sri/testsuitebench)
+
 🤔 Can coding agents write a test suite strong enough to tell a correct program from a subtly broken one, working only from its specification?
 Each task pairs a specification of a real CLI tool (from [ProgramBench](https://github.com/facebookresearch/programbench)) with the ground-truth executable and a set of mutants.
 
