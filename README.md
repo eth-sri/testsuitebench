@@ -98,8 +98,13 @@ The inner workings of the pipeline are detailed in [docs/explore.md](docs/explor
 
 ```bibtex
 @misc{egashira2026testsuitebench,
-    title={TestSuiteBench: Coding Agents Struggle to Generate Strong Test Suites from Specifications},
-    author={Kazuki Egashira and Niels Mündler-Sasahara and Mark Niklas Mueller and Martin Vechev},
+      title={TestSuiteBench: Coding Agents Struggle to Generate Strong Test Suites from Specifications},
+      author={Kazuki Egashira and Niels Mündler-Sasahara and Mark Niklas Müller and Martin Vechev},
+      year={2026},
+      eprint={2610.13065},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2610.13065},
 }
 ```
 
